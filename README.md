@@ -1,6 +1,6 @@
 # Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
 
-##### Table of Contents  
+{:toc}
 
 **FICHA TÉCNICA VERSÃO PARA QGIS 3.x**
 
