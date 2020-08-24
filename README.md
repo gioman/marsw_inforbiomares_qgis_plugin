@@ -284,7 +284,7 @@ Informação de base necessária à identificação inequívoca de um dado recur
 | Título Alternativo          | Não     | Não      | Nome alternativo ou abreviado pelo qual o recurso é conhecido. |
 
 | Elemento        | Obrig.* | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |                                                                             |
+| ---             | ---     | ---      | ---       |
 | Objetivo          | Não     | Não      | Resumo do propósito que conduziu ao desenvolvimento ou modificação do recurso. |
 
 | Elemento        | Obrig.* | Múltiplo | Definição |
