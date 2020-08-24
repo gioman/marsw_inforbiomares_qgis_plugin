@@ -352,7 +352,7 @@ Informação de base necessária à identificação inequívoca de um dado recur
 | Telefone                                                               | Não      | Sim      | Número(s) de telefone da organização ou indivíduo. |
 | Fax                                                                    | Não      | Sim      | Número(s) de fax da organização ou indivíduo. |
 | Endereço Eletrónico                                                    | Sim      | Sim      | Endereço(s) Eletrónico(s) da organização ou indivíduo. |
-| Informação                                                             | Não      | Não      | Informação *Online* (endereço URL / URI) que pode ser usada como contacto individual ou institucional. |
+| Informação *Online*                                                    | Não      | Não      | Informação *Online* (endereço URL / URI) que pode ser usada como contacto individual ou institucional. |
 
 **Este elemento disponibiliza as seguintes funcionalidades / botões**: 
 
@@ -669,319 +669,87 @@ Informação relativa ao distribuidor e as alternativas para obtenção do recur
 
 **Notas**: Para os CDG é condicional à existência de um recurso online, para Serviços é obrigatório.
 
-+------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Elemento                                                               | Obrig. * | Múltiplo | Definição                                                                                                             |
-|                                                                        |          |          |                                                                                                                       |
-+------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Responsáveis pela Distribuição (Contacto)                              | Não      | Sim      | Informações necessárias para permitir o contacto com a pessoa / organização responsável pela distribuição do recurso. |
-| ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                              |          |          | Pode conter múltiplos conjuntos de sub‑elementos:                                                                     |
-|                                                                        |          |          |                                                                                                                       |
-+------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Nome                                                                   | Não      | Não      | Nome da pessoa responsável.                                                                                           |
-|                                                                        |          |          |                                                                                                                       |
-+------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Organização                                                            | Sim      | Não      | Nome da organização responsável.                                                                                      |
-|                                                                        |          |          |                                                                                                                       |
-|                                                                        |          |          | Poderá selecionar de uma Lista de valores ou preencher de forma livre no campo “Outra (                               |
-|                                                                        |          |          | N                                                                                                                     |
-|                                                                        |          |          | ão                                                                                                                    |
-|                                                                        |          |          | L                                                                                                                     |
-|                                                                        |          |          | istada)”                                                                                                              |
-|                                                                        |          |          |                                                                                                                       |
-+------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Morada                                                                 | Não      | Não      | Morada da pessoa ou organização responsável.                                                                          |
-|                                                                        |          |          |                                                                                                                       |
-+------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Cidade                                                                 | Não      | Não      | Cidade da pessoa ou organização responsável.                                                                          |
-|                                                                        |          |          |                                                                                                                       |
-+------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Código-Postal                                                          | Não      | Não      | Código-Postal da pessoa ou organização responsável.                                                                   |
-|                                                                        |          |          |                                                                                                                       |
-+------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| País                                                                   | Não      | Não      | País                                                                                                                  |
-|                                                                        |          |          | ** **                                                                                                                 |
-|                                                                        |          |          | da pessoa ou organização responsável.                                                                                 |
-|                                                                        |          |          |                                                                                                                       |
-+------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Telefone                                                               | Não      | Sim      | Número(s) de telefone da organização ou indivíduo.                                                                    |
-|                                                                        |          |          |                                                                                                                       |
-+------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Fax                                                                    | Não      | Sim      | Número(s) de fax da organização ou indivíduo.                                                                         |
-|                                                                        |          |          |                                                                                                                       |
-+------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Endereço Eletrónico                                                    | Sim      | Sim      | Endereço(s) Eletrónico(s) da organização ou indivíduo.                                                                |
-|                                                                        |          |          |                                                                                                                       |
-+------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Informação                                                             | Não      | Não      | Informação                                                                                                            |
-| *Online*                                                               |          |          | *online *                                                                                                             |
-|                                                                        |          |          | (endereço URL / URI)                                                                                                  |
-|                                                                        |          |          | que pode ser usada como contacto individual ou institucional.                                                         |
-|                                                                        |          |          |                                                                                                                       |
-+------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| **Notas**                                                                                                                                                                                                            |
-| : Este elemento disponibiliza as seguintes funcionalidades / botões:                                                                                                                                                 |
-|                                                                                                                                                                                                                      |
-| “Adicionar Contacto” Para adicionar um novo contacto.                                                                                                                                                                |
-|                                                                                                                                                                                                                      |
-| |10000A990000034F0000034F635B68E6E0D88521_svg|                                                                                                                                                                       |
-| |100002010000002000000020A3F87039BE9D0D7E_png|                                                                                                                                                                       |
-| Para importar um contacto da sua Lista de Contactos para o formulário.                                                                                                                                               |
-|                                                                                                                                                                                                                      |
-| |1000083700002D5300002D534093D958E24AE6E2_svg|                                                                                                                                                                       |
-| |10000201000001B7000001B78F0FC5D379C32E50_png|                                                                                                                                                                       |
-| Para guardar o contacto na sua Lista de Contactos.                                                                                                                                                                   |
-|                                                                                                                                                                                                                      |
-| |1000136C0000026100000261C06770E50C4736EF_svg|                                                                                                                                                                       |
-| |100002010000001700000017FBA90A52D3565DE1_png|                                                                                                                                                                       |
-| Para remover o contacto.                                                                                                                                                                                             |
-|                                                                                                                                                                                                                      |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
+| Responsáveis pela Distribuição (Contacto)                              | Não      | Sim      | Informações necessárias para permitir o contacto com a pessoa / organização responsável pela distribuição do recurso. Pode conter múltiplos conjuntos de sub‑elementos:
+| Nome                                                                   | Não      | Não      | Nome da pessoa responsável. 
+| Organização                                                            | Sim      | Não      | Nome da organização responsável. Poderá selecionar de uma Lista de valores ou preencher de forma livre no campo “Outra (Não Listada)” 
+| Morada                                                                 | Não      | Não      | Morada da pessoa ou organização responsável. 
+| Cidade                                                                 | Não      | Não      | Cidade da pessoa ou organização responsável. 
+| Código-Postal                                                          | Não      | Não      | Código-Postal da pessoa ou organização responsável. 
+| País                                                                   | Não      | Não      | País da pessoa ou organização responsável. 
+| Telefone                                                               | Não      | Sim      | Número(s) de telefone da organização ou indivíduo. 
+| Fax                                                                    | Não      | Sim      | Número(s) de fax da organização ou indivíduo.
+| Endereço Eletrónico                                                    | Sim      | Sim      | Endereço(s) Eletrónico(s) da organização ou indivíduo. 
+| Informação *Online*                                                    | Não      | Não      | Informação *online* (endereço URL / URI) que pode ser usada como contacto individual ou institucional.
 
 
+**Este elemento disponibiliza as seguintes funcionalidades / botões**: 
+
+“Adicionar Contacto”, para adicionar um novo contacto. 
+
+<img src="http://193.136.227.146/manual_images/100002010000002000000020A3F87039BE9D0D7E.png" width="25"> Para importar um contacto da sua Lista de Contactos para o formulário. 
+
+<img src="http://193.136.227.146/manual_images/10000201000001B7000001B78F0FC5D379C32E50.png" width="25"> Para guardar o contacto na sua Lista de Contactos. 
+
+<img src="http://193.136.227.146/manual_images/100002010000001700000017FBA90A52D3565DE1.png" width="25"> Para remover o contacto.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Metadados
-~~~~~~~~~
+**Metadados**
 
 Informação relativa aos Metadados. Contém os seguintes elementos e sub‑elementos:
 
 
-+---------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| Elemento                  | Obrig. * | Múltiplo | Definição                                                                                              |
-|                           |          |          |                                                                                                        |
-+---------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
 | Identificador do Ficheiro | Sim      | Não      | Identificador único do Metadado. Recomenda-se a utilização de um UUID, pode usar o botão “Gerar UUID”. |
-| ^^^^^^^^^^^^^^^^^^^^^^^^^ |          |          |                                                                                                        |
-|                           |          |          |                                                                                                        |
-+---------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
 
 
-+--------------------+----------+----------+-------------------------------------------------------+
-| Elemento           | Obrig. * | Múltiplo | Definição                                             |
-|                    |          |          |                                                       |
-+--------------------+----------+----------+-------------------------------------------------------+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
 | Data dos Metadados | Sim      | Não      | Data de criação do metadado ou da última atualização. |
-| ^^^^^^^^^^^^^^^^^^ |          |          |                                                       |
-|                    |          |          |                                                       |
-+--------------------+----------+----------+-------------------------------------------------------+
 
 
-+-------------+----------+----------+---------------------------------------------------------------+
-| Elemento    | Obrig. * | Múltiplo | Definição                                                     |
-|             |          |          |                                                               |
-+-------------+----------+----------+---------------------------------------------------------------+
-| Codificação | Condi    | Não      | Define a codificação informática de caracteres utilizada no m |
-| ^^^^^^^^^^^ | -cional  |          | etadado.                                                      |
-|             |          |          | Preencha no caso de ser diferente de “utf8”.                  |
-|             |          |          |                                                               |
-+-------------+----------+----------+---------------------------------------------------------------+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
+| Codificação | Condicional    | Não      | Define a codificação informática de caracteres utilizada no metadado. Preencha no caso de ser diferente de “utf8”. |
 
 
-+----------+----------+----------+------------------------------------------------------------------------------------------------------------+
-| Elemento | Obrig. * | Múltiplo | Definição                                                                                                  |
-|          |          |          |                                                                                                            |
-+----------+----------+----------+------------------------------------------------------------------------------------------------------------+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
 | Idioma   | Sim      | Não      | Idioma utilizado no documento de metadados. Por definição é “Português”, língua oficial do projeto SNIMar. |
-| ^^^^^^   |          |          |                                                                                                            |
-|          |          |          |                                                                                                            |
-+----------+----------+----------+------------------------------------------------------------------------------------------------------------+
 
 
-+-----------------------------+----------+----------+---------------------------------------------------------------------------------------------------------------------+
-| Elemento                    | Obrig. * | Múltiplo | Definição                                                                                                           |
-|                             |          |          |                                                                                                                     |
-+-----------------------------+----------+----------+---------------------------------------------------------------------------------------------------------------------+
-| Norma e Perfil de Metadados | Sim      | Não      | Perfil de Metadados que define as especificações técnicas sobre as quais os Metadados são construídos.              |
-| ^^^^^^^^^^^^^^^^^^^^^^^^^^^ |          |          |                                                                                                                     |
-|                             |          |          |                                                                                                                     |
-+-----------------------------+----------+----------+---------------------------------------------------------------------------------------------------------------------+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
+| Norma e Perfil de Metadados | Sim      | Não      | Perfil de Metadados que define as especificações técnicas sobre as quais os Metadados são construídos.
 | Nome                        | Não      | Não      | Nome da norma de metadados utilizada. Por definição está fixo em “Perfil SNIMar”, perfil oficial do projeto SNIMar. |
-|                             |          |          |                                                                                                                     |
-+-----------------------------+----------+----------+---------------------------------------------------------------------------------------------------------------------+
-| Versão                      | Não      | Não      | Versão do perfil de metadados utilizado. Por definição está fixa na versão mais atual do perfil à data da versão do |
-|                             |          |          | *plugin*                                                                                                            |
-|                             |          |          | “EditorMetadadosSNIMar”.                                                                                            |
-|                             |          |          |                                                                                                                     |
-+-----------------------------+----------+----------+---------------------------------------------------------------------------------------------------------------------+
+| Versão                      | Não      | Não      | Versão do perfil de metadados utilizado. Por definição está fixa na versão mais atual do perfil à data da versão do *plugin* “EditorMetadadosMarswInforbiomares”.
 
 
-+------------------------------------------------------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| Elemento                                                               | Obrig. * | Múltiplo | Definição                                                                                              |
-|                                                                        |          |          |                                                                                                        |
-+------------------------------------------------------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| Responsáveis pelos Metadados (Contacto)                                | Não      | Sim      | Informações necessárias para permitir o contacto com a pessoa / organização responsável pelo Metadado. |
-| ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                |          |          | Pode conter múltiplos conjuntos dos seguintes sub‑elementos:                                           |
-|                                                                        |          |          |                                                                                                        |
-+------------------------------------------------------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| Nome                                                                   | Não      | Não      | Nome da pessoa responsável.                                                                            |
-|                                                                        |          |          |                                                                                                        |
-+------------------------------------------------------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| Organização                                                            | Sim      | Não      | Nome da organização responsável.                                                                       |
-|                                                                        |          |          |                                                                                                        |
-|                                                                        |          |          | Poderá selecionar de uma Lista de valores ou preencher de forma livre no campo “Outra (                |
-|                                                                        |          |          | N                                                                                                      |
-|                                                                        |          |          | ão                                                                                                     |
-|                                                                        |          |          | L                                                                                                      |
-|                                                                        |          |          | istada)”                                                                                               |
-|                                                                        |          |          |                                                                                                        |
-+------------------------------------------------------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| Morada                                                                 | Não      | Não      | Morada da pessoa ou organização responsável.                                                           |
-|                                                                        |          |          |                                                                                                        |
-+------------------------------------------------------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| Cidade                                                                 | Não      | Não      | Cidade da pessoa ou organização responsável.                                                           |
-|                                                                        |          |          |                                                                                                        |
-+------------------------------------------------------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| Código-Postal                                                          | Não      | Não      | Código-Postal da pessoa ou organização responsável.                                                    |
-|                                                                        |          |          |                                                                                                        |
-+------------------------------------------------------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| País                                                                   | Não      | Não      | País                                                                                                   |
-|                                                                        |          |          | ** **                                                                                                  |
-|                                                                        |          |          | da pessoa ou organização responsável.                                                                  |
-|                                                                        |          |          |                                                                                                        |
-+------------------------------------------------------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| Telefone                                                               | Não      | Sim      | Número(s) de telefone da organização ou indivíduo.                                                     |
-|                                                                        |          |          |                                                                                                        |
-+------------------------------------------------------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| Fax                                                                    | Não      | Sim      | Número(s) de fax da organização ou indivíduo.                                                          |
-|                                                                        |          |          |                                                                                                        |
-+------------------------------------------------------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| Endereço Eletrónico                                                    | Sim      | Sim      | Endereço(s) Eletrónico(s) da organização ou indivíduo.                                                 |
-|                                                                        |          |          |                                                                                                        |
-+------------------------------------------------------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| Informação                                                             | Não      | Não      | Informação                                                                                             |
-| *Online*                                                               |          |          | *online *                                                                                              |
-|                                                                        |          |          | (endereço URL / URI)                                                                                   |
-|                                                                        |          |          | que pode ser usada como contacto individual ou institucional.                                          |
-|                                                                        |          |          |                                                                                                        |
-+------------------------------------------------------------------------+----------+----------+--------------------------------------------------------------------------------------------------------+
-| **Notas**                                                                                                                                                                                             |
-| : Este elemento disponibiliza as seguintes funcionalidades / botões:                                                                                                                                  |
-|                                                                                                                                                                                                       |
-| “Adicionar Contacto” Para adicionar um novo contacto.                                                                                                                                                 |
-|                                                                                                                                                                                                       |
-| |10000A990000034F0000034F635B68E6E0D88521_svg|                                                                                                                                                        |
-| |100002010000002000000020A3F87039BE9D0D7E_png|                                                                                                                                                        |
-| Para importar um contacto da sua Lista de Contactos para o formulário.                                                                                                                                |
-|                                                                                                                                                                                                       |
-| |1000083700002D5300002D534093D958E24AE6E2_svg|                                                                                                                                                        |
-| |10000201000001B7000001B78F0FC5D379C32E50_png|                                                                                                                                                        |
-| Para guardar o contacto na sua Lista de Contactos.                                                                                                                                                    |
-|                                                                                                                                                                                                       |
-| |1000136C0000026100000261C06770E50C4736EF_svg|                                                                                                                                                        |
-| |100002010000001700000017FBA90A52D3565DE1_png|                                                                                                                                                        |
-| Para remover o contacto.                                                                                                                                                                              |
-|                                                                                                                                                                                                       |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-.. |100002C10000036900000369991FE712D56473BF_svg| image:: images/100002C10000036900000369991FE712D56473BF.svg
-
-
-.. |100002010000002100000021EFB2E74358139587_png| image:: images/100002010000002100000021EFB2E74358139587.png
-
-
-.. |10000579000029A7000029A7953875AF1C0808FC_svg| image:: images/10000579000029A7000029A7953875AF1C0808FC.svg
-
-
-.. |100002010000019300000193BC9FD78E936508CD_png| image:: images/100002010000019300000193BC9FD78E936508CD.png
-
-
-.. |1000041B000029A6000029A63B246D96BFBDD93A_svg| image:: images/1000041B000029A6000029A63B246D96BFBDD93A.svg
-
-
-.. |10000201000001930000019328914E2E388B62C5_png| image:: images/10000201000001930000019328914E2E388B62C5.png
-
-
-.. |10000A990000034F0000034F635B68E6E0D88521_svg| image:: images/10000A990000034F0000034F635B68E6E0D88521.svg
-
-
-.. |100002010000002000000020A3F87039BE9D0D7E_png| image:: images/100002010000002000000020A3F87039BE9D0D7E.png
-
-
-.. |1000083700002D5300002D534093D958E24AE6E2_svg| image:: images/1000083700002D5300002D534093D958E24AE6E2.svg
-
-
-.. |10000201000001B7000001B78F0FC5D379C32E50_png| image:: images/10000201000001B7000001B78F0FC5D379C32E50.png
-
-
-.. |1000136C0000026100000261C06770E50C4736EF_svg| image:: images/1000136C0000026100000261C06770E50C4736EF.svg
-
-
-.. |100002010000001700000017FBA90A52D3565DE1_png| image:: images/100002010000001700000017FBA90A52D3565DE1.png
-
-
-.. |10000000000003A00000027449993894749EB3FE_png| image:: images/10000000000003A00000027449993894749EB3FE.png
-    :width: 17.45cm
-    :height: 11.811cm
-
-
-.. |100016320000327000003270A22C429A68005E8D_svg| image:: images/100016320000327000003270A22C429A68005E8D.svg
-
-
-.. |10000201000001E8000001E8CCDB88B34D87F801_png| image:: images/10000201000001E8000001E8CCDB88B34D87F801.png
-
-
-.. |10000544000046A9000046A9C576A73C6EFC279A_svg| image:: images/10000544000046A9000046A9C576A73C6EFC279A.svg
-
-
-.. |10000201000002AC000002AC93F9F67F6B63BBC7_png| image:: images/10000201000002AC000002AC93F9F67F6B63BBC7.png
-
-
-.. |100005EF0000178100001781273D089BC013EA25_svg| image:: images/100005EF0000178100001781273D089BC013EA25.svg
-
-
-.. |10000201000000E3000000E3D57FEACA303168F9_png| image:: images/10000201000000E3000000E3D57FEACA303168F9.png
-
-
-.. |1000055D000017810000178195ACBD3347489439_svg| image:: images/1000055D000017810000178195ACBD3347489439.svg
-
-
-.. |10000201000000E3000000E3A255E6F26DADD695_png| image:: images/10000201000000E3000000E3A255E6F26DADD695.png
-
-
-.. |1000050E00002ADA00002ADA3CBB09F56AF59D9E_svg| image:: images/1000050E00002ADA00002ADA3CBB09F56AF59D9E.svg
-
-
-.. |100002010000019F0000019F2E58215D7D78FD03_png| image:: images/100002010000019F0000019F2E58215D7D78FD03.png
-
-
-.. |100002010000001C0000001A19ADBB8A5C169711_png| image:: images/100002010000001C0000001A19ADBB8A5C169711.png
-    :width: 0.741cm
-    :height: 0.688cm
-
-
-.. |100002010000032000000242921984300E64B038_png| image:: images/100002010000032000000242921984300E64B038.png
-    :width: 18.009cm
-    :height: 13.106cm
-
-
-.. |1000000000000010000000108DFD72183B48C685_png| image:: images/1000000000000010000000108DFD72183B48C685.png
-    :width: 0.423cm
-    :height: 0.423cm
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
+| Responsáveis pelos Metadados (Contacto)                                | Não      | Sim      | Informações necessárias para permitir o contacto com a pessoa / organização responsável pelo Metadado. Pode conter múltiplos conjuntos dos seguintes sub‑elementos:
+| Nome                                                                   | Não      | Não      | Nome da pessoa responsável.
+| Organização                                                            | Sim      | Não      | Nome da organização responsável. Poderá selecionar de uma Lista de valores ou preencher de formal livre no campo “Outra (Não Listada)” 
+| Morada                                                                 | Não      | Não      | Morada da pessoa ou organização responsável.
+| Cidade                                                                 | Não      | Não      | Cidade da pessoa ou organização responsável.
+| Código-Postal                                                          | Não      | Não      | Código-Postal da pessoa ou organização responsável.
+| País                                                                   | Não      | Não      | País da pessoa ou organização responsável.  
+| Telefone                                                               | Não      | Sim      | Número(s) de telefone da organização ou indivíduo. 
+| Fax                                                                    | Não      | Sim      | Número(s) de fax da organização ou indivíduo.
+| Endereço Eletrónico                                                    | Sim      | Sim      | Endereço(s) Eletrónico(s) da organização ou indivíduo.
+| Informação *Online*                                                    | Não      | Não      | Informação *online * (endereço URL / URI) que pode ser usada como contacto individual ou institucional.
 
 
 
+**Este elemento disponibiliza as seguintes funcionalidades / botões**: 
+
+“Adicionar Contacto”, para adicionar um novo contacto. 
+
+<img src="http://193.136.227.146/manual_images/100002010000002000000020A3F87039BE9D0D7E.png" width="25"> Para importar um contacto da sua Lista de Contactos para o formulário. 
+
+<img src="http://193.136.227.146/manual_images/10000201000001B7000001B78F0FC5D379C32E50.png" width="25"> Para guardar o contacto na sua Lista de Contactos. 
+
+<img src="http://193.136.227.146/manual_images/100002010000001700000017FBA90A52D3565DE1.png" width="25"> Para remover o contacto.
