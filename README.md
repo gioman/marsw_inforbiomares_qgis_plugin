@@ -105,9 +105,7 @@ O *plugin* **EditorMetadadosMarswInforbiomares** foi desenvolvido para operar no
 
 *   Instalar p *plugin* através do botão “Instalar módulo”
 
-O *plugin* **EditorMetadadosMarswInforbiomares** ficará ativo e disponível no menu de ferramentas através do ícone 
-
-<img src="http://193.136.227.146/manual_images/100000000000004000000040A7A1CB042E5963C1.png" width="25">
+O *plugin* **EditorMetadadosMarswInforbiomares** ficará ativo e disponível no menu de ferramentas através do ícone <img src="http://193.136.227.146/manual_images/100000000000004000000040A7A1CB042E5963C1.png" width="25">
 
 
 Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
@@ -205,81 +203,47 @@ restantes campos são opcionais mas aconselha-se o seu preenchimento.
 **Notas:** Alguns campos permitem a introdução de *múltiplos valores*, como é o caso do “Telefone”, “Fax”, “Endereço Eletrónico” e “Informação Online”. Para preencher estes campos deverá preencher o campo de texto posicionado em baixo da Lista respetiva a cada um deles (com textos exemplo) e premir o botão
 <img src="http://193.136.227.146/manual_images/100002010000019300000193BC9FD78E936508CD.png" width="25">.
 
-Para remover da Lista terá de selecionar a opção que pretende eliminar e primir o botão <img src="http://193.136.227.146/manual_images/10000201000001930000019328914E2E388B62C5.png" width="25">
+Para remover da Lista terá de selecionar a opção que pretende eliminar e primir o botão <img src="http://193.136.227.146/manual_images/10000201000001930000019328914E2E388B62C5.png" width="25">.
 
 Edição de Metadados
 -------------------
 
-Ao criar ou abrir um documento de metadados será criada, n
-a janela do
-*plugin*
-,
-um novo Separador com o formulário de preenchimento de metadados. Ao abrir um documento de metadados os campos, reconhecidos pelo editor, serão preenchidos nos campos respetivos de forma automática. Os campos variam consoante o tipo de recurso em questão.
+Ao criar ou abrir um documento de metadados será criada, na janela do *plugin*, um novo Separador com o formulário de preenchimento de metadados. Ao abrir um documento de metadados os campos, reconhecidos pelo editor, serão preenchidos nos campos respetivos de forma automática. Os campos variam consoante o tipo de recurso em questão.
 
 O formulário de preenchimento de metadados está dividido em secções, listadas na parte lateral esquerda do Separador, que agrupam de forma lógica os campos de metadados. Na parte lateral direita é apresentado o Painel com os campos que pertencem à secção selecionada na parte esquerda.
+
 A lista de secções é a seguinte:
 
 *   Identificação;
 
-
-
 *   Operações (exclusivo a recursos do tipo “Serviço”);
-
-
 
 *   Classificação & Palavras-Chave;
 
-
-
 *   Informação Geográfica;
-
-
 
 *   Informação Temporal;
 
-
-
 *   Qualidade;
-
-
 
 *   Restrições;
 
-
-
 *   Distribuição;
 
-
-
 *   Metadados.
-
 
 
 Na parte lateral esquerda, onde são listadas as secções, terá indicações de validação da conformidade do preenchimento do metadado. As secções a vermelho estarão não conformes e as a preto conformes. Ao passar com o rato sobre cada secção a vermelho terá a indicação específica dos campos que não estão conformes.
 
 De igual forma os painéis na parte lateral direita também apresentam ajudas textuais para cada um dos campos (premir o botão de informação junto ao nome de cada campo) e indicações de validação. Os campos com “*” são de preenchimento obrigatório e enquanto não forem preenchidos corretamente encontram-se a vermelho.
 
-Alguns campos permitem a introdução de
-*múltiplos valores*
-, para os adicionar
-deverá preencher o campo (com textos exemplo) ou selecionar de um campo de lista de valores posicionados em baixo da Lista / Tabela respetiva e premir o botão
-|10000579000029A7000029A7953875AF1C0808FC_svg|
-|100002010000019300000193BC9FD78E936508CD_png|
-. Para remover uma opção da Lista selecione a opção a
-eliminar e prima o botão
-|1000041B000029A6000029A63B246D96BFBDD93A_svg|
-|10000201000001930000019328914E2E388B62C5_png|
-.
+Alguns campos permitem a introdução de *múltiplos valores*, para os adicionar deverá preencher o campo (com textos exemplo) ou selecionar de um campo de lista de valores posicionados em baixo da Lista / Tabela respetiva e premir o botão <img src="http://193.136.227.146/manual_images/100002010000019300000193BC9FD78E936508CD.png" width="25">. Para remover uma opção da Lista selecione a opção a eliminar e prima o botão <img src="http://193.136.227.146/manual_images/10000201000001930000019328914E2E388B62C5.png" width="25">.
 
-Pode remover mais do que um de uma vez, para tal só terá de fazer uma multi‑seleção de opções (CTRL+
-*click*
-) antes de premir o botão de eliminar.
-
-Alguns campos do tipo Lista de Valores têm para cada opção da lista uma ajuda textual, para as visualizar basta posicionar o rato sobre as opção da lista.
+Pode remover mais do que um de uma vez, para tal só terá de fazer uma multi‑seleção de opções (CTRL+*click*) antes de premir o botão de eliminar. Alguns campos do tipo Lista de Valores têm para cada opção da lista uma ajuda textual, para as visualizar basta posicionar o rato sobre as opção da lista.
 
 Cada painel contém um conjunto de elementos e sub‑elementos a preencher. De seguida, descrevem-se cada um destes painéis, respetivos campos e sua obrigatoriedade (*) e multiplicidade de preenchimento.
 
-Identificação
+**Identificação**
 
 Informação de base necessária à identificação inequívoca de um dado recurso. Contém os seguintes elementos e sub‑elementos:
 
