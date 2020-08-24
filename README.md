@@ -254,20 +254,9 @@ Informação de base necessária à identificação inequívoca de um dado recur
 | `git diff` | Show file differences that **haven't been** staged |
 
 
-+-----------------+----------+----------+-----------------+
-| Elemento        | Obrig. * | Múltiplo | Definição                                                                                                                                                                        |
-+=================+==========+==========+=================+
-| Tipo de Recurso | Sim      | Não      | Define o tipo de recurso ao qual se aplicam os metadados, a partir de uma lista:                                                                                                 |
-|                 |          |          | *Conjunto de Dados Geográficos*                                                                                                                                                  |
-|                 |          |          | (CDG)                                                                                                                                                                            |
-|                 |          |          | (a informação é aplicável a um conjunto de dados geográficos);                                                                                                                   |
-|                 |          |          | *Série*                                                                                                                                                                          |
-|                 |          |          | (a informação é aplicável a uma série ou coleção de dados);                                                                                                                      |
-|                 |          |          | *Serviço*                                                                                                                                                                        |
-|                 |          |          | (a informação é aplicável à capacidade que uma entidade fornecedora disponibiliza a uma entidade cliente através de um conjunto de interfaces que define um dado comportamento). |
-|                 |          |          |                                                                                                                                                                                  
-+-----------------+----------+----------+-----------------+
-
+| Elemento        | Obrig. * | Múltiplo | Definição |
+| ---        | --- | --- | --- |
+| Tipo de Recurso | Sim      | Não      | Define o tipo de recurso ao qual se aplicam os metadados, a partir de uma lista: Conjunto de Dados Geográficos (CDG) (a informação é aplicável a um conjunto de dados geográficos); Série (a informação é aplicável a uma série ou coleção de dados); Serviço (a informação é aplicável à capacidade que uma entidade fornecedora disponibiliza a uma entidade cliente através de um conjunto de interfaces que define um dado comportamento). |
 
 
 +-----------------+----------+----------+---------------------------------------------------------------------------------------------------------------------+
