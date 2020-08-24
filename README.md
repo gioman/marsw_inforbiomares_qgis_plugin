@@ -17,15 +17,11 @@ VERSÃO: 3.x
 
 Projecto MARSW
 
-Telefone: +351 289 800 051
-
-E-mail: jgoncal@ualg.pt
+Telefone: +351 289 800 051 | E-mail: jgoncal@ualg.pt
 
 Projecto INFORBIOMARES
 
-Telefone: +351 289 800 051
-
-E-mail: ccmar@ualg.pt
+Telefone: +351 289 800 051 | E-mail: ccmar@ualg.pt
 
 
 **FICHA TÉCNICA ORIGINAL**
@@ -57,6 +53,17 @@ EMEPC - Estrutura de Missão para a Extensão da Plataforma Continental
 Rua Costa Pinto nº165 | 2770-047 Paço de Arcos - Portugal
 
 Telefone: +351 213 004 165 | Fax: +351 213 905 225 | E-mail: info@emepc.mam.gov.pt
+
+
+**Intervenientes e parceiros:**
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/MARSW-01.png" height="100">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/Inforbiomares-01.png" height="100">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/ICNF-01.png" height="75">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/LPN-01.png" height="75">
 
 
 
