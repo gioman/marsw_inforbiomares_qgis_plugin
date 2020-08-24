@@ -1,3 +1,1 @@
-# Editor de Metadados SNIMar
-
-![pipeline](https://gitlab.com/likeno/snimar/qgis_editor/badges/master/pipeline.svg?style=flat-square)
+# Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
