@@ -1,5 +1,66 @@
 # Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
 
+
+**FICHA TÉCNICA VERSÃO PARA QGIS 3.x**
+
+TÍTULO: Manual de Utilizador do Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
+
+AUTORIA: Projecto MARSW e INFORBIOMARES
+
+EMAIL: `jgoncal@ualg.pt <mailto:jgoncal@ualg.pt>`_
+
+DATA: Julho 2020
+
+VERSÃO: 3.x
+
+
+**CONTACTOS VERSÃO PARA QGIS 3.x**
+
+Projecto MARSW
+
+Telefone: +351289800051
+
+E-mail: jgoncal@ualg.pt
+
+Projecto INFORBIOMARES
+
+Telefone: +351 289 800 051
+
+E-mail: `ccmar@ualg.pt <mailto:ccmar@ualg.pt>`_
+
+
+**FICHA TÉCNICA ORIGINAL**
+
+TÍTULO: Manual de Utilizador / Instalação do Editor de Metadados SNIMar
+
+AUTORIA: Grupo de Trabalho WP4 SNIMar
+
+EMAIL: `suporte.snimar@ipma.pt <mailto:suporte.snimar@ipma.pt>`_
+
+DATA: dezembro de 2015
+
+LOCAL: Lisboa
+
+VERSÃO: 2.0.0
+
+
+**CONTACTOS ORIGINAIS**
+
+IPMA - INSTITUTO PORTUGUÊS DO MAR E DA ATMOSFERA
+
+Rua C do Aeroporto | 1749-077 Lisboa - Portugal
+
+Telefone: +351 218 477 000 | Fax: +351 218 402 468 | E-mail:`info@ipma.pt <mailto:info@ipma.pt>`_
+
+
+EMEPC - Estrutura de Missão para a Extensão da Plataforma Continental
+
+Rua Costa Pinto nº165 | 2770-047 Paço de Arcos - Portugal
+
+Telefone: +351 213 004 165 | Fax: +351 213 905 225 | E-mail: `info@emepc.mam.gov.pt <mailto:info@emepc.mam.gov.pt>`_
+
+
+
 Introdução
 ==========
 
