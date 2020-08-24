@@ -143,8 +143,8 @@ O *plugin* **EditorMetadadosMarswInforbiomares** ficará ativo e disponível no 
 
 
 
-Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
-===============================================================================
+Usar o plugin
+=============
 
 Ao premir o ícone do **EditorMetadadosMarswInforbiomares** terá acesso a uma janela que, para além de um Menu Principal, terá um Separador com o seu ambiente de trabalho (Lista de Ficheiros), ou seja, uma Lista dos documentos de metadados (ficheiros XML) trabalhados a partir deste Editor. Atenção que enquanto não criar novos metadados ou abrir outros já existentes, a partir do editor, esta Lista aparecerá vazia no seu ambiente de trabalho.
 
