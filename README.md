@@ -381,6 +381,7 @@ Exemplos de *Nomes de Operação WMS*:
 *   GetLegendGraphic.
 
 
+
     Exemplos de *Nomes de Operação WFS*:
 
 *   GetCapabilities;
@@ -406,6 +407,7 @@ Exemplos de *Nomes de Operação WMS*:
 *   DescribeStoredQueries (versão 2.0.0 apenas);
 
 *   GetGMLObject (versão 1.1.0 apenas).
+
 
 
     Exemplos de*Nomes de Operação WCS*:
@@ -451,29 +453,18 @@ Informação geral que categoriza e descreve um dado recurso. Contém os seguint
 
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
-| Palavras-Chave SNIMar                                                                                                                                                                                                                      | Sim      | Sim      | Descreve o recurso utilizando palavras-chave pertencentes a um dicionário dedicado ao projeto SNIMar.Pode conter múltiplos conjuntos dos seguintes sub‑elementos. | 
-| Tipo     | Sim      | Não      | Define o tipo de Palavra-Chave utilizado, a partir de lista.                                            |
+| Palavras-Chave SNIMar     | Sim      | Sim      | Descreve o recurso utilizando palavras-chave pertencentes a um dicionário dedicado ao projeto SNIMar.Pode conter múltiplos conjuntos dos seguintes sub‑elementos. | 
+| Tipo     | Sim      | Não      | Define o tipo de Palavra-Chave utilizado, a partir de lista.|
 | Palavra-Chave       | Sim      | Não      | Define uma designação utilizada para descrever um determinado aspeto do recurso, a partir de uma lista. |
-| Versão Thesaurus    | Sim      | Não      | Versão do Thesaurus SNIMar a partir do qual foi selecionada a palavra-chave. 
-| **Notas**: Deve ser escolhida obrigatoriamente pelo menos uma palavra-chave para o tipo “Disciplina” e pelo menos uma palavra-chave para o tipo “Parâmetro”. Caso o recurso tenha sido criado no contexto de um projeto, é obrigatório inserir uma palavra-chave com o nome do projeto e usar o tipo de palavra ‘Projeto’. Recomenda-se a inserção de palavras dos restantes grupos de palavras provenientes do Thesaurus SNIMar, a partir da lista do Thesaurus com a versão mais recente.
-| Para criar novas palavras-chave SNIMar deverá fazê-lo a partir da plataforma **Collaborative Keywords**, aceda diretamente premindo o ícone                                                                                                                                                                                                                                                                                                                                       |
-|                                                                                                                                                                                                                                                                                                                                                                            |
-|                                                                                                                                                                                                                                                                                                                                                                            |
-| Para adicionar palavras-chave SNIMar prima o botão “Adicionar Palavra-Chave SNIMar”. Ao executar esta ação é aberta uma janela (figura seguinte) de onde deverá selecionar de início o “Tipo de Palavra-Chave” da lista disponível.                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                                                            |
-| Ao selecionar um Tipo de Palavra-Chave é apresentada na parte lateral direita a lista de palavras-chave relacionadas com esse Tipo. Poderá selecionar múltiplas palavras-chave para acrescentar ao documento acionando os                                                                                                                                                  |
-| *checkboxes*                                                                                                                                                                                                                                                                                                                                                               |
-| respetivos.                                                                                                                                                                                                                                                                                                                                                                |
-|                                                                                                                                                                                                                                                                                                                                                                            |
-| No caso particular do Tipo de Palavra-Chave “Disciplina” após selecionar uma ou mais disciplinas deverá também selecionar um ou mais parâmetros, apresentados na parte lateral mais à direita (à medida que vai selecionando disciplinas).                                                                                                                                 |
-|                                                                                                                                                                                                                                                                                                                                                                            |
-| Após                                                                                                                                                                                                                                                                                                                                                                       |
-| acionar as palavras-chave pretendidas deve premir o botão “Adicionar Selecionadas”.                                                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                                                            |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Versão Thesaurus    | Sim      | Não      | Versão do Thesaurus SNIMar a partir do qual foi selecionada a palavra-chave. |
 
+**Notas**: Deve ser escolhida obrigatoriamente pelo menos uma palavra-chave para o tipo “Disciplina” e pelo menos uma palavra-chave para o tipo “Parâmetro”. Caso o recurso tenha sido criado no contexto de um projeto, é obrigatório inserir uma palavra-chave com o nome do projeto e usar o tipo de palavra ‘Projeto’. Recomenda-se a inserção de palavras dos restantes grupos de palavras provenientes do Thesaurus SNIMar, a partir da lista do Thesaurus com a versão mais recente. Para criar novas palavras-chave SNIMar deverá fazê-lo a partir da plataforma **Collaborative Keywords**, aceda diretamente premindo o ícone 
 
-|10000000000003A00000027449993894749EB3FE_png|
+<img src="http://193.136.227.146/manual_images/10000201000001BD0000009E16A6984AEFE1D85F.png" width="50">
+
+Para adicionar palavras-chave SNIMar prima o botão “Adicionar Palavra-Chave SNIMar”. Ao executar esta ação é aberta uma janela (figura seguinte) de onde deverá selecionar de início o “Tipo de Palavra-Chave” da lista disponível. Ao selecionar um Tipo de Palavra-Chave é apresentada na parte lateral direita a lista de palavras-chave relacionadas com esse Tipo. Poderá selecionar múltiplas palavras-chave para acrescentar ao documento acionando os *checkboxes* respetivos. No caso particular do Tipo de Palavra-Chave “Disciplina” após selecionar uma ou mais disciplinas deverá também selecionar um ou mais parâmetros, apresentados na parte lateral mais à direita (à medida que vai selecionando disciplinas). Apósacionar as palavras-chave pretendidas deve premir o botão “Adicionar Selecionadas”.
+
+<img src="http://193.136.227.146/manual_images/10000000000003A00000027449993894749EB3FE.png">
 
 Informação Geográfica
 ~~~~~~~~~~~~~~~~~~~~~
