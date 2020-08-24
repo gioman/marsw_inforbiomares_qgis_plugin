@@ -7,7 +7,7 @@ TÍTULO: Manual de Utilizador do Plugin para QGIS 3.x para criação e edição 
 
 AUTORIA: Projecto MARSW e INFORBIOMARES
 
-EMAIL: `jgoncal@ualg.pt <mailto:jgoncal@ualg.pt>`_
+EMAIL: jgoncal@ualg.pt
 
 DATA: Julho 2020
 
@@ -26,7 +26,7 @@ Projecto INFORBIOMARES
 
 Telefone: +351 289 800 051
 
-E-mail: `ccmar@ualg.pt <mailto:ccmar@ualg.pt>`_
+E-mail: ccmar@ualg.pt
 
 
 **FICHA TÉCNICA ORIGINAL**
@@ -35,7 +35,7 @@ TÍTULO: Manual de Utilizador / Instalação do Editor de Metadados SNIMar
 
 AUTORIA: Grupo de Trabalho WP4 SNIMar
 
-EMAIL: `suporte.snimar@ipma.pt <mailto:suporte.snimar@ipma.pt>`_
+EMAIL: suporte.snimar@ipma.pt
 
 DATA: dezembro de 2015
 
@@ -50,14 +50,14 @@ IPMA - INSTITUTO PORTUGUÊS DO MAR E DA ATMOSFERA
 
 Rua C do Aeroporto | 1749-077 Lisboa - Portugal
 
-Telefone: +351 218 477 000 | Fax: +351 218 402 468 | E-mail:`info@ipma.pt <mailto:info@ipma.pt>`_
+Telefone: +351 218 477 000 | Fax: +351 218 402 468 | E-mail:info@ipma.pt
 
 
 EMEPC - Estrutura de Missão para a Extensão da Plataforma Continental
 
 Rua Costa Pinto nº165 | 2770-047 Paço de Arcos - Portugal
 
-Telefone: +351 213 004 165 | Fax: +351 213 905 225 | E-mail: `info@emepc.mam.gov.pt <mailto:info@emepc.mam.gov.pt>`_
+Telefone: +351 213 004 165 | Fax: +351 213 905 225 | E-mail: info@emepc.mam.gov.pt
 
 
 
@@ -78,3 +78,87 @@ O Perfil de Metadados SNIMar, definido no âmbito do referido projeto, respeita 
 Diretiva INSPIRE (Diretiva n.º 2007/2/CE, do Parlamento Europeu e do Conselho, de 14 de março) e as respetivas disposições de execução definidas no Regulamento (CE) n.º 1205/2008 da Comissão, de 3 de dezembro, que estabelece os requisitos aplicáveis à criação e manutenção de metadados para conjuntos de dados geográficos (CDG), séries de conjuntos de dados geográficos e serviços de dados geográficos correspondentes aos temas enumerados nos anexos I, II e III da Diretiva 2007/2/CE. É também importante realçar que o Perfil de Metadados SNIMar teve por base o Perfil Nacional de Metadados de Informação Geográfica (Perfil MIG), que “tem como objetivo principal clarificar aspetos ligados à implementação da produção, gestão e disseminação dos metadados em Portugal, de forma a assegurar a correta caracterização dos recursos geográficos e a sua harmonização com a infraestrutura de informação geográfica portuguesa (SNIG) e europeia (INSPIRE).” [Perfil MIG, 2010], ajustando-se este perfil à realidade nacional dos dados relativos ao ambiente marinho.
 
 
+Instalação
+==========
+
+O
+*plugin *
+**EditorMetadadosMarswInforbiomares**
+* *
+foi desenvolvido para operar nos sistemas operativos Linux, Windows
+e macOS
+e pode ser instalado na aplicação QGIS da seguinte forma:
+
+
+*   Abrir a aplicação QGIS,
+    recomenda-se a utilização d
+    a versão 3.10
+
+
+
+*   No Menu Principal selecionar
+    **Módulos > Gerir e Instalar Módulos**
+    .
+
+
+
+*   Selecionar o separador
+    **Configurações**
+    .
+
+
+
+*   Adicionar um novo repositório de módulos, premindo o botão “Adicionar...”, e preencher os campos do formulário com os seguintes parâmetros:
+
+    *   *Nome*
+        : Editor Metadados Marsw/Inforbiomares
+
+
+
+    *   *URL*
+        :
+        `https://marsw.ualg.pt/static/qgis/editormetadadosmarswinforbiomares.xml <https://marsw.ualg.pt/static/qgis/editormetadadosmarswinforbiomares.xml>`_
+
+
+
+
+    *   *Parâmetros*
+        : manter pré-definições
+
+
+
+    *   *Ativado*
+        : manter pré-definições
+
+
+
+
+
+*   Fazer “Ok” e a
+    tualizar os repositórios premindo o botão “Atualizar todos os repositórios”.
+
+
+
+*   Selecionar o separador
+    **Não instalado**
+    e
+    pesquisar por “
+    MarSW” ou “Inforbiomares” ou
+    “SNIMar”
+
+
+
+*   Instalar o
+    *p*
+    lugin
+    através do botão
+    “Instalar módulo”.
+
+
+
+O
+*plugin*
+
+**EditorMetadadosMarswInforbiomares**
+ficará ativo e disponível no menu de ferramentas
+através do ícone
