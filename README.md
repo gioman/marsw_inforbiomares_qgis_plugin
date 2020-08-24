@@ -133,138 +133,50 @@ Ambiente de Trabalho
 
 Nesta área poderá gerir os seus documentos de metadados e consultar alguma da sua informação base (Tipo de Recurso, Título, Localização (do ficheiro), Identificador Único do Ficheiro, Conformidade com o Perfil SNIMar.
 
-O botão
-|100002C10000036900000369991FE712D56473BF_svg|
-|100002010000002100000021EFB2E74358139587_png|
-permite validar automaticamente o documento quanto à sua conformidade com o Perfil SNIMar.
+O botão <img src="http://193.136.227.146/manual_images/100002010000002100000021EFB2E74358139587.png"> permite validar automaticamente o documento quanto à sua conformidade com o Perfil SNIMar.
 
-Ao selecionar um documento de metadados da Lista e abrindo o
-*Menu de Contexto*
-(
-*click*
-com o botão do lado direito do rato) tem acesso às seguintes funcionalidades:
+Ao selecionar um documento de metadados da Lista e abrindo o *Menu de Contexto* (*click* com o botão do lado direito do rato) tem acesso às seguintes funcionalidades:
 
-*   **Editar Metadado**
-    : abrir o documento XML no
-    *plugin*
-    em modo de edição;
+*   **Editar Metadado**: abrir o documento XML no *plugin* em modo de edição;
 
+*   **Remover Metadado(s) da Lista**: remover o(s) documento(s) XML selecionado(s) da Lista;
 
-
-*   **Remover Metadado(s) da Lista**
-    : remover o(s) documento(s) XML selecionado(s) da Lista;
-
-
-
-*   **Visualizar Metadado Externamente**
-    : abrir o documento XML no
-    *software*
-    pré-definido para ficheiros XML.
-
+*   **Visualizar Metadado Externamente**: abrir o documento XML no *software* pré-definido para ficheiros XML.
 
 
 Na parte inferior da janela (lado direito) tem dois botões com as seguintes funcionalidades:
 
-*   **Verificar Conformidade (Todos)**
-    :
-    validar todos os documentos da Lista quanto à sua conformidade com o Perfil SNIMar. Esta ação pode demorar consoante o número de itens na Lista, pode a qualquer momento terminar o processo premindo o botão “Cancelar” da janela de progresso.
+*   **Verificar Conformidade (Todos)**: validar todos os documentos da Lista quanto à sua conformidade com o Perfil SNIMar. Esta ação pode demorar consoante o número de itens na Lista, pode a qualquer momento terminar o processo premindo o botão “Cancelar” da janela de progresso.
+
+*   **Apagar Lista de Ficheiros**: remover todos os documentos XML da Lista (apenas).
 
 
 
-*   **Apagar Lista de Ficheiros**
-    : remover todos os documentos XML da Lista (apenas).
+Na parte inferior da janela (lado esquerdo) poderá ainda consultar qual a última *versão do Thesaurus SNIMar* carregada no *plugin* e poderá descarregar novas atualizações, se existirem, premindo o botão “Atualizar”.
 
+É possível também *ordenar a Lista de ficheiros de metadados* por: Tipo de Recurso, Título, Localização (do ficheiro) e pela sua Conformidade com o Perfil SNIMar; basta premir o título correspondente e alternar a ordem.
 
+A partir do **Menu Principal** poderá:
 
-Na parte inferior da janela (lado esquerdo) poderá ainda consultar qual a última
-*versão do Thesaurus SNIMar*
-carregada no
-*plugin*
-e poderá descarregar novas atualizações, se existirem, premindo o botão “Atualizar”.
+*   **Ficheiro > Novo**: criar um novo documento de metadados XML dos seguintes tipos: Conjunto de Dados Geográficos, Serviço e Série.
 
-É possível também
-*ordenar a Lista de ficheiros de metadados*
-por: Tipo de Recurso, Título, Localização (do ficheiro) e pela sua Conformidade com o Perfil SNIMar; basta premir o título correspondente e alternar a ordem.
+*   **Ficheiro > Abrir**: abrir um documento XML, a partir do sistema de arquivo de ficheiros, no *plugin* em modo de edição. Este documento de metadados aberto será também adicionado à Lista de ficheiros.
 
-A partir do
-**Menu Principal**
-poderá:
+*   **Ficheiro > Abrir Pasta**: carregar para o seu ambiente de trabalho os ficheiros XML que se encontrarem na pasta selecionada a partir do sistema de arquivo de ficheiros.
 
-*   **Ficheiro > Novo**
-    : criar um novo documento de metadados XML dos seguintes tipos: Conjunto de Dados Geográficos, Serviço e Série.
+*   **Ficheiro > Guardar**: guardar as alterações efetuadas ao documento XML a partir do *plugin* de edição.
 
+*   **Ficheiro > Guardar como**: guardar o ficheiro com outro nome ou noutro diretório.
 
+*   **Ficheiro > Guardar Todos**: guardar todos os ficheiros de metadados abertos no editor.
 
-*   **Ficheiro > Abrir**
-    : abrir um documento XML, a partir do sistema de arquivo de ficheiros, no
-    *plugin*
-    em modo de edição. Este documento de metadados aberto será também adicionado à Lista de ficheiros.
+*   **Ficheiro > Fechar**: fechar o *plugin* **EditorMetadadosMarswInforbiomares**.
 
+*   **Ficheiro > Atualizar codelists**:atualiza os campos do tipo Lista de Valores dos vários formulários.
 
+*   **Lista de Contactos**: gerir (adicionar / editar / remover) os contactos e respetivos detalhes usados frequentemente nos seus documentos de metadados.
 
-*   **Ficheiro > Abrir Pasta**
-    : carregar para o seu ambiente de trabalho os ficheiros XML que se encontrarem na pasta selecionada a partir do sistema de arquivo de ficheiros.
-
-
-
-*   **Ficheiro > Guardar**
-    : guardar as alterações efetuadas ao documento XML a partir do
-    *plugin*
-    de edição.
-
-
-
-*   **Ficheiro > Guardar como**
-    : guardar o ficheiro com outro nome ou noutro diretório.
-
-
-
-*   **Ficheiro > Guardar **
-    **Todos**
-    : guardar
-    todos
-    o
-    s
-    ficheiro
-    s de metadados
-
-    abertos no editor
-    .
-
-
-
-*   **Ficheiro > Fechar**
-    : fechar o
-    *plugin*
-
-    **EditorMetadadosMarswInforbiomares**
-    .
-
-
-
-*   **Ficheiro > **
-    **Atualizar codelists**
-    :
-    atualiza os
-    campos do tipo Lista de Valores
-    dos vários formulários
-    .
-
-
-
-*   **Lista de Contactos**
-    :
-    gerir (adicionar / editar / remover) os contactos e respetivos detalhes usados frequentemente nos seus documentos de metadados.
-
-
-
-*   **Sobre**
-    : abrir uma janela com informações sobre o
-    *plugin*
-
-    **EditorMetadadosMarswInforbiomares**
-    .
-
+*   **Sobre** : abrir uma janela com informações sobre o *plugin* **EditorMetadadosMarswInforbiomares**.
 
 
 Gestão de Contactos
@@ -276,45 +188,29 @@ Ao criar um novo contacto deverá preencher obrigatoriamente os campos “Nome d
 restantes campos são opcionais mas aconselha-se o seu preenchimento.
 
 Criar um Novo Contacto
-~~~~~~~~~~~~~~~~~~~~~~
 
 *   prima o botão “Novo”;
 
-
-
 *   preencha os campos;
-
-
 
 *   prima o botão “Guardar Alterações”.
 
 
 
 Editar um Contacto
-~~~~~~~~~~~~~~~~~~
 
 *   selecione da Lista o contacto em questão;
 
-
-
 *   efetue as alterações a partir do formulário agora preenchido com os detalhes do contacto selecionado;
-
-
 
 *   prima o botão “Guardar Alterações”.
 
 
-
 Apagar um Contacto
-~~~~~~~~~~~~~~~~~~
 
 *   selecione da Lista o contacto em questão;
 
-
-
 *   prima o botão “Apagar”.
-
-
 
 *   Receberá uma mensagem a pedir confirmação da eliminação do contacto dado que é uma operação irreversível. Para confirmar a eliminação prima o botão “Remover”.
 
@@ -405,7 +301,6 @@ Alguns campos do tipo Lista de Valores têm para cada opção da lista uma ajuda
 Cada painel contém um conjunto de elementos e sub‑elementos a preencher. De seguida, descrevem-se cada um destes painéis, respetivos campos e sua obrigatoriedade (*) e multiplicidade de preenchimento.
 
 Identificação
-~~~~~~~~~~~~~~
 
 Informação de base necessária à identificação inequívoca de um dado recurso. Contém os seguintes elementos e sub‑elementos:
 
