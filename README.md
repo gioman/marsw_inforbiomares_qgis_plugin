@@ -294,8 +294,12 @@ Informação de base necessária à identificação inequívoca de um dado recur
 | Objetivo          | Não     | Não      | Resumo do propósito que conduziu ao desenvolvimento ou modificação do recurso. |
 | Créditos | Não      | Sim      | Identificação dos indivíduos e/ou entidades que contribuíram para a produção do recurso. |
 | Manutenção do Recurso | Sim      | Sim      | Define a frequência com que o recurso é atualizado, a partir de uma lista. Se nenhuma das opções da lista for adequada, selecione "Conforme necessário". |
+
+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
 | Identificador Único do Recurso | Sim      | Sim      | Pretende identificar de forma unívoca o recurso, é definido normalmente pela entidade responsável pelo mesmo. Pode conter múltiplos conjuntos dos seguintes 2 sub‑elementos. |
-| <font size="-1">Identificador</font>                  | Sim      | Não      | Utilização de URI (exº http://www.igeo.pt/datasets/AU_CAOP_2011) ou UUID (exº 808c3be3-527a-451b-8611-0bcc1b8c21b0). |
+| Identificador                  | Sim      | Não      | Utilização de URI (exº http://www.igeo.pt/datasets/AU_CAOP_2011) ou UUID (exº 808c3be3-527a-451b-8611-0bcc1b8c21b0). |
 | Espaço de Nomes                | Não      | Não      | Define o âmbito de aplicação do código usado acima. |
   
 
@@ -310,25 +314,10 @@ Informação de base necessária à identificação inequívoca de um dado recur
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
 | Codificação | Não      | Não      | Define a codificação informática de caracteres utilizada no |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Estado do Recurso | Não      | Sim      | Define o estado de progresso do recurso, a partir de uma lista: *Arquivado* (dados foram armazenados numa infraestrutura de armazenamento *offline*);*Concluído* (produção dos dados foi concluída); *Contínuo* (dados são atualizados continuamente); *Em desenvolvimento*(dados estão atualmente em processo de criação); *Necessita de atualização* (dados necessitam de atualização); *Obsoleto* (dados já não são relevantes); *Planeado* (estabelecida uma data fixa na qual os dados são atualizados).  |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Recursos Associados | Não      | Sim      | O domínio deste elemento é um URI, que pode ser um identificador do CDG, ou uma localização (URL) para osmetadados do(s) CDG associados ao recurso. Não se aplica a CDG nem Séries.
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Endereço (URL da visualização gráfica) | Não      | Não      | Define o caminho (URL) para uma figura que ilustra o recurso (deve incluir uma legenda para a figura). |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Idioma   | Não      | Sim      | Idioma(s) utilizado(s) no recurso. Não se aplica a Serviços.          |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Representação Espacial | Sim      | Sim      | Forma(s) de representação da informação geográfica, a partir de uma lista: Matricial (informação geográfica segue um modelo de dados matricial); Modelo Estereoscópico (vista tridimensional formada pela intersecção de raios homólogos resultantes de um par de imagens com sobreposição); TIN (informação geográfica representa-se de acordo com uma tecelagem irregular triangular TIN); Texto Tabela (informação geográfica encontra-se codificada em formato textual ou tabular); Vectorial (informação geográfica segue um modelo de dados vetorial); Video (cena obtida de uma gravação de vídeo). Não se aplica a Serviços. |
 
 | Elemento        | Obrigatório | Múltiplo | Definição |
@@ -357,7 +346,8 @@ Informação de base necessária à identificação inequívoca de um dado recur
 <img src="http://193.136.227.146/manual_images/100002010000001700000017FBA90A52D3565DE1.png" width="25"> Para remover o contacto.
 
 
-**Operações**
+Operações
+=========
 
 Informação sobre todas as operações disponibilizadas por um Serviço, logo só é preenchido para recursos do tipo “Serviço”. Contém os seguintes elementos e sub‑elementos:
 
@@ -429,16 +419,7 @@ Informação geral que categoriza e descreve um dado recurso. Contém os seguint
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
 | Temas INSPIRE | Sim      | Sim      | Se o recurso for um CDG ou Série, deve ser fornecida, pelo menos, uma palavra-chave do Thesaurus Geral Multilingue sobre Recursos Ambientais (GEMET) que descreva o tema de dados geográficos relevante, conforme definido nos anexos I, II ou III da Diretiva INSPIRE (Anexo A). Estes elemento é definido a partir de uma lista. Não se aplica a Serviços.|
-
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Classificação dos Serviços | Sim      | Sim      | Se o recurso for um Serviço, deve ser fornecida, pelo menos, uma palavra-chave da classificação dos serviços de dados geográficos, definido a partir de uma lista. Poderá consultar uma descrição acerca de cada uma das opções desta lista em Anexo. Não se aplica a CDG nem Séries. |
-
-
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Categoria Temática | Sim      | Sim      | Tema principal do recurso. Define a classificação temática geral utilizada para auxiliar o agrupamento e pesquisa do recurso, a partir de uma lista. De acordo com o Perfil SNIMar o tema “Oceanos” deverá estar sempre selecionado. Ao criar um documento de metadados via este editor esta condição será automaticamente aplicada. Não se aplica a Serviços.   |
 
 
@@ -468,10 +449,10 @@ Para adicionar palavras-chave SNIMar prima o botão “Adicionar Palavra-Chave S
 <img src="http://193.136.227.146/manual_images/10000000000003A00000027449993894749EB3FE.png">
 
 
-**Informação Geográfica**
+Informação Geográfica
+=====================
 
 Informação sobre os Sistemas de Referência de Coordenadas e sobre a extensão espacial geográfica e altimétrica do recurso. Contém os seguintes elementos e sub‑elementos:
-
 
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
@@ -525,7 +506,8 @@ Poderá ainda consultar no mapa uma extensão geográfica presente na tabela de 
 
 
 
-**Informação Temporal**
+Informação Temporal
+===================
 
 Informação geral sobre as referências e extensões temporais do recurso. Contém os seguintes elementos e sub‑elementos:
 
@@ -562,7 +544,8 @@ No caso da Data de Publicação, por permitir vários valores, terá ainda de pr
 <img src="http://193.136.227.146/manual_images/100002010000019300000193BC9FD78E936508CD.png" width="25">
 
 
-**Qualidade**
+Qualidade
+=========
 
 Informação relativa à qualidade dos dados, especificada para um dado âmbito ou para o recurso no seu todo. Contém os seguintes elementos e sub‑elementos:
 
@@ -571,26 +554,17 @@ Informação relativa à qualidade dos dados, especificada para um dado âmbito 
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
 | Declaração (Português) | Sim      | Não      | Descrição geral sobre o conhecimento do produtor sobre o histórico de um recurso. Os processos e fontes de dados devem ser descritos resumidamente. Se desejar particularizar esta informação poderá fazê-lo preenchendo o elemento opcional “Etapas do Processo”. |
-
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Declaração (Inglês) | Não      | Não      | Descrição geral sobre o conhecimento do produtor sobre o histórico de um recurso traduzido para Inglês. |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Etapas do Processo | Não      | Sim      | Descreve os vários processamentos efetuados para a obtenção do recurso. |
 | Descrição          | Sim      | Não      | Descrição da etapa do processo efetuado ao conjunto de dados incluindo parâmetros e tolerâncias aplicados. |
 | Data               | Não      | Não      | Data ou Intervalo temporal em que a etapa ocorreu.                                                         |
 | Justificação       | Não      | Não      | Necessidade ou finalidade da etapa do processo.                                                            |
-
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Fonte dos Dados | Não      | Sim      | Informações sobre os dados de origem usados na criação do recurso. |
 
 
-**Elementos referentes ao Relatório:**
+Elementos referentes ao Relatório
+=================================
+
 
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
@@ -617,7 +591,8 @@ Em caso de desconhecimento pode utilizar a informação recomendada pela Diretiv
  “*Explicação*”: Ver a norma da especificação  
 
 
-**Restrições**
+Restrições
+==========
 
 Informação relativa a restrições e pré-requisitos legais e de segurança para o acesso e utilização do recurso. Contém os seguintes elementos e sub‑elementos:
 
@@ -628,15 +603,11 @@ Informação relativa a restrições e pré-requisitos legais e de segurança pa
 | Restrições de Acesso | Sim      | Sim      | Restrições de acesso aplicadas ao recurso para assegurar a propriedade intelectual e quaisquer restrições especiais ou limitações sobre a obtenção do recurso. Definido a partir de uma lista. Definido a partir de uma lista. Se o recurso não tiver restrições de acesso deve ser escolhida a opção "Outras Restrições".
 | Restrições de Uso    | Sim      | Sim      | Constrangimentos aplicados de modo a garantir a proteção da propriedade intelectual do recurso bem como restrições especiais ou limitações e advertências sobre o uso do recurso ou metadados. Definido a partir de uma lista. Se o recurso não tiver restrições de uso deve ser escolhida a opção "Outras Restrições". 
 | Outras Restrições    | Não      | Sim      | Outras restrições e pré-requisitos legais para aceder e utilizar o recurso ou metadados.
-
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Restrições de Segurança | Não      | Sim      | Define as restrições de manuseamento do recurso ou metadados, a partir de uma lista (se aplicável): *Altamente Secreto* (do maior nível de segredo); *Confidencial* (disponível para alguém a quem pode ser confiada informação); *Não Classificado* (disponível para divulgação geral); *Restrito* (não para divulgação geral); *Secreto* (mantido ou para ser mantido privado, desconhecido, ou oculto para todos a não ser um grupo seleto de pessoas).
 
 
-
-**Distribuição**
+Distribuição
+============
 
 Informação relativa ao distribuidor e as alternativas para obtenção do recurso. Contém os seguintes elementos e sub‑elementos:
 
@@ -646,14 +617,7 @@ Informação relativa ao distribuidor e as alternativas para obtenção do recur
 | Formato de Distribuição | Sim      | Sim      | O objetivo deste elemento é dar a conhecer o(s) formato(s) em que o recurso se encontra disponível aos utilizadores. |
 | Nome do Formato         | Sim      | Não      | O acrónimo ou extensão por que é conhecido o formato deve, sempre que possível, constar no nome.
 | Versão                  | Sim      | Não      | Versão do formato, caso não se saiba pode colocar “Não aplicável” ou “Desconhecida”. 
-
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Tamanho do Ficheiro | Não      | Não      | Tamanho estimado de uma unidade no formato de transferência especificado, expressa em MegaBytes. |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Localizador do Recurso                                      | Condicional | Sim      | Informação relativa a fontes *online* a partir das quais pode se obter o recurso, mais informação, ou aceder ao serviço. |
 | URL                                                         | Condicional | Não      | Local para o acesso *online* via um endereço URL /URI ou esquema similar. Se não existir recomenda‑se preencher-se com um *link* para um ponto de contacto com mais informação sobre o descarregamento do recurso.  |
 | Função                                                      | Condi-cional | Não      | Define o tipo de recurso, a partir de uma lista. Não se aplica a Serviços.
@@ -688,7 +652,8 @@ Informação relativa ao distribuidor e as alternativas para obtenção do recur
 <img src="http://193.136.227.146/manual_images/100002010000001700000017FBA90A52D3565DE1.png" width="25"> Para remover o contacto.
 
 
-**Metadados**
+Metadados
+=========
 
 Informação relativa aos Metadados. Contém os seguintes elementos e sub‑elementos:
 
@@ -696,25 +661,9 @@ Informação relativa aos Metadados. Contém os seguintes elementos e sub‑elem
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
 | Identificador do Ficheiro | Sim      | Não      | Identificador único do Metadado. Recomenda-se a utilização de um UUID, pode usar o botão “Gerar UUID”. |
-
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Data dos Metadados | Sim      | Não      | Data de criação do metadado ou da última atualização. |
-
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Codificação | Condicional    | Não      | Define a codificação informática de caracteres utilizada no metadado. Preencha no caso de ser diferente de “utf8”. |
-
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Idioma   | Sim      | Não      | Idioma utilizado no documento de metadados. Por definição é “Português”, língua oficial do projeto SNIMar. |
-
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Norma e Perfil de Metadados | Sim      | Não      | Perfil de Metadados que define as especificações técnicas sobre as quais os Metadados são construídos.
 | Nome                        | Não      | Não      | Nome da norma de metadados utilizada. Por definição está fixo em “Perfil SNIMar”, perfil oficial do projeto SNIMar. |
 | Versão                      | Não      | Não      | Versão do perfil de metadados utilizado. Por definição está fixa na versão mais atual do perfil à data da versão do *plugin* “EditorMetadadosMarswInforbiomares”.
@@ -735,7 +684,6 @@ Informação relativa aos Metadados. Contém os seguintes elementos e sub‑elem
 | Informação *Online*                                                    | Não      | Não      | Informação *online * (endereço URL / URI) que pode ser usada como contacto individual ou institucional.
 
 
-
 **Este elemento disponibiliza as seguintes funcionalidades / botões**: 
 
 “Adicionar Contacto”, para adicionar um novo contacto. 
@@ -751,7 +699,6 @@ Anexo - Classificação dos Serviços
 ==================================
 
 As palavras-chave têm por base a taxonomia de serviços geográficos da norma EN ISO 19119. Esta taxonomia está organizada em categorias, com as subcategorias a definir o domínio de valores da classificação de serviços de dados geográficos.
-
 
 
 | **Código** | **Nome** | **Definição** |
