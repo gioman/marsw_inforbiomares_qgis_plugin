@@ -285,7 +285,7 @@ Informação de base necessária à identificação inequívoca de um dado recur
 
 | Elemento        | Obrig.* | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |                                                                             |
-| Objetivo | Não      | Não      | Resumo do propósito que conduziu ao desenvolvimento ou modificação do recurso. |
+| Objetivo          | Não     | Não      | Resumo do propósito que conduziu ao desenvolvimento ou modificação do recurso. |
 
 | Elemento        | Obrig.* | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
