@@ -107,7 +107,7 @@ O *plugin* **EditorMetadadosMarswInforbiomares** foi desenvolvido para operar no
 
 O *plugin* **EditorMetadadosMarswInforbiomares** ficará ativo e disponível no menu de ferramentas através do ícone 
 
-<img src="http://193.136.227.146/manual_images/100000000000004000000040A7A1CB042E5963C1.png" width="100">
+<img src="http://193.136.227.146/manual_images/100000000000004000000040A7A1CB042E5963C1.png" width="50">
 
 
 Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
@@ -203,9 +203,9 @@ restantes campos são opcionais mas aconselha-se o seu preenchimento.
 
 
 **Notas:** Alguns campos permitem a introdução de *múltiplos valores*, como é o caso do “Telefone”, “Fax”, “Endereço Eletrónico” e “Informação Online”. Para preencher estes campos deverá preencher o campo de texto posicionado em baixo da Lista respetiva a cada um deles (com textos exemplo) e premir o botão
-<img src="http://193.136.227.146/manual_images/100002010000019300000193BC9FD78E936508CD.png" width="100">.
+<img src="http://193.136.227.146/manual_images/100002010000019300000193BC9FD78E936508CD.png" width="50">.
 
-Para remover da Lista terá de selecionar a opção que pretende eliminar e primir o botão <img src="http://193.136.227.146/manual_images/10000201000001930000019328914E2E388B62C5.png" width="100">
+Para remover da Lista terá de selecionar a opção que pretende eliminar e primir o botão <img src="http://193.136.227.146/manual_images/10000201000001930000019328914E2E388B62C5.png" width="50">
 
 Edição de Metadados
 -------------------
