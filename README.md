@@ -295,10 +295,9 @@ Informação de base necessária à identificação inequívoca de um dado recur
 | Créditos | Não      | Sim      | Identificação dos indivíduos e/ou entidades que contribuíram para a produção do recurso. |
 | Manutenção do Recurso | Sim      | Sim      | Define a frequência com que o recurso é atualizado, a partir de uma lista. Se nenhuma das opções da lista for adequada, selecione "Conforme necessário". |
 | Identificador Único do Recurso | Sim      | Sim      | Pretende identificar de forma unívoca o recurso, é definido normalmente pela entidade responsável pelo mesmo. Pode conter múltiplos conjuntos dos seguintes 2 sub‑elementos. |
-<font size="-1">
-| Identificador                  | Sim      | Não      | Utilização de URI (exº http://www.igeo.pt/datasets/AU_CAOP_2011) ou UUID (exº 808c3be3-527a-451b-8611-0bcc1b8c21b0). |
+| <font size="-1">Identificador</font>                  | Sim      | Não      | Utilização de URI (exº http://www.igeo.pt/datasets/AU_CAOP_2011) ou UUID (exº 808c3be3-527a-451b-8611-0bcc1b8c21b0). |
 | Espaço de Nomes                | Não      | Não      | Define o âmbito de aplicação do código usado acima. |
-</font>   
+  
 
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
