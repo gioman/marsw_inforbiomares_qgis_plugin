@@ -1,6 +1,9 @@
 # Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
 
-{:toc}
+
+
+FICHA TÉCNICA E CONTACTOS
+=========================
 
 **FICHA TÉCNICA VERSÃO PARA QGIS 3.x**
 
@@ -58,7 +61,8 @@ Telefone: +351 213 004 165 | Fax: +351 213 905 225 | E-mail: info@emepc.mam.gov.
 
 
 
-**Intervenientes e parceiros:**
+Intervenientes e parceiros
+==========================
 
 <img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/MARSW-01.png" height="100">
 
@@ -147,7 +151,6 @@ Ao premir o ícone do **EditorMetadadosMarswInforbiomares** terá acesso a uma j
 **Nota**: Ao fazer duplo *click* em ficheiros da Lista estes são abertos como novos Separadores em modo de edição.
 
 
-
 Ambiente de Trabalho
 --------------------
 
@@ -162,7 +165,6 @@ Ao selecionar um documento de metadados da Lista e abrindo o *Menu de Contexto* 
 *   **Remover Metadado(s) da Lista**: remover o(s) documento(s) XML selecionado(s) da Lista;
 
 *   **Visualizar Metadado Externamente**: abrir o documento XML no *software* pré-definido para ficheiros XML.
-
 
 Na parte inferior da janela (lado direito) tem dois botões com as seguintes funcionalidades:
 
@@ -195,7 +197,6 @@ A partir do **Menu Principal** poderá:
 *   **Lista de Contactos**: gerir (adicionar / editar / remover) os contactos e respetivos detalhes usados frequentemente nos seus documentos de metadados.
 
 *   **Sobre** : abrir uma janela com informações sobre o *plugin* **EditorMetadadosMarswInforbiomares**.
-
 
 
 Gestão de Contactos
@@ -239,7 +240,6 @@ restantes campos são opcionais mas aconselha-se o seu preenchimento.
 Para remover da Lista terá de selecionar a opção que pretende eliminar e primir o botão <img src="http://193.136.227.146/manual_images/10000201000001930000019328914E2E388B62C5.png" width="25">.
 
 
-
 Edição de Metadados
 -------------------
 
@@ -267,7 +267,6 @@ A lista de secções é a seguinte:
 
 *   Metadados.
 
-
 Na parte lateral esquerda, onde são listadas as secções, terá indicações de validação da conformidade do preenchimento do metadado. As secções a vermelho estarão não conformes e as a preto conformes. Ao passar com o rato sobre cada secção a vermelho terá a indicação específica dos campos que não estão conformes.
 
 De igual forma os painéis na parte lateral direita também apresentam ajudas textuais para cada um dos campos (premir o botão de informação junto ao nome de cada campo) e indicações de validação. Os campos com “*” são de preenchimento obrigatório e enquanto não forem preenchidos corretamente encontram-se a vermelho.
@@ -279,7 +278,8 @@ Pode remover mais do que um de uma vez, para tal só terá de fazer uma multi‑
 Cada painel contém um conjunto de elementos e sub‑elementos a preencher. De seguida, descrevem-se cada um destes painéis, respetivos campos e sua obrigatoriedade (*) e multiplicidade de preenchimento.
 
 
-**Identificação**
+Identificação
+=============
 
 Informação de base necessária à identificação inequívoca de um dado recurso. Contém os seguintes elementos e sub‑elementos:
 
