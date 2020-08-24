@@ -1,5 +1,7 @@
 # Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
 
+##### Table of Contents  
+
 **FICHA TÉCNICA VERSÃO PARA QGIS 3.x**
 
 TÍTULO: Manual de Utilizador do Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
@@ -15,11 +17,11 @@ VERSÃO: 3.x
 
 **CONTACTOS VERSÃO PARA QGIS 3.x**
 
-Projecto MARSW
+Projecto **MARSW**
 
 Telefone: +351 289 800 051 | E-mail: jgoncal@ualg.pt
 
-Projecto INFORBIOMARES
+Projecto **INFORBIOMARES**
 
 Telefone: +351 289 800 051 | E-mail: ccmar@ualg.pt
 
@@ -55,6 +57,7 @@ Rua Costa Pinto nº165 | 2770-047 Paço de Arcos - Portugal
 Telefone: +351 213 004 165 | Fax: +351 213 905 225 | E-mail: info@emepc.mam.gov.pt
 
 
+
 **Intervenientes e parceiros:**
 
 <img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/MARSW-01.png" height="100">
@@ -64,6 +67,26 @@ Telefone: +351 213 004 165 | Fax: +351 213 905 225 | E-mail: info@emepc.mam.gov.
 <img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/ICNF-01.png" height="75">
 
 <img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/LPN-01.png" height="75">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/CCMAR_UAlg-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/MARE-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/UEvora-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/ULisboa_Fac_Ciencias-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/ualg_logo_transparent.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/UniaoEuropeia-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/Rep_Portuguesa-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/Portugal2020-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/POSEUR-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/Fundo%20Ambiental-01.png" height="50">
 
 
 
