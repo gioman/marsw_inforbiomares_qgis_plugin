@@ -312,7 +312,8 @@ Informação de base necessária à identificação inequívoca de um dado recur
 | Resolução Espacial                                                                                                          | Sim          | Sim      | Nível de detalhe do recurso, expresso como um fator de escala ou como uma distância no terreno.Pode conter múltiplos valores dos seus sub‑elementos. Caso se desconheça este elemento e, sendo que é obrigatório, selecione a *checkbox * “Resolução Espacial Desconhecida”. |
 | Escala Equivalente  | Condicional      | Sim      | Para um recurso em formato analógico ou conjuntos digitais para impressão é a escala de representação. No caso de recursos digitais a escala deverá corresponder a um compromisso entre a resolução espacial (da informação matricial de origem) e/ou erro do levantamento (precisão dos equipamentos de aquisição utilizados) e o erro de graficismo convertido à escala da carta que se pretende imprimir. |
 | Distância                                                                                                                   | Condicional | Sim      | Nível de detalhe dos dados expresso em GSD (*Ground Sample Distance*). Para conjuntos de dados vetoriais que não têm uma escala associada ou não são produzidos para serem disponibilizados em formato analógico, pode-se usar este elemento para descrever a precisão estimada na aquisição dos dados. Expressa em metros. |
-| **Notas**: Este elemento é obrigatório apenas para CDG e Séries. Para dados vetoriais utiliza-se normalmente a escala (denominador), para dados matriciais a distância no terreno em metros. |
+
+**Notas**: Este elemento é obrigatório apenas para CDG e Séries. Para dados vetoriais utiliza-se normalmente a escala (denominador), para dados matriciais a distância no terreno em metros.
 
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
@@ -352,7 +353,16 @@ Informação de base necessária à identificação inequívoca de um dado recur
 | Fax                                                                    | Não      | Sim      | Número(s) de fax da organização ou indivíduo. |
 | Endereço Eletrónico                                                    | Sim      | Sim      | Endereço(s) Eletrónico(s) da organização ou indivíduo. |
 | Informação                                                             | Não      | Não      | Informação *Online* (endereço URL / URI) que pode ser usada como contacto individual ou institucional. |
-| **Este elemento disponibiliza as seguintes funcionalidades / botões**: “Adicionar Contacto”, para adicionar um novo contacto. <img src="http://193.136.227.146/manual_images/100002010000002000000020A3F87039BE9D0D7E.png" width="25"> Para importar um contacto da sua Lista de Contactos para o formulário. <img src="http://193.136.227.146/manual_images/10000201000001B7000001B78F0FC5D379C32E50.png" width="25"> Para guardar o contacto na sua Lista de Contactos. <img src="http://193.136.227.146/manual_images/100002010000001700000017FBA90A52D3565DE1.png" width="25"> Para remover o contacto.  |
+
+**Este elemento disponibiliza as seguintes funcionalidades / botões**: 
+
+“Adicionar Contacto”, para adicionar um novo contacto. 
+
+<img src="http://193.136.227.146/manual_images/100002010000002000000020A3F87039BE9D0D7E.png" width="25"> Para importar um contacto da sua Lista de Contactos para o formulário. 
+
+<img src="http://193.136.227.146/manual_images/10000201000001B7000001B78F0FC5D379C32E50.png" width="25"> Para guardar o contacto na sua Lista de Contactos. 
+
+<img src="http://193.136.227.146/manual_images/100002010000001700000017FBA90A52D3565DE1.png" width="25"> Para remover o contacto.
 
 
 **Operações**
@@ -368,7 +378,7 @@ Informação sobre todas as operações disponibilizadas por um Serviço, logo s
 | Pontos de Acesso (URI/URL)        | Sim      | Sim      | Ponto de acesso. URL que acede ao documento. O preenchimento deste sub‑elemento, não substitui o preenchimento do Localizador do Recurso referido no Painel “Distribuição”. |
 
 
-Exemplos de *Nomes de Operação WMS*:
+**Exemplos de Nomes de Operação WMS**:
 
 *   GetCapabilities;
 
@@ -382,7 +392,7 @@ Exemplos de *Nomes de Operação WMS*:
 
 
 
-    Exemplos de *Nomes de Operação WFS*:
+**Exemplos de Nomes de Operação WFS**:
 
 *   GetCapabilities;
 
@@ -410,7 +420,7 @@ Exemplos de *Nomes de Operação WMS*:
 
 
 
-    Exemplos de*Nomes de Operação WCS*:
+**Exemplos de Nomes de Operação WCS**:
 
 *   GetCapabilities;
 
@@ -422,7 +432,6 @@ Exemplos de *Nomes de Operação WMS*:
 **Classificação & Palavras-Chave**
 
 Informação geral que categoriza e descreve um dado recurso. Contém os seguintes elementos e sub‑elementos:
-
 
 
 | Elemento        | Obrigatório | Múltiplo | Definição |
@@ -460,97 +469,58 @@ Informação geral que categoriza e descreve um dado recurso. Contém os seguint
 
 **Notas**: Deve ser escolhida obrigatoriamente pelo menos uma palavra-chave para o tipo “Disciplina” e pelo menos uma palavra-chave para o tipo “Parâmetro”. Caso o recurso tenha sido criado no contexto de um projeto, é obrigatório inserir uma palavra-chave com o nome do projeto e usar o tipo de palavra ‘Projeto’. Recomenda-se a inserção de palavras dos restantes grupos de palavras provenientes do Thesaurus SNIMar, a partir da lista do Thesaurus com a versão mais recente. Para criar novas palavras-chave SNIMar deverá fazê-lo a partir da plataforma **Collaborative Keywords**, aceda diretamente premindo o ícone 
 
-<img src="http://193.136.227.146/manual_images/10000201000001BD0000009E16A6984AEFE1D85F.png" width="50">
+<img src="http://193.136.227.146/manual_images/10000201000001BD0000009E16A6984AEFE1D85F.png" width="200">
 
 Para adicionar palavras-chave SNIMar prima o botão “Adicionar Palavra-Chave SNIMar”. Ao executar esta ação é aberta uma janela (figura seguinte) de onde deverá selecionar de início o “Tipo de Palavra-Chave” da lista disponível. Ao selecionar um Tipo de Palavra-Chave é apresentada na parte lateral direita a lista de palavras-chave relacionadas com esse Tipo. Poderá selecionar múltiplas palavras-chave para acrescentar ao documento acionando os *checkboxes* respetivos. No caso particular do Tipo de Palavra-Chave “Disciplina” após selecionar uma ou mais disciplinas deverá também selecionar um ou mais parâmetros, apresentados na parte lateral mais à direita (à medida que vai selecionando disciplinas). Apósacionar as palavras-chave pretendidas deve premir o botão “Adicionar Selecionadas”.
 
 <img src="http://193.136.227.146/manual_images/10000000000003A00000027449993894749EB3FE.png">
 
-Informação Geográfica
-~~~~~~~~~~~~~~~~~~~~~
+
+**Informação Geográfica**
 
 Informação sobre os Sistemas de Referência de Coordenadas e sobre a extensão espacial geográfica e altimétrica do recurso. Contém os seguintes elementos e sub‑elementos:
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Elemento                                                                                                                                                                                       | Obrig. * | Múltiplo | Definição                                                                                                             |
-|                                                                                                                                                                                                |          |          |                                                                                                                       |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Localização Geográfica                                                                                                                                                                         | Sim      | Sim      | Informação sobre a extensão geográfica do recurso. Pode conter múltiplos conjuntos dos seguintes sub‑elementos.       |
-| ^^^^^^^^^^^^^^^^^^^^^^                                                                                                                                                                         |          |          |                                                                                                                       |
-|                                                                                                                                                                                                |          |          |                                                                                                                       |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Limite Oeste                                                                                                                                                                                   | Sim      | Não      | Coordenada ocidental do limite da extensão do recurso, expressa em longitude utilizando graus decimais.               |
-|                                                                                                                                                                                                |          |          |                                                                                                                       |
-|                                                                                                                                                                                                |          |          | Coordenada geográfica aproximada a pelo menos 2 casas decimais, posicionado entre o seguinte intervalo: [-180, 180].  |
-|                                                                                                                                                                                                |          |          |                                                                                                                       |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Limite Este                                                                                                                                                                                    | Sim      | Não      | Coordenada oriental do limite da extensão do recurso, expressa em longitude utilizando graus decimais.                |
-|                                                                                                                                                                                                |          |          |                                                                                                                       |
-|                                                                                                                                                                                                |          |          | Coordenada geográfica aproximada a pelo menos 2 casas decimais, posicionado entre o seguinte intervalo: [-180, 180].  |
-|                                                                                                                                                                                                |          |          |                                                                                                                       |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Limite Norte                                                                                                                                                                                   | Sim      | Não      | Coordenada setentrional do limite da extensão do recurso, expressa em latitude utilizando graus decimais.             |
-|                                                                                                                                                                                                |          |          |                                                                                                                       |
-|                                                                                                                                                                                                |          |          | Coordenada geográfica aproximada a pelo menos 2 casas decimais, posicionado entre o seguinte intervalo: [-90, 90].    |
-|                                                                                                                                                                                                |          |          |                                                                                                                       |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Limite Sul                                                                                                                                                                                     | Sim      | Não      | Coordenada meridional do limite da extensão do recurso, expressa em latitude utilizando graus decimais.               |
-|                                                                                                                                                                                                |          |          |                                                                                                                       |
-|                                                                                                                                                                                                |          |          | Coordenada geográfica aproximada a pelo menos 2 casas decimais, posicionado entre o seguinte intervalo: [-90, 90].    |
-|                                                                                                                                                                                                |          |          |                                                                                                                       |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| Contém Recurso                                                                                                                                                                                 | Sim      | Não      | Indica se o retângulo delimitador abrange uma área coberta pelos dados ou uma área onde os dados não estão presentes. |
-|                                                                                                                                                                                                |          |          |                                                                                                                       |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------------+
-| **Notas**                                                                                                                                                                                                                                                                                                                                    |
-| : Para adicionar uma nova extensão geográfica pode fazê-lo de duas formas:                                                                                                                                                                                                                                                                   |
-|                                                                                                                                                                                                                                                                                                                                              |
-| *Manualmente*                                                                                                                                                                                                                                                                                                                                |
-| – prima o botão “Adicionar Localização”, é então aberta uma janela onde poderá definir os limites nos campos correspondentes e adicioná-los ao metadados premindo o botão “Adicionar”.                                                                                                                                                       |
-|                                                                                                                                                                                                                                                                                                                                              |
-| *No Mapa*                                                                                                                                                                                                                                                                                                                                    |
-| – prima o botão                                                                                                                                                                                                                                                                                                                              |
-| |100016320000327000003270A22C429A68005E8D_svg|                                                                                                                                                                                                                                                                                               |
-| |10000201000001E8000001E8CCDB88B34D87F801_png|                                                                                                                                                                                                                                                                                               |
-| é então aberta uma janela (figura na página seguinte) onde poderá desenhar um retângulo que represente os limites.                                                                                                                                                                                                                           |
-|                                                                                                                                                                                                                                                                                                                                              |
-| A janela apresenta uma barra de ferramentas de onde pode:                                                                                                                                                                                                                                                                                    |
-|                                                                                                                                                                                                                                                                                                                                              |
-| |100016320000327000003270A22C429A68005E8D_svg|                                                                                                                                                                                                                                                                                               |
-| |10000201000001E8000001E8CCDB88B34D87F801_png|                                                                                                                                                                                                                                                                                               |
-| afastar a visão do mapa à totalidade do globo                                                                                                                                                                                                                                                                                                |
-|                                                                                                                                                                                                                                                                                                                                              |
-| |10000544000046A9000046A9C576A73C6EFC279A_svg|                                                                                                                                                                                                                                                                                               |
-| |10000201000002AC000002AC93F9F67F6B63BBC7_png|                                                                                                                                                                                                                                                                                               |
-| mover o mapa                                                                                                                                                                                                                                                                                                                                 |
-|                                                                                                                                                                                                                                                                                                                                              |
-| |100005EF0000178100001781273D089BC013EA25_svg|                                                                                                                                                                                                                                                                                               |
-| |10000201000000E3000000E3D57FEACA303168F9_png|                                                                                                                                                                                                                                                                                               |
-| aproximar a visão do mapa                                                                                                                                                                                                                                                                                                                    |
-|                                                                                                                                                                                                                                                                                                                                              |
-| |1000055D000017810000178195ACBD3347489439_svg|                                                                                                                                                                                                                                                                                               |
-| |10000201000000E3000000E3A255E6F26DADD695_png|                                                                                                                                                                                                                                                                                               |
-| afastar a visão do mapa                                                                                                                                                                                                                                                                                                                      |
-|                                                                                                                                                                                                                                                                                                                                              |
-| |1000050E00002ADA00002ADA3CBB09F56AF59D9E_svg|                                                                                                                                                                                                                                                                                               |
-| |100002010000019F0000019F2E58215D7D78FD03_png|                                                                                                                                                                                                                                                                                               |
-| desenhar o retângulo - ao desenhar as coordenadas dos limites os campos respetivos na parte inferior da janela são atualizados. Para adicionar o limite ao metadado prima o botão “Adicionar”.                                                                                                                                               |
-|                                                                                                                                                                                                                                                                                                                                              |
-| |100002010000001C0000001A19ADBB8A5C169711_png|                                                                                                                                                                                                                                                                                               |
-| obter de camada – permite carregar para os campos do formulário a extensão geográfica de um conjunto de dados geográficos carregado no mapa.                                                                                                                                                                                                 |
-|                                                                                                                                                                                                                                                                                                                                              |
-|                                                                                                                                                                                                                                                                                                                                              |
-| Poderá ainda consultar no mapa uma extensão geográfica presente na tabela de limites, para tal basta selecionar a linha em questão e premir o botão                                                                                                                                                                                          |
-| |100016320000327000003270A22C429A68005E8D_svg|                                                                                                                                                                                                                                                                                               |
-| |10000201000001E8000001E8CCDB88B34D87F801_png|                                                                                                                                                                                                                                                                                               |
-| . Se desejar alterar estes limites via o mapa só terá de a desenhar e premir o botão “Alterar”.                                                                                                                                                                                                                                              |
-|                                                                                                                                                                                                                                                                                                                                              |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
+| Localização Geográfica    | Sim      | Sim      | Informação sobre a extensão geográfica do recurso. Pode conter múltiplos conjuntos dos seguintes sub‑elementos.
+| Limite Oeste    | Sim      | Não      | Coordenada ocidental do limite da extensão do recurso, expressa em longitude utilizando graus decimais. Coordenada geográfica aproximada a pelo menos 2 casas decimais, posicionado entre o seguinte intervalo: [-180, 180].  |
+| Limite Este     | Sim      | Não      | Coordenada oriental do limite da extensão do recurso, expressa em longitude utilizando graus decimais. Coordenada geográfica aproximada a pelo menos 2 casas decimais, posicionado entre o seguinte intervalo: [-180, 180].  |
+| Limite Norte    | Sim      | Não      | Coordenada setentrional do limite da extensão do recurso, expressa em latitude utilizando graus decimais.Coordenada geográfica aproximada a pelo menos 2 casas decimais, posicionado entre o seguinte intervalo: [-90, 90].    |
+| Limite Sul      | Sim      | Não      | Coordenada meridional do limite da extensão do recurso, expressa em latitude utilizando graus decimais. Coordenada geográfica aproximada a pelo menos 2 casas decimais, posicionado entre o seguinte intervalo: [-90, 90].    |
+| Contém Recurso  | Sim      | Não      | Indica se o retângulo delimitador abrange uma área coberta pelos dados ou uma área onde os dados não estão presentes. |
+
+**Para adicionar uma nova extensão geográfica pode fazê-lo de duas formas**:
+
+*Manualmente*:
+
+– prima o botão “Adicionar Localização”, é então aberta uma janela onde poderá definir os limites nos campos correspondentes e adicioná-los ao metadados premindo o botão “Adicionar”.                                                                                                                                                      
+
+*No Mapa*:
+
+– prima o botão                                                                                                                                                                                                                                                                                                                              
+
+<img src="http://193.136.227.146/manual_images/10000201000001E8000001E8CCDB88B34D87F801.png" width="25">
+
+é então aberta uma janela onde poderá desenhar um retângulo que represente os limites. A janela apresenta uma barra de ferramentas de onde pode:                                                                                                                                                                                                                                                                                    
+
+<img src="http://193.136.227.146/manual_images/10000201000001E8000001E8CCDB88B34D87F801.png" width="25"> afastar a visão do mapa à totalidade do globo                                                                                                                                                                                                                                                                                                
+
+<img src="http://193.136.227.146/manual_images/10000201000002AC000002AC93F9F67F6B63BBC7.png" width="25"> mover o mapa                                                                                                                                                                                                                                                                                                                                 
+
+<img src="http://193.136.227.146/manual_images/10000201000000E3000000E3D57FEACA303168F9.png" width="25"> aproximar a visão do mapa                                                                                                                                                                                                                                                                                                                    
+
+<img src="http://193.136.227.146/manual_images/10000201000000E3000000E3A255E6F26DADD695.png" width="25"> afastar a visão do mapa                                                                                                                                                                                                                                                                                                                      
+
+<img src="http://193.136.227.146/manual_images/100002010000019F0000019F2E58215D7D78FD03.png" width="25"> desenhar o retângulo - ao desenhar as coordenadas dos limites os campos respetivos na parte inferior da janela são atualizados. Para adicionar o limite ao metadado prima o botão “Adicionar”.                                                                                                                                               
+
+<img src="http://193.136.227.146/manual_images/100002010000001C0000001A19ADBB8A5C169711.png" width="25"> obter de camada – permite carregar para os campos do formulário a extensão geográfica de um conjunto de dados geográficos carregado no mapa.                                                                                                                                                                                                 
+
+Poderá ainda consultar no mapa uma extensão geográfica presente na tabela de limites, para tal basta selecionar a linha em questão e premir o botão <img src="http://193.136.227.146/manual_images/10000201000001E8000001E8CCDB88B34D87F801.png" width="25">. Se desejar alterar estes limites via o mapa só terá de a desenhar e premir o botão “Alterar”.
 
 
-|100002010000032000000242921984300E64B038_png|
-|100002010000032000000242921984300E64B038_png|
+<img src="http://193.136.227.146/manual_images/100002010000032000000242921984300E64B038.png">
+
 
 +--------------------------+----------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Elemento                 | Obrig. * | Múltiplo | Definição                                                                                                                                             |
