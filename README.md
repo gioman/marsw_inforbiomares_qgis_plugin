@@ -107,26 +107,16 @@ O *plugin* **EditorMetadadosMarswInforbiomares** foi desenvolvido para operar no
 
 O *plugin* **EditorMetadadosMarswInforbiomares** ficará ativo e disponível no menu de ferramentas através do ícone 
 
-<img src="http://193.136.227.146/manual_images/100000000000004000000040A7A1CB042E5963C1.png">
+<img src="http://193.136.227.146/manual_images/100000000000004000000040A7A1CB042E5963C1.png" width="100">
 
 
 Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
 ===============================================================================
 
-Ao premir o ícone do
-**EditorMetadadosMarswInforbiomares**
-terá acesso a uma janela que, para além de um Menu Principal, terá um
-Separador
-com o seu ambiente de trabalho (Lista de Ficheiros), ou seja, uma Lista dos documentos de metadados (ficheiros XML
-) trabalhados a partir deste Editor. Atenção que enquanto não criar novos metadados ou abrir outros já existentes, a partir do editor, esta Lista aparecerá vazia no seu ambiente de trabalho.
+Ao premir o ícone do **EditorMetadadosMarswInforbiomares** terá acesso a uma janela que, para além de um Menu Principal, terá um Separador com o seu ambiente de trabalho (Lista de Ficheiros), ou seja, uma Lista dos documentos de metadados (ficheiros XML) trabalhados a partir deste Editor. Atenção que enquanto não criar novos metadados ou abrir outros já existentes, a partir do editor, esta Lista aparecerá vazia no seu ambiente de trabalho.
 
 
-**Nota**
-: Ao fazer duplo
-*click*
-em ficheiros da Lista estes são abertos como novos
-Separadores
-em modo de edição.
+**Nota**: Ao fazer duplo *click* em ficheiros da Lista estes são abertos como novos Separadores em modo de edição.
 
 Ambiente de Trabalho
 --------------------
@@ -149,8 +139,6 @@ Na parte inferior da janela (lado direito) tem dois botões com as seguintes fun
 *   **Verificar Conformidade (Todos)**: validar todos os documentos da Lista quanto à sua conformidade com o Perfil SNIMar. Esta ação pode demorar consoante o número de itens na Lista, pode a qualquer momento terminar o processo premindo o botão “Cancelar” da janela de progresso.
 
 *   **Apagar Lista de Ficheiros**: remover todos os documentos XML da Lista (apenas).
-
-
 
 Na parte inferior da janela (lado esquerdo) poderá ainda consultar qual a última *versão do Thesaurus SNIMar* carregada no *plugin* e poderá descarregar novas atualizações, se existirem, premindo o botão “Atualizar”.
 
@@ -187,7 +175,7 @@ Ao selecionar a opção “Lista de Contactos” do Menu Principal abrirá uma j
 Ao criar um novo contacto deverá preencher obrigatoriamente os campos “Nome da Organização” e “Endereço Eletrónico” (pelo menos um), os
 restantes campos são opcionais mas aconselha-se o seu preenchimento.
 
-Criar um Novo Contacto
+**Criar um Novo Contacto**
 
 *   prima o botão “Novo”;
 
@@ -196,8 +184,7 @@ Criar um Novo Contacto
 *   prima o botão “Guardar Alterações”.
 
 
-
-Editar um Contacto
+**Editar um Contacto**
 
 *   selecione da Lista o contacto em questão;
 
@@ -206,7 +193,7 @@ Editar um Contacto
 *   prima o botão “Guardar Alterações”.
 
 
-Apagar um Contacto
+**Apagar um Contacto**
 
 *   selecione da Lista o contacto em questão;
 
@@ -215,18 +202,10 @@ Apagar um Contacto
 *   Receberá uma mensagem a pedir confirmação da eliminação do contacto dado que é uma operação irreversível. Para confirmar a eliminação prima o botão “Remover”.
 
 
+**Notas:** Alguns campos permitem a introdução de *múltiplos valores*, como é o caso do “Telefone”, “Fax”, “Endereço Eletrónico” e “Informação Online”. Para preencher estes campos deverá preencher o campo de texto posicionado em baixo da Lista respetiva a cada um deles (com textos exemplo) e premir o botão
+<img src="http://193.136.227.146/manual_images/100002010000019300000193BC9FD78E936508CD.png" width="100">.
 
-**Notas: **
-Alguns campos permitem a introdução de
-*múltiplos valores*
-, como é o caso do “Telefone”, “Fax”, “Endereço Eletrónico” e “Informação Online”. Para preencher estes campos deverá preencher o campo de texto posicionado em baixo da Lista respetiva a cada um deles (com textos exemplo) e premir o botão
-|10000579000029A7000029A7953875AF1C0808FC_svg|
-|100002010000019300000193BC9FD78E936508CD_png|
-.
-
-Para remover da Lista terá de selecionar a opção que pretende eliminar e primir o botão
-|1000041B000029A6000029A63B246D96BFBDD93A_svg|
-|10000201000001930000019328914E2E388B62C5_png|
+Para remover da Lista terá de selecionar a opção que pretende eliminar e primir o botão <img src="http://193.136.227.146/manual_images/10000201000001930000019328914E2E388B62C5.png" width="100">
 
 Edição de Metadados
 -------------------
