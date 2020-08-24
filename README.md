@@ -18,7 +18,7 @@ VERSÃO: 3.x
 
 Projecto MARSW
 
-Telefone: +351289800051
+Telefone: +351 289 800 051
 
 E-mail: jgoncal@ualg.pt
 
@@ -31,7 +31,7 @@ E-mail: ccmar@ualg.pt
 
 **FICHA TÉCNICA ORIGINAL**
 
-TÍTULO: Manual de Utilizador / Instalação do Editor de Metadados SNIMar
+TÍTULO: Manual de Utilizador/Instalação do Editor de Metadados SNIMar
 
 AUTORIA: Grupo de Trabalho WP4 SNIMar
 
@@ -65,7 +65,7 @@ Introdução
 ==========
 
 O “**Plugin para criação e edição de metadados segundo o perfil SNIMar**”
-é o "*porting*" para a versão 3.x do *software* SIG “QGIS” do editor de Metadados desenvolvido no âmbito do Projecto SNIMar com o objectivo de ser a ferramenta destinada à criação dos metadados em conformidade com o Perfil de Metadados SNIMar. **O trabalho de migração do código para QGIS 3.x foi realizado no âmbito dos projectos MARSW e INFORBIOMARES**.
+é o "*porting*" para a versão 3.x do *software* SIG QGIS (https://www.qgis.org) do editor de Metadados desenvolvido no âmbito do Projecto SNIMar com o objectivo de ser a ferramenta destinada à criação dos metadados em conformidade com o Perfil de Metadados SNIMar. **O trabalho de migração do código para QGIS 3.x foi realizado no âmbito dos projectos MARSW e INFORBIOMARES**.
 
 **Editor de Metadados SNIMar**
 foi desenvolvido no âmbito do Projeto SNIMar (http://editor.snimar.pt/)  com o objetivo de ser a ferramenta destinada à criação de metadados em conformidade com o Perfil de Metadados SNIMar. O Editor consiste num *plugin* para a aplicação QGIS, permitindo que a criação de metadados seja feita em paralelo e em simultâneo com a criação e edição de Conjuntos de Dados Geográficos (CDG).
@@ -81,84 +81,29 @@ Diretiva INSPIRE (Diretiva n.º 2007/2/CE, do Parlamento Europeu e do Conselho, 
 Instalação
 ==========
 
-O
-*plugin *
-**EditorMetadadosMarswInforbiomares**
-* *
-foi desenvolvido para operar nos sistemas operativos Linux, Windows
-e macOS
-e pode ser instalado na aplicação QGIS da seguinte forma:
+O *plugin* **EditorMetadadosMarswInforbiomares** foi desenvolvido para operar nos sistemas operativos Linux, Windows e macOS e pode ser instalado na aplicação QGIS da seguinte forma:
 
+*   Abrir a aplicação QGIS, recomenda-se a utilização da versão 3.10
 
-*   Abrir a aplicação QGIS,
-    recomenda-se a utilização d
-    a versão 3.10
+*   No Menu Principal selecionar **Módulos > Gerir e Instalar Módulos**
 
-
-
-*   No Menu Principal selecionar
-    **Módulos > Gerir e Instalar Módulos**
-    .
-
-
-
-*   Selecionar o separador
-    **Configurações**
-    .
-
-
+*   Selecionar o separador **Configurações**
 
 *   Adicionar um novo repositório de módulos, premindo o botão “Adicionar...”, e preencher os campos do formulário com os seguintes parâmetros:
 
-    *   *Nome*
-        : Editor Metadados Marsw/Inforbiomares
+    *   *Nome*: Editor Metadados MarSW/Inforbiomares
+    
+    *   *URL*: https://marsw.ualg.pt/static/qgis/editormetadadosmarswinforbiomares.xml
 
+    *   *Parâmetros*: manter pré-definições
+    
+    *   *Ativado*: manter pré-definições
 
+*   Fazer “Ok” e atualizar os repositórios premindo o botão “Atualizar todos os repositórios”.
 
-    *   *URL*
-        :
-        `https://marsw.ualg.pt/static/qgis/editormetadadosmarswinforbiomares.xml <https://marsw.ualg.pt/static/qgis/editormetadadosmarswinforbiomares.xml>`_
+*   Selecionar o separador **Não instalado** e pesquisar por “MarSW” ou “Inforbiomares” ou “SNIMar”
 
+*   Instalar p *plugin* através do botão “Instalar módulo”
 
+O *plugin* **EditorMetadadosMarswInforbiomares** ficará ativo e disponível no menu de ferramentas através do ícone <img src="http://193.136.227.146/manual_images/100000000000004000000040A7A1CB042E5963C1.png">
 
-
-    *   *Parâmetros*
-        : manter pré-definições
-
-
-
-    *   *Ativado*
-        : manter pré-definições
-
-
-
-
-
-*   Fazer “Ok” e a
-    tualizar os repositórios premindo o botão “Atualizar todos os repositórios”.
-
-
-
-*   Selecionar o separador
-    **Não instalado**
-    e
-    pesquisar por “
-    MarSW” ou “Inforbiomares” ou
-    “SNIMar”
-
-
-
-*   Instalar o
-    *p*
-    lugin
-    através do botão
-    “Instalar módulo”.
-
-
-
-O
-*plugin*
-
-**EditorMetadadosMarswInforbiomares**
-ficará ativo e disponível no menu de ferramentas
-através do ícone
