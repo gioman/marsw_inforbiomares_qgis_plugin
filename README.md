@@ -334,7 +334,7 @@ Informação de base necessária à identificação inequívoca de um dado recur
 
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
-| Responsáveis pelo Recurso / ou organização responsável pelo recurso- Pode conter múltiplos conjuntos dos seguintes sub‑elementos. | 
+| Responsáveis pelo Recurso / ou organização responsável pelo recurso- Pode conter múltiplos conjuntos dos seguintes sub‑elementos.  | Não      | Sim      | Informações necessárias para permitir o contacto com a pessoa e / ou organização responsável pelo recurso. Pode conter múltiplos conjuntos dos seguintes sub‑elementos. |
 | Função                                                                 | Não      | Não      | Função desempenhada pela organização responsável, a partir de uma lista: Autor (entidade responsável pela autoria dos recursos); Contacto (entidade / pessoa contactável para obtenção dos recursos ou de informação sobre os recursos); Contacto do Processo (entidade / pessoa que participou em algum processo conducente à modificação dos recursos); Detentor (entidade detentora dos direitos de propriedade sobre os recursos); Editor (entidade que publicou os recursos); Fornecedor (entidade que fornece os recursos); Investigador Principal (entidade de nível hierárquico superior responsável pela recolha da informação e orientação da investigação); Produtor (entidade produtora dos recursos); Tutor (entidade responsável pela tutela dos dados e pela manutenção dos recursos); Utilizador (entidade que utilizada os recursos). |
 | Nome                                                                   | Não      | Não      | Nome da pessoa responsável.  |
 | Organização                                                            | Sim      | Não      | Nome da organização responsável. Poderá selecionar de uma Lista de valores ou preencher de forma livre no campo “Outra (não listada)” |
@@ -346,8 +346,7 @@ Informação de base necessária à identificação inequívoca de um dado recur
 | Fax                                                                    | Não      | Sim      | Número(s) de fax da organização ou indivíduo. |
 | Endereço Eletrónico                                                    | Sim      | Sim      | Endereço(s) Eletrónico(s) da organização ou indivíduo. |
 | Informação                                                             | Não      | Não      | Informação *Online* (endereço URL / URI) que pode ser usada como contacto individual ou institucional. |
-| **Este elemento disponibiliza as seguintes funcionalidades / botões**: “Adicionar Contacto”, para adicionar um novo contacto.
-<img src="http://193.136.227.146/manual_images/100002010000002000000020A3F87039BE9D0D7E.png" width="25"> Para importar um contacto da sua Lista de Contactos para o formulário. <img src="http://193.136.227.146/manual_images/10000201000001B7000001B78F0FC5D379C32E50.png" width="25"> Para guardar o contacto na sua Lista de Contactos. <img src="http://193.136.227.146/manual_images/100002010000001700000017FBA90A52D3565DE1.png" width="25"> Para remover o contacto.  |
+| **Este elemento disponibiliza as seguintes funcionalidades / botões**: “Adicionar Contacto”, para adicionar um novo contacto. <img src="http://193.136.227.146/manual_images/100002010000002000000020A3F87039BE9D0D7E.png" width="25"> Para importar um contacto da sua Lista de Contactos para o formulário. <img src="http://193.136.227.146/manual_images/10000201000001B7000001B78F0FC5D379C32E50.png" width="25"> Para guardar o contacto na sua Lista de Contactos. <img src="http://193.136.227.146/manual_images/100002010000001700000017FBA90A52D3565DE1.png" width="25"> Para remover o contacto.  |
 
 
 
