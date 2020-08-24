@@ -1,6 +1,5 @@
 # Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
 
-
 **FICHA TÉCNICA VERSÃO PARA QGIS 3.x**
 
 TÍTULO: Manual de Utilizador do Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
@@ -78,6 +77,7 @@ O Perfil de Metadados SNIMar, definido no âmbito do referido projeto, respeita 
 Diretiva INSPIRE (Diretiva n.º 2007/2/CE, do Parlamento Europeu e do Conselho, de 14 de março) e as respetivas disposições de execução definidas no Regulamento (CE) n.º 1205/2008 da Comissão, de 3 de dezembro, que estabelece os requisitos aplicáveis à criação e manutenção de metadados para conjuntos de dados geográficos (CDG), séries de conjuntos de dados geográficos e serviços de dados geográficos correspondentes aos temas enumerados nos anexos I, II e III da Diretiva 2007/2/CE. É também importante realçar que o Perfil de Metadados SNIMar teve por base o Perfil Nacional de Metadados de Informação Geográfica (Perfil MIG), que “tem como objetivo principal clarificar aspetos ligados à implementação da produção, gestão e disseminação dos metadados em Portugal, de forma a assegurar a correta caracterização dos recursos geográficos e a sua harmonização com a infraestrutura de informação geográfica portuguesa (SNIG) e europeia (INSPIRE).” [Perfil MIG, 2010], ajustando-se este perfil à realidade nacional dos dados relativos ao ambiente marinho.
 
 
+
 Instalação
 ==========
 
@@ -108,13 +108,15 @@ O *plugin* **EditorMetadadosMarswInforbiomares** foi desenvolvido para operar no
 O *plugin* **EditorMetadadosMarswInforbiomares** ficará ativo e disponível no menu de ferramentas através do ícone <img src="http://193.136.227.146/manual_images/100000000000004000000040A7A1CB042E5963C1.png" width="25">
 
 
+
 Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
 ===============================================================================
 
 Ao premir o ícone do **EditorMetadadosMarswInforbiomares** terá acesso a uma janela que, para além de um Menu Principal, terá um Separador com o seu ambiente de trabalho (Lista de Ficheiros), ou seja, uma Lista dos documentos de metadados (ficheiros XML) trabalhados a partir deste Editor. Atenção que enquanto não criar novos metadados ou abrir outros já existentes, a partir do editor, esta Lista aparecerá vazia no seu ambiente de trabalho.
 
-
 **Nota**: Ao fazer duplo *click* em ficheiros da Lista estes são abertos como novos Separadores em modo de edição.
+
+
 
 Ambiente de Trabalho
 --------------------
@@ -165,6 +167,7 @@ A partir do **Menu Principal** poderá:
 *   **Sobre** : abrir uma janela com informações sobre o *plugin* **EditorMetadadosMarswInforbiomares**.
 
 
+
 Gestão de Contactos
 -------------------
 
@@ -205,6 +208,8 @@ restantes campos são opcionais mas aconselha-se o seu preenchimento.
 
 Para remover da Lista terá de selecionar a opção que pretende eliminar e primir o botão <img src="http://193.136.227.146/manual_images/10000201000001930000019328914E2E388B62C5.png" width="25">.
 
+
+
 Edição de Metadados
 -------------------
 
@@ -242,6 +247,7 @@ Alguns campos permitem a introdução de *múltiplos valores*, para os adicionar
 Pode remover mais do que um de uma vez, para tal só terá de fazer uma multi‑seleção de opções (CTRL+*click*) antes de premir o botão de eliminar. Alguns campos do tipo Lista de Valores têm para cada opção da lista uma ajuda textual, para as visualizar basta posicionar o rato sobre as opção da lista.
 
 Cada painel contém um conjunto de elementos e sub‑elementos a preencher. De seguida, descrevem-se cada um destes painéis, respetivos campos e sua obrigatoriedade (*) e multiplicidade de preenchimento.
+
 
 **Identificação**
 
@@ -334,7 +340,7 @@ Informação de base necessária à identificação inequívoca de um dado recur
 
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
-| Responsáveis pelo Recurso / ou organização responsável pelo recurso- Pode conter múltiplos conjuntos dos seguintes sub‑elementos.  | Não      | Sim      | Informações necessárias para permitir o contacto com a pessoa e / ou organização responsável pelo recurso. Pode conter múltiplos conjuntos dos seguintes sub‑elementos. |
+| Responsáveis pelo Recurso / ou organização responsável pelo recurso- Pode conter múltiplos conjuntos dos seguintes sub‑elementos.  | Sim      | Sim      | Informações necessárias para permitir o contacto com a pessoa e / ou organização responsável pelo recurso. Pode conter múltiplos conjuntos dos seguintes sub‑elementos. |
 | Função                                                                 | Não      | Não      | Função desempenhada pela organização responsável, a partir de uma lista: Autor (entidade responsável pela autoria dos recursos); Contacto (entidade / pessoa contactável para obtenção dos recursos ou de informação sobre os recursos); Contacto do Processo (entidade / pessoa que participou em algum processo conducente à modificação dos recursos); Detentor (entidade detentora dos direitos de propriedade sobre os recursos); Editor (entidade que publicou os recursos); Fornecedor (entidade que fornece os recursos); Investigador Principal (entidade de nível hierárquico superior responsável pela recolha da informação e orientação da investigação); Produtor (entidade produtora dos recursos); Tutor (entidade responsável pela tutela dos dados e pela manutenção dos recursos); Utilizador (entidade que utilizada os recursos). |
 | Nome                                                                   | Não      | Não      | Nome da pessoa responsável.  |
 | Organização                                                            | Sim      | Não      | Nome da organização responsável. Poderá selecionar de uma Lista de valores ou preencher de forma livre no campo “Outra (não listada)” |
@@ -349,233 +355,108 @@ Informação de base necessária à identificação inequívoca de um dado recur
 | **Este elemento disponibiliza as seguintes funcionalidades / botões**: “Adicionar Contacto”, para adicionar um novo contacto. <img src="http://193.136.227.146/manual_images/100002010000002000000020A3F87039BE9D0D7E.png" width="25"> Para importar um contacto da sua Lista de Contactos para o formulário. <img src="http://193.136.227.146/manual_images/10000201000001B7000001B78F0FC5D379C32E50.png" width="25"> Para guardar o contacto na sua Lista de Contactos. <img src="http://193.136.227.146/manual_images/100002010000001700000017FBA90A52D3565DE1.png" width="25"> Para remover o contacto.  |
 
 
-
-
-Operações
-~~~~~~~~~
+**Operações**
 
 Informação sobre todas as operações disponibilizadas por um Serviço, logo só é preenchido para recursos do tipo “Serviço”. Contém os seguintes elementos e sub‑elementos:
 
 
-+-----------------------------------+----------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Elemento                          | Obrig. * | Múltiplo | Definição                                                                                                                                                                     |
-|                                   |          |          |                                                                                                                                                                               |
-+-----------------------------------+----------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Operações                         | Sim      | Sim      | Informação sobre as operações disponibilizadas pelo serviço.                                                                                                                  |
-| ^^^^^^^^^                         |          |          |                                                                                                                                                                               |
-|                                   |          |          | Para criar uma nova Operação prima o                                                                                                                                          |
-|                                   |          |          | botão                                                                                                                                                                         |
-|                                   |          |          | “Adicionar Operação”.                                                                                                                                                         |
-|                                   |          |          |                                                                                                                                                                               |
-|                                   |          |          | Deve ser preenchido com um URL para um documento que descreva a interface do serviço, como por exº o GetCapabilities ou um documento WSDL, mais exemplos apresentados abaixo. |
-|                                   |          |          |                                                                                                                                                                               |
-+-----------------------------------+----------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Nome da Operação                  | Sim      | Não      | Identificador único para um interface específico de um serviço; por exº: "GetCapabilities".                                                                                   |
-|                                   |          |          |                                                                                                                                                                               |
-+-----------------------------------+----------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| DCP (                             | Sim      | Sim      | Define a(s) plataforma(s) computacional(ais) em que a operação foi implementada, a partir de uma lista.                                                                       |
-| *Distributed Computing Platforms* |          |          |                                                                                                                                                                               |
-| )                                 |          |          | O valor por omissão deve ser “WebServices”.                                                                                                                                   |
-|                                   |          |          |                                                                                                                                                                               |
-+-----------------------------------+----------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Pontos de Acesso (URI/URL)        | Sim      | Sim      | Ponto de acesso. URL que acede ao documento.                                                                                                                                  |
-|                                   |          |          |                                                                                                                                                                               |
-|                                   |          |          | O preenchimento deste sub‑elemento, não substitui o preenchimento do Localizador do Recurso referido no Painel “Distribuição”.                                                |
-|                                   |          |          |                                                                                                                                                                               |
-+-----------------------------------+----------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
+| Operações                         | Sim      | Sim      | Informação sobre as operações disponibilizadas pelo serviço. Para criar uma nova Operação prima o botão “Adicionar Operação”. Deve ser preenchido com um URL para um documento que descreva a interface do serviço, como por exº o GetCapabilities ou um documento WSDL, mais exemplos apresentados abaixo. |
+| Nome da Operação                  | Sim      | Não      | Identificador único para um interface específico de um serviço; por exº: "GetCapabilities".
+| DCP (*Distributed Computing Platforms*) | Sim      | Sim      | Define a(s) plataforma(s) computacional(ais) em que a operação foi implementada, a partir de uma lista. O valor por omissão deve ser “WebServices”.
+| Pontos de Acesso (URI/URL)        | Sim      | Sim      | Ponto de acesso. URL que acede ao documento. O preenchimento deste sub‑elemento, não substitui o preenchimento do Localizador do Recurso referido no Painel “Distribuição”. |
 
 
-Exemplos de
-*Nomes de Operação WMS*
-:
+Exemplos de *Nomes de Operação WMS*:
 
 *   GetCapabilities;
 
-
-
 *   GetMap;
-
-
 
 *   GetFeatureInfo;
 
-
-
 *   DescribeLayer;
-
-
 
 *   GetLegendGraphic.
 
 
-    Exemplos de
-    *Nomes de Operação WFS*
-    :
-
-
+    Exemplos de *Nomes de Operação WFS*:
 
 *   GetCapabilities;
 
-
-
 *   DescribeFeatureType;
-
-
 
 *   GetFeature;
 
-
-
 *   LockFeature;
-
-
 
 *   Transaction;
 
-
-
 *   GetPropertyValue (versão 2.0.0 apenas);
-
-
 
 *   GetFeatureWithLock (versão 2.0.0 apenas);
 
-
-
 *   CreateStoredQuery (versão 2.0.0 apenas);
-
-
 
 *   DropStoredQuery (versão 2.0.0 apenas);
 
-
-
 *   ListStoredQueries (versão 2.0.0 apenas);
 
-
-
 *   DescribeStoredQueries (versão 2.0.0 apenas);
-
-
 
 *   GetGMLObject (versão 1.1.0 apenas).
 
 
-    Exemplos de
-    *Nomes de Operação WCS*
-    :
-
-
+    Exemplos de*Nomes de Operação WCS*:
 
 *   GetCapabilities;
 
-
-
 *   DescribeCoverage;
-
-
 
 *   GetCoverage.
 
 
-
-Classificação & Palavras-Chave
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Classificação & Palavras-Chave**
 
 Informação geral que categoriza e descreve um dado recurso. Contém os seguintes elementos e sub‑elementos:
 
 
-+---------------+----------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Elemento      | Obrig. * | Múltiplo | Definição                                                                                                                                                                                                         |
-|               |          |          |                                                                                                                                                                                                                   |
-+---------------+----------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Temas INSPIRE | Sim      | Sim      | Se o recurso for um CDG ou Série, deve ser fornecida, pelo menos, uma palavra-chave do Thesaurus Geral Multilingue sobre Recursos Ambientais (GEMET) que descreva o tema de dados geográficos relevante, conforme |
-| ^^^^^^^^^^^^^ |          |          |                                                                                                                                                                                                                   |
-|               |          |          | definido nos anexos I, II ou III da Diretiva INSPIRE (Anexo A). Estes elemento é definido a partir de uma lista.                                                                                                  |
-|               |          |          |                                                                                                                                                                                                                   |
-|               |          |          | Não se aplica a Serviços.                                                                                                                                                                                         |
-|               |          |          |                                                                                                                                                                                                                   |
-+---------------+----------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
+| Temas INSPIRE | Sim      | Sim      | Se o recurso for um CDG ou Série, deve ser fornecida, pelo menos, uma palavra-chave do Thesaurus Geral Multilingue sobre Recursos Ambientais (GEMET) que descreva o tema de dados geográficos relevante, conforme definido nos anexos I, II ou III da Diretiva INSPIRE (Anexo A). Estes elemento é definido a partir de uma lista. Não se aplica a Serviços.|
 
 
-+----------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------+
-| Elemento                   | Obrig. * | Múltiplo | Definição                                                                                                       |
-|                            |          |          |                                                                                                                 |
-+----------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------+
-| Classificação dos Serviços | Sim      | Sim      | Se o recurso for um Serviço, deve ser fornecida, pelo menos, uma palavra-chave da classificação dos serviços de |
-| ^^^^^^^^^^^^^^^^^^^^^^^^^^ |          |          |                                                                                                                 |
-|                            |          |          | dados geográficos, definido a partir de uma lista.                                                              |
-|                            |          |          |                                                                                                                 |
-|                            |          |          | Poderá consultar uma descrição acerca de cada uma das opções desta lista em Anexo.                              |
-|                            |          |          |                                                                                                                 |
-|                            |          |          | Não se aplica a CDG nem Séries.                                                                                 |
-|                            |          |          |                                                                                                                 |
-+----------------------------+----------+----------+-----------------------------------------------------------------------------------------------------------------+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
+| Classificação dos Serviços | Sim      | Sim      | Se o recurso for um Serviço, deve ser fornecida, pelo menos, uma palavra-chave da classificação dos serviços de dados geográficos, definido a partir de uma lista. Poderá consultar uma descrição acerca de cada uma das opções desta lista em Anexo. Não se aplica a CDG nem Séries. |
 
 
-+--------------------+----------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Elemento           | Obrig. * | Múltiplo | Definição                                                                                                                                                                       |
-|                    |          |          |                                                                                                                                                                                 |
-+--------------------+----------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Categoria Temática | Sim      | Sim      | Tema principal do recurso. Define a classificação temática geral utilizada para auxiliar o agrupamento e pesquisa do recurso, a partir de uma lista.                            |
-| ^^^^^^^^^^^^^^^^^^ |          |          |                                                                                                                                                                                 |
-|                    |          |          | De acordo com o Perfil SNIMar o tema “Oceanos” deverá estar sempre selecionado. Ao criar um documento de metadados via este editor esta condição será automaticamente aplicada. |
-|                    |          |          |                                                                                                                                                                                 |
-|                    |          |          | Não se aplica a Serviços.                                                                                                                                                       |
-|                    |          |          |                                                                                                                                                                                 |
-+--------------------+----------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
+| Categoria Temática | Sim      | Sim      | Tema principal do recurso. Define a classificação temática geral utilizada para auxiliar o agrupamento e pesquisa do recurso, a partir de uma lista. De acordo com o Perfil SNIMar o tema “Oceanos” deverá estar sempre selecionado. Ao criar um documento de metadados via este editor esta condição será automaticamente aplicada. Não se aplica a Serviços.   |
 
 
-+-----------------------+----------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Elemento              | Obrig. * | Múltiplo | Definição                                                                                                                                                                          |
-|                       |          |          |                                                                                                                                                                                    |
-+-----------------------+----------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
 | Palavras-Chave Livres | Não      | Sim      | Este elemento permite introduzir outras palavras-chave, livres ou associadas a um léxico, que caracterizam o recurso. Pode conter múltiplos conjuntos dos seguintes sub‑elementos. |
-| ^^^^^^^^^^^^^^^^^^^^^ |          |          |                                                                                                                                                                                    |
-|                       |          |          |                                                                                                                                                                                    |
-+-----------------------+----------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Palavra-Chave         | Não      | Não      | Texto utilizado para descrever um determinado aspeto do recurso.                                                                                                                   |
-|                       |          |          |                                                                                                                                                                                    |
-+-----------------------+----------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Tipo                  | Não      | Não      | Utilizado para agrupar as palavras-chave, definido a partir de uma lista.                                                                                                          |
-|                       |          |          |                                                                                                                                                                                    |
-+-----------------------+----------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Thesaurus             | Não      | Não      | Nome do léxico, thesaurus ou fonte de palavras-chave formalmente registado.                                                                                                        |
-|                       |          |          |                                                                                                                                                                                    |
-+-----------------------+----------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Data                  | Não      | Não      | Data de referência do léxico citado.                                                                                                                                               |
-|                       |          |          |                                                                                                                                                                                    |
-+-----------------------+----------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Tipo de Data          | Não      | Não      | Evento usado para a data referenciada, definido a partir de uma lista.                                                                                                             |
-|                       |          |          |                                                                                                                                                                                    |
-+-----------------------+----------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Palavra-Chave         | Não      | Não      | Texto utilizado para descrever um determinado aspeto do recurso.    |
+| Tipo                  | Não      | Não      | Utilizado para agrupar as palavras-chave, definido a partir de uma lista.    |
+| Thesaurus             | Não      | Não      | Nome do léxico, thesaurus ou fonte de palavras-chave formalmente registado.   |   
+| Data                  | Não      | Não      | Data de referência do léxico citado.   |       
+| Tipo de Data          | Não      | Não      | Evento usado para a data referenciada, definido a partir de uma lista.    |
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+---------------------------------------------------------------------------------------------------------+
-| Elemento                                                                                                                                                                                                                                   | Obrig. * | Múltiplo | Definição                                                                                               |
-|                                                                                                                                                                                                                                            |          |          |                                                                                                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+---------------------------------------------------------------------------------------------------------+
-| Palavras-Chave SNIMar                                                                                                                                                                                                                      | Sim      | Sim      | Descreve o recurso utilizando palavras-chave pertencentes a um dicionário dedicado ao projeto SNIMar.   |
-| ^^^^^^^^^^^^^^^^^^^^^                                                                                                                                                                                                                      |          |          | Pode conter múltiplos conjuntos dos seguintes sub‑elementos.                                            |
-|                                                                                                                                                                                                                                            |          |          |                                                                                                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+---------------------------------------------------------------------------------------------------------+
-| Tipo                                                                                                                                                                                                                                       | Sim      | Não      | Define o tipo de Palavra-Chave utilizado, a partir de lista.                                            |
-|                                                                                                                                                                                                                                            |          |          |                                                                                                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+---------------------------------------------------------------------------------------------------------+
-| Palavra-Chave                                                                                                                                                                                                                              | Sim      | Não      | Define uma designação utilizada para descrever um determinado aspeto do recurso, a partir de uma lista. |
-|                                                                                                                                                                                                                                            |          |          |                                                                                                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+---------------------------------------------------------------------------------------------------------+
-| Versão Thesaurus                                                                                                                                                                                                                           | Sim      | Não      | Versão do Thesaurus SNIMar a partir do qual foi selecionada a palavra-chave.                            |
-|                                                                                                                                                                                                                                            |          |          |                                                                                                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+----------+---------------------------------------------------------------------------------------------------------+
-| **Notas**                                                                                                                                                                                                                                                                                                                                                                  |
-| : Deve ser escolhida obrigatoriamente pelo menos uma palavra-chave para o tipo “Disciplina” e pelo menos uma palavra-chave para o tipo “Parâmetro”.                                                                                                                                                                                                                        |
-| Caso o recurso tenha sido criado no contexto de um projeto, é obrigatório inserir uma palavra-chave com o nome do projeto e usar o tipo de palavra ‘Projeto’.                                                                                                                                                                                                              |
-|                                                                                                                                                                                                                                                                                                                                                                            |
-| Recomenda-se a inserção de palavras dos restantes grupos de palavras provenientes do Thesaurus SNIMar, a partir da lista do Thesaurus com a versão mais recente.                                                                                                                                                                                                           |
-|                                                                                                                                                                                                                                                                                                                                                                            |
-| Para criar novas palavras-chave SNIMar deverá fazê-lo a partir da plataforma                                                                                                                                                                                                                                                                                               |
-| **Collaborative Keywords**                                                                                                                                                                                                                                                                                                                                                 |
-| , aceda diretamente premindo o ícone                                                                                                                                                                                                                                                                                                                                       |
+
+| Elemento        | Obrigatório | Múltiplo | Definição |
+| ---             | ---     | ---      | ---       |
+| Palavras-Chave SNIMar                                                                                                                                                                                                                      | Sim      | Sim      | Descreve o recurso utilizando palavras-chave pertencentes a um dicionário dedicado ao projeto SNIMar.Pode conter múltiplos conjuntos dos seguintes sub‑elementos. | 
+| Tipo     | Sim      | Não      | Define o tipo de Palavra-Chave utilizado, a partir de lista.                                            |
+| Palavra-Chave       | Sim      | Não      | Define uma designação utilizada para descrever um determinado aspeto do recurso, a partir de uma lista. |
+| Versão Thesaurus    | Sim      | Não      | Versão do Thesaurus SNIMar a partir do qual foi selecionada a palavra-chave. 
+| **Notas**: Deve ser escolhida obrigatoriamente pelo menos uma palavra-chave para o tipo “Disciplina” e pelo menos uma palavra-chave para o tipo “Parâmetro”. Caso o recurso tenha sido criado no contexto de um projeto, é obrigatório inserir uma palavra-chave com o nome do projeto e usar o tipo de palavra ‘Projeto’. Recomenda-se a inserção de palavras dos restantes grupos de palavras provenientes do Thesaurus SNIMar, a partir da lista do Thesaurus com a versão mais recente.
+| Para criar novas palavras-chave SNIMar deverá fazê-lo a partir da plataforma **Collaborative Keywords**, aceda diretamente premindo o ícone                                                                                                                                                                                                                                                                                                                                       |
 |                                                                                                                                                                                                                                                                                                                                                                            |
 |                                                                                                                                                                                                                                                                                                                                                                            |
 | Para adicionar palavras-chave SNIMar prima o botão “Adicionar Palavra-Chave SNIMar”. Ao executar esta ação é aberta uma janela (figura seguinte) de onde deverá selecionar de início o “Tipo de Palavra-Chave” da lista disponível.                                                                                                                                        |
