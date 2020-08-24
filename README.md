@@ -2,7 +2,7 @@
 
 
 
-FICHA TÉCNICA E CONTACTOS
+Ficha Técnica e Contactos
 =========================
 
 **FICHA TÉCNICA VERSÃO PARA QGIS 3.x**
@@ -286,56 +286,19 @@ Informação de base necessária à identificação inequívoca de um dado recur
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
 | Tipo de Recurso | Sim     | Não      | Define o tipo de recurso ao qual se aplicam os metadados, a partir de uma lista: Conjunto de Dados Geográficos (CDG) (a informação é aplicável a um conjunto de dados geográficos); Série (a informação é aplicável a uma série ou coleção de dados); Serviço (a informação é aplicável à capacidade que uma entidade fornecedora disponibiliza a uma entidade cliente através de um conjunto de interfaces que define um dado comportamento). |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Tipo de Serviço | Sim     | Não      | Define o tipo de serviço, a partir da lista definida pela especificação do INSPIRE. Não se aplica a CDG nem Séries. |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Acoplamento     | Sim     | Não      | Tipo de acoplamento dos serviços com os CDG. Não se aplica a CDG nem Séries. |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Título          | Sim     | Não      | Designação pela qual o recurso é conhecido. O título deve permitir identificar o recurso com o maior rigor possível. Recomenda-se a tradução deste campo para Inglês no campo Título (Inglês). |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Resumo          | Sim     | Não      | Breve resumo sobre o conteúdo do recurso. Recomenda-se a tradução deste campo para Inglês no campo Resumo (Inglês). |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
-| Resumo          | Sim     | Não      | Breve resumo sobre o conteúdo do recurso. Recomenda-se a tradução deste campo para Inglês no campo Resumo (Inglês). |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
-| Resumo          | Sim     | Não      | Breve resumo sobre o conteúdo do recurso. Recomenda-se a tradução deste campo para Inglês no campo Resumo (Inglês). |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
-| Resumo          | Sim     | Não      | Breve resumo sobre o conteúdo do recurso. Recomenda-se a tradução deste campo para Inglês no campo Resumo (Inglês). |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Título Alternativo          | Não     | Não      | Nome alternativo ou abreviado pelo qual o recurso é conhecido. |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Objetivo          | Não     | Não      | Resumo do propósito que conduziu ao desenvolvimento ou modificação do recurso. |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Créditos | Não      | Sim      | Identificação dos indivíduos e/ou entidades que contribuíram para a produção do recurso. |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
 | Manutenção do Recurso | Sim      | Sim      | Define a frequência com que o recurso é atualizado, a partir de uma lista. Se nenhuma das opções da lista for adequada, selecione "Conforme necessário". |
-
-| Elemento        | Obrigatório | Múltiplo | Definição |
-| ---             | ---     | ---      | ---       |
-| Identificador Único do Recurso | Sim      | Sim      | Pretende identificar de forma unívoca o recurso, é definido normalmente pela entidade responsável pelo mesmo. Pode conter múltiplos conjuntos dos seguintes sub‑elementos. |
+| Identificador Único do Recurso | Sim      | Sim      | Pretende identificar de forma unívoca o recurso, é definido normalmente pela entidade responsável pelo mesmo. Pode conter múltiplos conjuntos dos seguintes 2 sub‑elementos. |
+<font size="-1">
 | Identificador                  | Sim      | Não      | Utilização de URI (exº http://www.igeo.pt/datasets/AU_CAOP_2011) ou UUID (exº 808c3be3-527a-451b-8611-0bcc1b8c21b0). |
 | Espaço de Nomes                | Não      | Não      | Define o âmbito de aplicação do código usado acima. |
+</font>   
 
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
