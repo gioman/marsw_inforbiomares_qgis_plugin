@@ -347,8 +347,7 @@ Informação de base necessária à identificação inequívoca de um dado recur
 <img src="http://193.136.227.146/manual_images/100002010000001700000017FBA90A52D3565DE1.png" width="25"> Para remover o contacto.
 
 
-Operações
----------
+### Operações
 
 Informação sobre todas as operações disponibilizadas por um Serviço, logo só é preenchido para recursos do tipo “Serviço”. Contém os seguintes elementos e sub‑elementos:
 
@@ -450,8 +449,7 @@ Para adicionar palavras-chave SNIMar prima o botão “Adicionar Palavra-Chave S
 <img src="http://193.136.227.146/manual_images/10000000000003A00000027449993894749EB3FE.png">
 
 
-Informação Geográfica
----------------------
+### Informação Geográfica
 
 Informação sobre os Sistemas de Referência de Coordenadas e sobre a extensão espacial geográfica e altimétrica do recurso. Contém os seguintes elementos e sub‑elementos:
 
@@ -507,8 +505,7 @@ Poderá ainda consultar no mapa uma extensão geográfica presente na tabela de 
 
 
 
-Informação Temporal
--------------------
+### Informação Temporal
 
 Informação geral sobre as referências e extensões temporais do recurso. Contém os seguintes elementos e sub‑elementos:
 
@@ -545,8 +542,7 @@ No caso da Data de Publicação, por permitir vários valores, terá ainda de pr
 <img src="http://193.136.227.146/manual_images/100002010000019300000193BC9FD78E936508CD.png" width="25">
 
 
-Qualidade
----------
+### Qualidade
 
 Informação relativa à qualidade dos dados, especificada para um dado âmbito ou para o recurso no seu todo. Contém os seguintes elementos e sub‑elementos:
 
@@ -563,9 +559,7 @@ Informação relativa à qualidade dos dados, especificada para um dado âmbito 
 | Fonte dos Dados | Não      | Sim      | Informações sobre os dados de origem usados na criação do recurso. |
 
 
-Elementos referentes ao Relatório
----------------------------------
-
+### Elementos referentes ao Relatório
 
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
@@ -592,8 +586,7 @@ Em caso de desconhecimento pode utilizar a informação recomendada pela Diretiv
  “*Explicação*”: Ver a norma da especificação  
 
 
-Restrições
-----------
+### Restrições
 
 Informação relativa a restrições e pré-requisitos legais e de segurança para o acesso e utilização do recurso. Contém os seguintes elementos e sub‑elementos:
 
@@ -607,8 +600,7 @@ Informação relativa a restrições e pré-requisitos legais e de segurança pa
 | Restrições de Segurança | Não      | Sim      | Define as restrições de manuseamento do recurso ou metadados, a partir de uma lista (se aplicável): *Altamente Secreto* (do maior nível de segredo); *Confidencial* (disponível para alguém a quem pode ser confiada informação); *Não Classificado* (disponível para divulgação geral); *Restrito* (não para divulgação geral); *Secreto* (mantido ou para ser mantido privado, desconhecido, ou oculto para todos a não ser um grupo seleto de pessoas).
 
 
-Distribuição
-============
+### Distribuição
 
 Informação relativa ao distribuidor e as alternativas para obtenção do recurso. Contém os seguintes elementos e sub‑elementos:
 
@@ -653,8 +645,7 @@ Informação relativa ao distribuidor e as alternativas para obtenção do recur
 <img src="http://193.136.227.146/manual_images/100002010000001700000017FBA90A52D3565DE1.png" width="25"> Para remover o contacto.
 
 
-Metadados
-=========
+### Metadados
 
 Informação relativa aos Metadados. Contém os seguintes elementos e sub‑elementos:
 
