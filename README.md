@@ -280,7 +280,7 @@ Pode remover mais do que um de uma vez, para tal só terá de fazer uma multi‑
 Cada painel contém um conjunto de elementos e sub‑elementos a preencher. De seguida, descrevem-se cada um destes painéis, respetivos campos e sua obrigatoriedade (*) e multiplicidade de preenchimento.
 
 
-###Identificação
+### Identificação
 
 Informação de base necessária à identificação inequívoca de um dado recurso. Contém os seguintes elementos e sub‑elementos:
 
