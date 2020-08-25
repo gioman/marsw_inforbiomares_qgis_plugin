@@ -2,26 +2,6 @@
 
 Índice
 ======
-
-   * [Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar](#plugin-para-qgis-3x-para-criação-e-edição-de-metadados-segundo-o-perfil-snimar)
-   * [Ficha Técnica e Contactos](#ficha-técnica-e-contactos)
-   * [Intervenientes e parceiros](#intervenientes-e-parceiros)
-   * [Introdução](#introdução)
-   * [Instalação](#instalação)
-   * [Usar o plugin](#usar-o-plugin)
-      * [Ambiente de Trabalho](#ambiente-de-trabalho)
-      * [Gestão de Contactos](#gestão-de-contactos)
-      * [Edição de Metadados](#edição-de-metadados)
-   * [Identificação](#identificação)
-   * [Operações](#operações)
-   * [Informação Geográfica](#informação-geográfica)
-   * [Informação Temporal](#informação-temporal)
-   * [Qualidade](#qualidade)
-   * [Elementos referentes ao Relatório](#elementos-referentes-ao-relatório)
-   * [Restrições](#restrições)
-   * [Distribuição](#distribuição)
-   * [Metadados](#metadados)
-   * [Anexo - Classificação dos Serviços](#anexo---classificação-dos-serviços)
    
 
 Ficha Técnica e Contactos
@@ -300,8 +280,7 @@ Pode remover mais do que um de uma vez, para tal só terá de fazer uma multi‑
 Cada painel contém um conjunto de elementos e sub‑elementos a preencher. De seguida, descrevem-se cada um destes painéis, respetivos campos e sua obrigatoriedade (*) e multiplicidade de preenchimento.
 
 
-Identificação
-=============
+###Identificação
 
 Informação de base necessária à identificação inequívoca de um dado recurso. Contém os seguintes elementos e sub‑elementos:
 
@@ -369,7 +348,7 @@ Informação de base necessária à identificação inequívoca de um dado recur
 
 
 Operações
-=========
+---------
 
 Informação sobre todas as operações disponibilizadas por um Serviço, logo só é preenchido para recursos do tipo “Serviço”. Contém os seguintes elementos e sub‑elementos:
 
@@ -472,7 +451,7 @@ Para adicionar palavras-chave SNIMar prima o botão “Adicionar Palavra-Chave S
 
 
 Informação Geográfica
-=====================
+---------------------
 
 Informação sobre os Sistemas de Referência de Coordenadas e sobre a extensão espacial geográfica e altimétrica do recurso. Contém os seguintes elementos e sub‑elementos:
 
@@ -529,7 +508,7 @@ Poderá ainda consultar no mapa uma extensão geográfica presente na tabela de 
 
 
 Informação Temporal
-===================
+-------------------
 
 Informação geral sobre as referências e extensões temporais do recurso. Contém os seguintes elementos e sub‑elementos:
 
@@ -551,9 +530,9 @@ No caso da extensão temporal corresponder a um instante preencha a Data de Iní
 | Elemento        | Obrigatório | Múltiplo | Definição |
 | ---             | ---     | ---      | ---       |
 | Referência Temporal                                                                     | Sim          | Sim      | Data de referência para o recurso. Este elemento obriga a que pelo menos um dos seus sub‑elementos seja preenchido. |
-| Data de Criação                                                                         | Condi-cional | Não      | Data de referência para a criação do recurso.                                                                       |
-| Data de Última Revisão                                                                  | Condi-cional | Não      | Data de referência da última revisão efetuada ao recurso.                                                           |
-| Data de Publicação                                                                      | Condi-cional | Sim      | Data(s) de referência da publicação do recurso.                                                                     |
+| Data de Criação                                                                         | Condicional | Não      | Data de referência para a criação do recurso.                                                                       |
+| Data de Última Revisão                                                                  | Condicional | Não      | Data de referência da última revisão efetuada ao recurso.                                                           |
+| Data de Publicação                                                                      | Condicional | Sim      | Data(s) de referência da publicação do recurso.                                                                     |
 
 **Notas**: 
 
@@ -567,7 +546,7 @@ No caso da Data de Publicação, por permitir vários valores, terá ainda de pr
 
 
 Qualidade
-=========
+---------
 
 Informação relativa à qualidade dos dados, especificada para um dado âmbito ou para o recurso no seu todo. Contém os seguintes elementos e sub‑elementos:
 
@@ -585,7 +564,7 @@ Informação relativa à qualidade dos dados, especificada para um dado âmbito 
 
 
 Elementos referentes ao Relatório
-=================================
+---------------------------------
 
 
 | Elemento        | Obrigatório | Múltiplo | Definição |
@@ -614,7 +593,7 @@ Em caso de desconhecimento pode utilizar a informação recomendada pela Diretiv
 
 
 Restrições
-==========
+----------
 
 Informação relativa a restrições e pré-requisitos legais e de segurança para o acesso e utilização do recurso. Contém os seguintes elementos e sub‑elementos:
 
