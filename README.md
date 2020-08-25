@@ -2,6 +2,25 @@
 
 Índice
 ======
+
+   * [Ficha Técnica e Contactos](#ficha-técnica-e-contactos)
+   * [Intervenientes e parceiros](#intervenientes-e-parceiros)
+   * [Introdução](#introdução)
+   * [Instalação](#instalação)
+   * [Usar a extensão](#usar-a-extensão)
+      * [Ambiente de Trabalho](#ambiente-de-trabalho)
+      * [Gestão de Contactos](#gestão-de-contactos)
+      * [Edição de Metadados](#edição-de-metadados)
+         * [Identificação](#identificação)
+         * [Operações](#operações)
+         * [Informação Geográfica](#informação-geográfica)
+         * [Informação Temporal](#informação-temporal)
+         * [Qualidade](#qualidade)
+         * [Elementos referentes ao Relatório](#elementos-referentes-ao-relatório)
+         * [Restrições](#restrições)
+         * [Distribuição](#distribuição)
+         * [Metadados](#metadados)
+   * [Anexo - Classificação dos Serviços](#anexo---classificação-dos-serviços)
    
 
 Ficha Técnica e Contactos
