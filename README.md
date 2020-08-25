@@ -1,6 +1,6 @@
 # Extensão para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
 
-<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/Screenshot_20200825_135238.png">
+<img src="http://193.136.227.146/manual_images/Screenshot_20200825_135238.png">
 
 Índice
 ======
