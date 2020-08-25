@@ -1,8 +1,7 @@
-# Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
+# Extensão para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
 
-
-Table of Contents
-=================
+Índice
+======
 
    * [Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar](#plugin-para-qgis-3x-para-criação-e-edição-de-metadados-segundo-o-perfil-snimar)
    * [Ficha Técnica e Contactos](#ficha-técnica-e-contactos)
@@ -30,26 +29,26 @@ Ficha Técnica e Contactos
 
 **FICHA TÉCNICA VERSÃO PARA QGIS 3.x**
 
-TÍTULO: Manual de Utilizador do Plugin para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
+TÍTULO: Manual de Utilizador da extensão para QGIS 3.x para criação e edição de metadados segundo o perfil SNIMar
 
-AUTORIA: Projecto MARSW e INFORBIOMARES
+AUTORIA: Projectos MARSW e INFORBIOMARES
 
 EMAIL: jgoncal@ualg.pt
 
 DATA: Julho 2020
 
-VERSÃO: 3.x
+VERSÃO DA EXTENSÂO: 3.x
 
 
 **CONTACTOS VERSÃO PARA QGIS 3.x**
 
 Projecto **MARSW**
 
-Telefone: +351 289 800 051 | E-mail: jgoncal@ualg.pt
+Telefone: +351 289 800 051 | E-mail: jgoncal@ualg.pt | Site: https://marsw.pt
 
 Projecto **INFORBIOMARES**
 
-Telefone: +351 289 800 051 | E-mail: ccmar@ualg.pt
+Telefone: +351 289 800 051 | E-mail: ccmar@ualg.pt | Site: https://www.ccmar.ualg.pt/en/project/inforbiomares
 
 
 **FICHA TÉCNICA ORIGINAL**
@@ -64,7 +63,7 @@ DATA: dezembro de 2015
 
 LOCAL: Lisboa
 
-VERSÃO: 2.0.0
+VERSÃO DA EXTENSÂO: 2.0.0
 
 
 **CONTACTOS ORIGINAIS**
@@ -120,11 +119,11 @@ Intervenientes e parceiros
 Introdução
 ==========
 
-O “**Plugin para criação e edição de metadados segundo o perfil SNIMar**”
-é o "*porting*" para a versão 3.x do *software* SIG QGIS (https://www.qgis.org) do editor de Metadados desenvolvido no âmbito do Projecto SNIMar com o objectivo de ser a ferramenta destinada à criação dos metadados em conformidade com o Perfil de Metadados SNIMar. **O trabalho de migração do código para QGIS 3.x foi realizado no âmbito dos projectos MARSW e INFORBIOMARES**.
+A “**extensão para criação e edição de metadados segundo o perfil SNIMar**”
+é o "*porting*" para a versão 3.x do *software* SIG "QGIS" (Quantum GIS) (https://www.qgis.org) do editor de Metadados desenvolvido no âmbito do Projecto SNIMar com o objectivo de ser a ferramenta destinada à criação dos metadados em conformidade com o Perfil de Metadados SNIMar. **O trabalho de migração do código para QGIS 3.x foi realizado no âmbito dos projectos MARSW e INFORBIOMARES**.
 
 **Editor de Metadados SNIMar**
-foi desenvolvido no âmbito do Projeto SNIMar (http://editor.snimar.pt/)  com o objetivo de ser a ferramenta destinada à criação de metadados em conformidade com o Perfil de Metadados SNIMar. O Editor consiste num *plugin* para a aplicação QGIS, permitindo que a criação de metadados seja feita em paralelo e em simultâneo com a criação e edição de Conjuntos de Dados Geográficos (CDG).
+foi desenvolvido no âmbito do Projeto SNIMar (http://editor.snimar.pt/)  com o objetivo de ser a ferramenta destinada à criação de metadados em conformidade com o Perfil de Metadados SNIMar. O Editor consiste numa extensão para a aplicação QGIS, permitindo que a criação de metadados seja feita em paralelo e em simultâneo com a criação e edição de Conjuntos de Dados Geográficos (CDG).
 
 O SNIMar é um projeto nacional, financiado pelo Mecanismo Financeiro do Espaço Económico Europeu 2009-2014 no âmbito dos European Economic Area Grants (EEA Grants), que tem por objetivo o desenvolvimento de uma infraestrutura de dados espaciais marinhos para o aumento da capacidade de avaliação e previsão do estado ambiental das águas marinhas. Esta infraestrutura traduz-se num Geoportal que irá potenciar a interação do público com a informação disponibilizada pelos parceiros e entidades participantes do projeto e constituirá um ponto central de agregação, pesquisa e distribuição de informação geográfica sobre o ambiente marinho em Portugal.
 
@@ -138,9 +137,9 @@ Diretiva INSPIRE (Diretiva n.º 2007/2/CE, do Parlamento Europeu e do Conselho, 
 Instalação
 ==========
 
-O *plugin* **EditorMetadadosMarswInforbiomares** foi desenvolvido para operar nos sistemas operativos Linux, Windows e macOS e pode ser instalado na aplicação QGIS da seguinte forma:
+A extensão **EditorMetadadosMarswInforbiomares** foi desenvolvida para operar nos sistemas operativos Linux, Windows e macOS e pode ser instalado na aplicação QGIS da seguinte forma:
 
-*   Abrir a aplicação QGIS, recomenda-se a utilização da versão 3.10
+*   Abrir a aplicação QGIS, recomenda-se a utilização da versão 3.10.x
 
 *   No Menu Principal selecionar **Módulos > Gerir e Instalar Módulos**
 
@@ -160,14 +159,14 @@ O *plugin* **EditorMetadadosMarswInforbiomares** foi desenvolvido para operar no
 
 *   Selecionar o separador **Não instalado** e pesquisar por “MarSW” ou “Inforbiomares” ou “SNIMar”
 
-*   Instalar p *plugin* através do botão “Instalar módulo”
+*   Instalar a extensão através do botão “Instalar módulo”
 
-O *plugin* **EditorMetadadosMarswInforbiomares** ficará ativo e disponível no menu de ferramentas através do ícone <img src="http://193.136.227.146/manual_images/100000000000004000000040A7A1CB042E5963C1.png" width="25">
+A extensão **EditorMetadadosMarswInforbiomares** ficará ativa e disponível no menu de ferramentas através do ícone <img src="http://193.136.227.146/manual_images/100000000000004000000040A7A1CB042E5963C1.png" width="25">
 
 
 
-Usar o plugin
-=============
+Usar a extensão
+===============
 
 Ao premir o ícone do **EditorMetadadosMarswInforbiomares** terá acesso a uma janela que, para além de um Menu Principal, terá um Separador com o seu ambiente de trabalho (Lista de Ficheiros), ou seja, uma Lista dos documentos de metadados (ficheiros XML) trabalhados a partir deste Editor. Atenção que enquanto não criar novos metadados ou abrir outros já existentes, a partir do editor, esta Lista aparecerá vazia no seu ambiente de trabalho.
 
@@ -183,7 +182,7 @@ O botão <img src="http://193.136.227.146/manual_images/100002010000002100000021
 
 Ao selecionar um documento de metadados da Lista e abrindo o *Menu de Contexto* (*click* com o botão do lado direito do rato) tem acesso às seguintes funcionalidades:
 
-*   **Editar Metadado**: abrir o documento XML no *plugin* em modo de edição;
+*   **Editar Metadado**: abrir o documento XML na extensão em modo de edição;
 
 *   **Remover Metadado(s) da Lista**: remover o(s) documento(s) XML selecionado(s) da Lista;
 
@@ -195,7 +194,7 @@ Na parte inferior da janela (lado direito) tem dois botões com as seguintes fun
 
 *   **Apagar Lista de Ficheiros**: remover todos os documentos XML da Lista (apenas).
 
-Na parte inferior da janela (lado esquerdo) poderá ainda consultar qual a última *versão do Thesaurus SNIMar* carregada no *plugin* e poderá descarregar novas atualizações, se existirem, premindo o botão “Atualizar”.
+Na parte inferior da janela (lado esquerdo) poderá ainda consultar qual a última *versão do Thesaurus SNIMar* carregada na extensão e poderá descarregar novas atualizações, se existirem, premindo o botão “Atualizar”.
 
 É possível também *ordenar a Lista de ficheiros de metadados* por: Tipo de Recurso, Título, Localização (do ficheiro) e pela sua Conformidade com o Perfil SNIMar; basta premir o título correspondente e alternar a ordem.
 
@@ -203,23 +202,23 @@ A partir do **Menu Principal** poderá:
 
 *   **Ficheiro > Novo**: criar um novo documento de metadados XML dos seguintes tipos: Conjunto de Dados Geográficos, Serviço e Série.
 
-*   **Ficheiro > Abrir**: abrir um documento XML, a partir do sistema de arquivo de ficheiros, no *plugin* em modo de edição. Este documento de metadados aberto será também adicionado à Lista de ficheiros.
+*   **Ficheiro > Abrir**: abrir um documento XML, a partir do sistema de arquivo de ficheiros, na extensão em modo de edição. Este documento de metadados aberto será também adicionado à Lista de ficheiros.
 
 *   **Ficheiro > Abrir Pasta**: carregar para o seu ambiente de trabalho os ficheiros XML que se encontrarem na pasta selecionada a partir do sistema de arquivo de ficheiros.
 
-*   **Ficheiro > Guardar**: guardar as alterações efetuadas ao documento XML a partir do *plugin* de edição.
+*   **Ficheiro > Guardar**: guardar as alterações efetuadas ao documento XML a partir da extensão de edição.
 
 *   **Ficheiro > Guardar como**: guardar o ficheiro com outro nome ou noutro diretório.
 
 *   **Ficheiro > Guardar Todos**: guardar todos os ficheiros de metadados abertos no editor.
 
-*   **Ficheiro > Fechar**: fechar o *plugin* **EditorMetadadosMarswInforbiomares**.
+*   **Ficheiro > Fechar**: fechar a extensão **EditorMetadadosMarswInforbiomares**.
 
 *   **Ficheiro > Atualizar codelists**:atualiza os campos do tipo Lista de Valores dos vários formulários.
 
 *   **Lista de Contactos**: gerir (adicionar / editar / remover) os contactos e respetivos detalhes usados frequentemente nos seus documentos de metadados.
 
-*   **Sobre** : abrir uma janela com informações sobre o *plugin* **EditorMetadadosMarswInforbiomares**.
+*   **Sobre** : abrir uma janela com informações sobre a extensão **EditorMetadadosMarswInforbiomares**.
 
 
 Gestão de Contactos
