@@ -794,3 +794,165 @@ As palavras-chave têm por base a taxonomia de serviços geográficos da norma E
 | 804     | Serviço de conversão de formato geográfico                     | Serviço que permite a conversão de um formato de dados geográficos para outro. 
 | 805     | Serviço de transmissão de mensagens                            | Serviço que permite simultaneamente a vários utilizadores visualizar e comentar colecções de elementos geográficos e solicitar revisões das mesmas.
 | 806     | Gestão remota de ficheiros e de executáveis                    | Serviço que permite o acesso a um sistema secundário de armazenamento de elementos geográficos como se este fosse um recurso local do cliente.
+
+
+# (Geo)catálogo e dados e metadados Versão para Ubuntu Server 18.04, Manual de Utilizador
+
+
+<img src="http://193.136.227.146/manual_images/100000000000049A0000027E2228AFB3DCCFE5E7_2.png">
+
+Índice
+======
+
+Ficha Técnica e Contactos
+=========================
+
+**FICHA TÉCNICA VERSÃO PARA UBUNTU SERVER 18.04**
+
+TÍTULO: Manual de Utilizador do (Geo)catálogo de dados e metadados
+
+AUTORIA: Projectos MARSW e INFORBIOMARES
+
+EMAIL: jgoncal@ualg.pt
+
+DATA: Julho 2020
+
+VERSÃO: Para UBUNTU SERVER 18.04
+
+**CONTACTOS VERSÃO PARA UBUNTU SERVER 18.04**
+
+Projecto **MARSW**
+
+Telefone: +351 289 800 051 | E-mail: jgoncal@ualg.pt | Site: https://marsw.pt
+
+Projecto **INFORBIOMARES**
+
+Telefone: +351 289 800 051 | E-mail: ccmar@ualg.pt | Site: https://www.ccmar.ualg.pt/en/project/inforbiomares
+
+
+**FICHA TÉCNICA ORIGINAL**
+
+TÍTULO: Manual de Utilização do Catálogo SNIMar
+
+AUTORIA: Grupo de Trabalho WP4 SNIMar
+
+EMAIL: suporte.snimar@ipma.pt
+
+DATA: Março, 2017
+
+LOCAL: Lisboa
+
+VERSÃO: 1.1.0
+
+**CONTACTOS ORIGINAIS**
+
+IPMA - INSTITUTO PORTUGUÊS DO MAR E DA ATMOSFERA
+
+Rua C do Aeroporto | 1749-077 Lisboa - Portugal
+
+Telefone: +351 218 477 000 | Fax: +351 218 402 468 | E-mail: info@ipma.pt
+
+EMEPC - Estrutura de Missão para a Extensão da Plataforma Continental
+
+Rua Costa Pinto nº165 | 2770-047 Paço de Arcos - Portugal
+
+Telefone: +351 213 004 165 | Fax: +351 213 905 225 | E-mail: info@emepc.mam.gov.pt
+
+Intervenientes e parceiros
+==========================
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/MARSW-01.png" height="100">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/Inforbiomares-01.png" height="100">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/ICNF-01.png" height="75">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/LPN-01.png" height="75">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/CCMAR_UAlg-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/MARE-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/UEvora-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/ULisboa_Fac_Ciencias-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/ualg_logo_transparent.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/UniaoEuropeia-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/Rep_Portuguesa-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/Portugal2020-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/POSEUR-01.png" height="50">
+
+<img src="https://inforbiomares.ualg.pt/lizmap/www/themes/default/css/img/Fundo%20Ambiental-01.png" height="50">
+
+Introdução
+==========
+
+O “**GeoCatálogo de dados e metadados**” é o “*porting*“ para a versão 18.04 do sistema operativo UBUNTU SERVER (https://ubuntu.com/) do “Catálogo Local SNIMar” desenvolvido no âmbito do Projecto SNIMar com o objectivo de ser a ferramenta destinada à criação de um catalogo de dados e metadados, este ultimos em conformidade com o Perfil de Metadados SNIMar. O trabalho de migração do código para Ubuntu Server 18.04 foi realizado no âmbito dos projectos MARSW e INFORBIOMARES.
+
+O Catálogo **SNIMar** foi desenvolvido no âmbito do Projeto SNIMar com o objetivo de servir de plataforma de gestão de serviços de dados e metadados SNIMar das diferentes entidades parceiras do projeto. O catálogo consiste numa plataforma de internet que permite carregar dados e metadados no perfil SNIMar, permitindo
+também a criação e edição de metadados SNIMar e de serviços de mapas a partir de dados carregados na platafoma juntamente com os respetivos metadados.
+
+O SNIMar é um projeto nacional, financiado pelo Mecanismo Financeiro do Espaço Económico Europeu 2009-2014 no âmbito dos *European Economic Area Grants* (EEA Grants), que tem por objetivo o desenvolvimento de uma infraestrutura de dados espaciais marinhos para o aumento da capacidade de avaliação e previsão do estado ambiental das águas marinhas. Esta infraestrutura traduz-se num Geoportal que irá potenciar a interação do público com a informação disponibilizada pelos parceiros e entidades participantes do projeto e constituirá um ponto central de agregação, pesquisa e distribuição de informação geográfica sobre o ambiente marinho em Portugal.
+
+Os metadados de informação geográfica não são mais do que uma descrição textual, de forma normalizada, da informação geográfica. A sua documentação é indispensável para a identificação e avaliação técnica (escala, sistema de referência, qualidade, extensão geográfica e temporal, contactos dos responsáveis) dos CDG, assim como aspetos ligados ao acesso e utilização de serviços de informação geográfica. Pesquisas feitas em sistemas de informação, infraestruturas de dados espaciais (IDE) ou sistemas de comércio eletrónico, são suportadas pelos metadados, que funcionam como o “combustível” para encontrar os recursos desejados.
+
+Objetivos
+=========
+
+O catálogo segue as seguintes premissas:
+
+*   desenvolvido em tecnologia baseada em soluções *opensource* e *web-based*;
+
+*   ser colaborativo e modular, alinhado com uma estratégia relacional entre dados e utilizadores permitindo o acesso aos metadados no mesmo interface;
+
+*   apresentar uma interface web ágil, simples e intuitiva, como forma de gestão/administração;
+
+*   permitir o controlo de acesso à informação, recorrer a um sistema de autenticação e perfis de utilizadores gerido no mesmo ambiente aplicacional;
+
+*   integrar pesquisa customizada nas palavras chave do Perfil de Metadados SNIMar;
+
+*   partilhar dados espaciais, através de serviços de dados geográficos;
+
+*   permitir acesso externo aos metadados através de um pedido via URL;
+
+
+Conceitos
+=========
+
+Perfil de utilizador
+--------------------
+
+O catálogo está configurado para atribuir aos utilizadores credenciados perfis de acesso. Dois grupos de utilizadores foram considerados: anónimos e credenciados.
+
+*   Anónimos serão todos os utilizadores que acedam ao endereço de internet do catálogo sem credenciais, podendo consultar as entradas que estão publicadas.
+
+*   Credenciados serão todos os utilizadores que têm credenciais de acesso e consequentemente tenham perfil associado.
+
+
+De acordo com o definido os utilizadores podem ter três perfis: perfil de Editor, Gestor e Administrador.
+
+*   **Editor**. Perfil com permissões de adicionar novas entradas ao catálogo, editar os metadados das mesmas (por omissão) e apagar entradas mas apenas as criadas por si (por omissão).
+
+*   **Gestor**. Perfil com permissões relacionadas com ação de publicar ou despublicar entradas inseridas no catálogo. De referir que publicar é tornar a entrada pública e, consequentemente, será contabilizado e integrado no processo de harvesting do geoportal SNIMar. Este perfil tem acesso também à plataforma do Servidor de Mapas utilizado pelo catálogo - Geoserver.
+
+*   **Administrador**. Perfil com permissões de gestão de toda aplicação do catálogo, nomeadamente, gerir utilizadores e acesso à plataforma Geoserver. De realçar que este perfil herda todas as permissões dos outros perfis.
+
+Estado da entrada
+-----------------
+
+O catálogo contempla dois tipos de estado: não publicado e publicado.
+
+*   **“Não publicado”**. As entradas adicionadas ao catálogo, em regra pelo perfil Editor, assumem por omissão o estado "não publicado". É apenas neste estado que
+é possível a edição das entradas inseridas no catálogo e apenas estará disponível para o utilizador que criou essa mesma entrada (dono) ou para utilizadores a quem este der permissões.
+
+É também apenas neste estado que é possível apagar entradas, pelo dono ou por um utilizador com perfil de Administrador.
+
+Entradas
+no estado “não publicado” não são pesquisáveis pelo motor de pesquisa e por conseguinte não aparecem na listagem do catálogo.
+
+*   **“Publicado”**. O estado publicado de uma entrada implica que a mesma seja pesquisável pelo motor de pesquisa e visível na listagem do catálogo. A entrada que esteja no estado publicado não está disponível para edição. Para que a entrada publicada seja atualizada é necessário primeiro despublicá-la. Apenas o perfilGestor e Administrador tem permissões para efetuar a passagem entre os dois estados. De realçar que as entradas publicadas são vistas por todos os utilizadores incluindo o Anónimo.
