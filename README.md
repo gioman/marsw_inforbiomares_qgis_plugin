@@ -265,7 +265,7 @@ Para remover da Lista terá de selecionar a opção que pretende eliminar e prim
 Edição de Metadados
 -------------------
 
-Ao criar ou abrir um documento de metadados será criada, na janela do *plugin*, um novo Separador com o formulário de preenchimento de metadados. Ao abrir um documento de metadados os campos, reconhecidos pelo editor, serão preenchidos nos campos respetivos de forma automática. Os campos variam consoante o tipo de recurso em questão.
+Ao criar ou abrir um documento de metadados será criada, na janela da extensão, um novo Separador com o formulário de preenchimento de metadados. Ao abrir um documento de metadados os campos, reconhecidos pelo editor, serão preenchidos nos campos respetivos de forma automática. Os campos variam consoante o tipo de recurso em questão.
 
 O formulário de preenchimento de metadados está dividido em secções, listadas na parte lateral esquerda do Separador, que agrupam de forma lógica os campos de metadados. Na parte lateral direita é apresentado o Painel com os campos que pertencem à secção selecionada na parte esquerda.
 
@@ -688,7 +688,7 @@ Informação relativa aos Metadados. Contém os seguintes elementos e sub‑elem
 | Idioma   | Sim      | Não      | Idioma utilizado no documento de metadados. Por definição é “Português”, língua oficial do projeto SNIMar. |
 | Norma e Perfil de Metadados | Sim      | Não      | Perfil de Metadados que define as especificações técnicas sobre as quais os Metadados são construídos.
 | Nome                        | Não      | Não      | Nome da norma de metadados utilizada. Por definição está fixo em “Perfil SNIMar”, perfil oficial do projeto SNIMar. |
-| Versão                      | Não      | Não      | Versão do perfil de metadados utilizado. Por definição está fixa na versão mais atual do perfil à data da versão do *plugin* “EditorMetadadosMarswInforbiomares”.
+| Versão                      | Não      | Não      | Versão do perfil de metadados utilizado. Por definição está fixa na versão mais atual do perfil à data da versão da extensão “EditorMetadadosMarswInforbiomares”.
 
 
 | Elemento        | Obrigatório | Múltiplo | Definição |
