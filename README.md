@@ -1154,7 +1154,7 @@ Nesta vista, para além de consultar informação geral presente no metadado da 
 
 
 
-*   apagar a entrada: botão “ **Remover Entrada** ” (apenas com permissões);
+*   apagar a entrada: botão “**Remover Entrada**” (apenas com permissões);
 
 *   anexar documentos à entrada e, de forma automática, adicionar os URL's para estes documentos na parte da Distribuição do seu metadado.
 
@@ -1162,7 +1162,7 @@ Nesta vista, para além de consultar informação geral presente no metadado da 
 Configurar uma entrada
 ----------------------
 
-Para aceder à página de configuração de cada entrada o utilizador (com permissões) terá de entrar na vista detalhada da mesma e premir o botão “ **Configurações** ”. Nesta página o utilizador poderá consultar detalhes sobre a entrada em causa, nomeadamente:
+Para aceder à página de configuração de cada entrada o utilizador (com permissões) terá de entrar na vista detalhada da mesma e premir o botão “**Configurações**”. Nesta página o utilizador poderá consultar detalhes sobre a entrada em causa, nomeadamente:
 
 *   se o estado da entrada é “publicado” ou “não publicado”;
 
@@ -1180,19 +1180,19 @@ A página de configuração de cada entrada disponibiliza, a utilizadores com pe
 
 *   atualizar a *thumbnail* da entrada; esta ação pode ser útil sempre que forem realizadas alterações na renderização do recurso associado à entrada, ou na sua Extensão Geográfica / Retângulo Envolvente.
 
-Para aplicar as alterações à configuração o utilizador deve premir o botão “ **Submeter** ”, se não quiser aplicar alterações basta premir o botão “ **Voltar** ”.
+Para aplicar as alterações à configuração o utilizador deve premir o botão “**Submeter**”, se não quiser aplicar alterações basta premir o botão “**Voltar**”.
 
 
 Apagar uma entrada
 ------------------
 
-Uma entrada no catálogo só pode ser apagada no estado 'não publicado'. Nesta situação o utilizador (dono ou Administrador) poderá entrar na vista detalhada da entrada, premir o botão “ **Apagar Entrada** ” e confirmar a ação.
+Uma entrada no catálogo só pode ser apagada no estado 'não publicado'. Nesta situação o utilizador (dono ou Administrador) poderá entrar na vista detalhada da entrada, premir o botão “**Apagar Entrada**” e confirmar a ação.
 
 
 Gerir entradas no catálogo
 --------------------------
 
-O catálogo disponibiliza uma página dedicada à gestão de entradas , acessível a partir do botão “ **Gestão / ** **Entradas** ” localizado no menu principal da plataforma no canto superior direito.
+O catálogo disponibiliza uma página dedicada à gestão de entradas , acessível a partir do botão “**Gestão / ** **Entradas**” localizado no menu principal da plataforma no canto superior direito.
 
 Esta página permite consultar detalhes de todas as entradas no catálogo, independentemente do seu estado ou do seu dono , nomeadamente:
 
@@ -1218,7 +1218,7 @@ A página de gestão de entradas disponibiliza ainda as seguintes funcionalidade
 Gerir utilizadores no catálogo
 ------------------------------
 
-O catálogo disponibiliza uma página dedicada à gestão de utilizadores, acessível a partir do botão “ **Gestão / ** **Utilizadores** ” localizado no menu principal da plataforma no canto superior direito.
+O catálogo disponibiliza uma página dedicada à gestão de utilizadores, acessível a partir do botão “**Gestão / ** **Utilizadores**” localizado no menu principal da plataforma no canto superior direito.
 
 Esta página apenas está acessível a utilizadores com o perfil Administrador e permite consultar detalhes de todos os utilizadores registados no catálogo, nomeadamente:
 
