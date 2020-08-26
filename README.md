@@ -1304,3 +1304,22 @@ Geoserver
 O utilizador com permissões perfil Gestor e/ou Administrador pode aceder à plataforma do Servidor de Mapas utilizado pelo catálogo – Geoserver; poderá fazê-lo a partir do icone <img src="http://193.136.227.146/manual_images/icon.png"> localizado no menu no canto superior direito.
 
 A partir desta plataforma o utilizador terá acesso às configurações dos serviços WMS criados pelo catálogo, sendo que é importante referir que alterações aos mesmos devem ser realizadas com precaução de forma a não corromper entradas do catálogo.
+
+
+snimar_pycsw README
+===================
+
+**snimar_pycsw** is a fork of the original pycsw application. This piece of software was developed with the requirements of the SNIMar project in mind and, as such, shall not be used outside the local catalogue environment of the SNIMar network.
+
+Below is a copy of the original pycsw README
+---------------------------------------------
+
+**pycsw** is an OGC CSW server implementation written in Python.
+
+pycsw fully implements the OpenGIS Catalogue Service Implementation Specification (Catalogue Service for the Web). Initial development started in 2010 (more formally announced in 2011). The project is certified OGC Compliant, and is an OGC Reference Implementation.  Since 2015, pycsw is an official OSGeo Project.
+
+pycsw allows for the publishing and discovery of geospatial metadata via numerous APIs (CSW 2/CSW 3, OpenSearch, OAI-PMH, SRU). Existing repositories of geospatial metadata can also be exposed, providing a standards-based metadata and catalogue component of spatial data infrastructures.
+
+pycsw is Open Source, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).
+
+Please read the docs at http://pycsw.org/docs for more information.
