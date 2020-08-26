@@ -822,7 +822,7 @@ As palavras-chave têm por base a taxonomia de serviços geográficos da norma E
          * [Carregar ficheiro metadado ou criar novo metadado](#carregar-ficheiro-metadado-ou-criar-novo-metadado)
          * [Carregar dados geográficos associados a entrada CDG](#carregar-dados-geográficos-associados-a-entrada-cdg)
          * [Definir parâmetros de configuração para serviços externos](#definir-parâmetros-de-configuração-para-serviços-externos)
-            * [Validar a conformidade do metadado](#validar-a-conformidade-do-metadado)
+         * [Validar a conformidade do metadado](#validar-a-conformidade-do-metadado)
       * [Formulário de edição de metadados](#formulário-de-edição-de-metadados)
       * [Vista detalhada](#vista-detalhada)
       * [Configurar uma entrada](#configurar-uma-entrada)
@@ -965,7 +965,7 @@ De acordo com o definido os utilizadores podem ter três perfis: perfil de Edito
 
 *   **Editor**. Perfil com permissões de adicionar novas entradas ao catálogo, editar os metadados das mesmas (por omissão) e apagar entradas mas apenas as criadas por si (por omissão).
 
-*   **Gestor**. Perfil com permissões relacionadas com ação de publicar ou despublicar entradas inseridas no catálogo. De referir que publicar é tornar a entrada pública e, consequentemente, será contabilizado e integrado no processo de harvesting do geoportal SNIMar. Este perfil tem acesso também à plataforma do Servidor de Mapas utilizado pelo catálogo - Geoserver.
+*   **Gestor**. Perfil com permissões relacionadas com ação de publicar ou despublicar entradas inseridas no catálogo. Este perfil tem acesso também à plataforma do Servidor de Mapas utilizado pelo catálogo - Geoserver.
 
 *   **Administrador**. Perfil com permissões de gestão de toda aplicação do catálogo, nomeadamente, gerir utilizadores e acesso à plataforma Geoserver. De realçar que este perfil herda todas as permissões dos outros perfis.
 
@@ -1138,7 +1138,7 @@ Ao se carregar um metadado do tipo Serviço ou ao se criar um novo metadado do t
 
 No passo final antes de criar a entrada o Assistente de Formulário apresenta as camadas de informação presentes no serviço (fornecido no passo anterior). O utilizador poderá selecionar/desselecionar as camadas que pretende que estejam visíveis a partir do catálogo.
 
-#### Validar a conformidade do metadado
+### Validar a conformidade do metadado
 
 Após concluir os passos anteriores a entrada é criada no catálogo, faltando apenas a edição dos elementos obrigatórios do metadado para estar em conformidade com o perfil SNIMar abrindo o formulário de edição. Se o metadado carregado não estiver válido aparecerão advertências no ecrã.
 
@@ -1173,7 +1173,7 @@ Alguns elementos do metadado permitem a introdução de múltiplas entradas; par
 
 O utilizador pode guardar as alterações realizadas a um metadado, em qualquer momento da edição, para tal deve premir o botão “**Guardar**” no topo do lado esquerdo do formulário.
 
-O utilizador pode abandonar o formulário , em qualquer momento, para tal o utilizador deve premir o botão “**Sair**” no topo do lado esquerdo do formulário. No entanto, esta ação implica a perda de quaisquer edições que se tenham realizado no formulário.
+O utilizador pode abandonar o formulário, em qualquer momento, para tal o utilizador deve premir o botão “**Sair**” no topo do lado esquerdo do formulário. No entanto, esta ação implica a perda de quaisquer edições que se tenham realizado no formulário.
 
 <img src="http://193.136.227.146/manual_images/fig5.png">
 <figcaption>Figura 5: Vista do Formulário de Edição de um metadado do tipo CDG</figcaption>
@@ -1181,7 +1181,7 @@ O utilizador pode abandonar o formulário , em qualquer momento, para tal o util
 Vista detalhada
 ----------------
 
-A vista detalhada de uma entrada permite visualizar num mapa dinâmico a Extensão Geográfica / R etângulo Envolvente, os dados geográficos associados à entrada na altura da sua criação ou associados a um serviço WMS externo.
+A vista detalhada de uma entrada permite visualizar num mapa dinâmico a Extensão Geográfica / Retângulo Envolvente, os dados geográficos associados à entrada na altura da sua criação ou associados a um serviço WMS externo.
 
 O mapa permite também mostrar ou esconder as camadas de informação associadas à entrada, a partir do icone no canto superior direito do mapa.
 
@@ -1301,6 +1301,6 @@ A página de gestão de utilizadores disponibiliza ainda as seguintes funcionali
 Geoserver
 ---------
 
-O utilizador com permissões perfil Gestor e/ou Administrador pode aceder à plataforma do S ervidor de M apas utilizado pelo catálogo – Geoserver; poderá fazê-lo a partir do icone <img src="http://193.136.227.146/manual_images/icon.png"> localizado no menu no canto superior direito.
+O utilizador com permissões perfil Gestor e/ou Administrador pode aceder à plataforma do Servidor de Mapas utilizado pelo catálogo – Geoserver; poderá fazê-lo a partir do icone <img src="http://193.136.227.146/manual_images/icon.png"> localizado no menu no canto superior direito.
 
 A partir desta plataforma o utilizador terá acesso às configurações dos serviços WMS criados pelo catálogo, sendo que é importante referir que alterações aos mesmos devem ser realizadas com precaução de forma a não corromper entradas do catálogo.
