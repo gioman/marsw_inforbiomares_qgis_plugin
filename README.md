@@ -1309,7 +1309,7 @@ A partir desta plataforma o utilizador terá acesso às configurações dos serv
 snimar_pycsw README
 ===================
 
-**snimar_pycsw** is a fork of the original pycsw application. This piece of software was developed with the requirements of the SNIMar project in mind and, as such, shall not be used outside the local catalogue environment of the SNIMar network.
+**snimar_pycsw** is a fork of the original pycsw application. This piece of software was developed with the requirements of the Catalogue developed for the SNIMar project (and its subsequent update/upgrade for a more recent version of the Ubuntu Server operating system) in mind and, as such, shall not be used outside this specific environment.
 
 Below is a copy of the original pycsw README
 ---------------------------------------------
