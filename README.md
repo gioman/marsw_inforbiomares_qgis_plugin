@@ -1100,7 +1100,7 @@ Antes de ser criada a nova entrada terá ainda de indicar um texto identificativ
 
 <img src="http://193.136.227.146/manual_images/fig3.png">
 <figcaption>Figura 3: Vista do Assistente de Formulário para carregar dados geográficos</figcaption>
-
+&nbsp;
 
 Este serviço poderá ser partilhado externamente ao catálogo como um serviço WMS e/ou um serviço WFS (para dados vetoriais) e WCS (para dados matriciais), para tal terá apenas de os catalogar. **Nota: este passo poderá ser realizado em qualquer altura a partir da vista detalhada de cada entrada deste tipo**.
 
