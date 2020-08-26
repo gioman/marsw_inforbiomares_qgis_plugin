@@ -1098,14 +1098,12 @@ Poderá ainda carregar um ficheiro SLD (*Styled Layer Descriptor*) que permite c
 
 Antes de ser criada a nova entrada terá ainda de indicar um texto identificativo para nomear o serviço interno a criar. **Nota: não deverá conter espaços ou carateres acentuados**. 
 
-<img src="http://193.136.227.146/manual_images/fig3.png">
-<figcaption>Figura 3: Vista do Assistente de Formulário para carregar dados geográficos</figcaption>
-&nbsp;
-
 Este serviço poderá ser partilhado externamente ao catálogo como um serviço WMS e/ou um serviço WFS (para dados vetoriais) e WCS (para dados matriciais), para tal terá apenas de os catalogar. **Nota: este passo poderá ser realizado em qualquer altura a partir da vista detalhada de cada entrada deste tipo**.
 
 A catalogação de serviços no catálogo a partir de dados geográficos carregados é executada ao se premir o botão “Catalogar Serviço de ...”. Com esta ação é cria da **automaticamente** uma nova entrada do tipo Serviço com um metadado respetivo que deverá ser completado de forma a ficar válido. Pode aceder a esta entrada adicional a partir da página de gestão de entradas.
 
+<img src="http://193.136.227.146/manual_images/fig3.png">
+<figcaption>Figura 3: Vista do Assistente de Formulário para carregar dados geográficos</figcaption>
 
 ### Definir parâmetros de configuração para serviços externos
 
@@ -1140,9 +1138,6 @@ A lista de secções varia consoante o tipo de metadado pois a estrutura de um m
 
 Estas secções subdividem-se em categorias, como mostra a figura seguinte:
 
-<img src="http://193.136.227.146/manual_images/fig5.png">
-<figcaption>Figura 5: Vista do Formulário de Edição de um metadado do tipo CDG</figcaption>
-
 O formulário indica de forma automática as secções que não estão conformes, bem como os campos em questão, com advertências visuais (<img src="http://193.136.227.146/manual_images/icon3.png">) e com indicações de correção.
 
 Se o metadado estiver conforme o perfil SNIMar não aparecem advertências e o metadado est ar á válido. Apenas entradas com metadado válido podem ser publicadas.
@@ -1152,6 +1147,9 @@ Alguns elementos do metadado permitem a introdução de múltiplas entradas; par
 O utilizador pode guardar as alterações realizadas a um metadado, em qualquer momento da edição, para tal deve premir o botão “**Guardar**” no topo do lado esquerdo do formulário.
 
 O utilizador pode abandonar o formulário , em qualquer momento, para tal o utilizador deve premir o botão “**Sair**” no topo do lado esquerdo do formulário. No entanto, esta ação implica a perda de quaisquer edições que se tenham realizado no formulário.
+
+<img src="http://193.136.227.146/manual_images/fig5.png">
+<figcaption>Figura 5: Vista do Formulário de Edição de um metadado do tipo CDG</figcaption>
 
 Vista detalhada
 ----------------
