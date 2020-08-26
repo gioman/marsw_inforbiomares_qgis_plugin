@@ -968,7 +968,7 @@ Na vista de catálogo encontra-se disponibilizado a todos os utilizadores (inclu
 
 *   executar pesquisas de texto livre;
 
-*   ordenar a lista de entradas por :
+*   ordenar a lista de entradas por:
 
     *   data ascendente e descendente
 
@@ -1000,7 +1000,7 @@ Utilizadores credenciados têm acesso a mais funcionalidades, dependendo do seu 
 
 *   gerir utilizadores;
 
-*   aceder à plataforma Geo s erver.
+*   aceder à plataforma Geoserver.
 
 
 Acesso à plataforma
@@ -1011,7 +1011,7 @@ Para aceder ao catálogo de cada projecto utilize o seu *browser* e navegue para
 Entrar em sessão
 ----------------
 
-Para entrar em sessão prima o botão “ **Entrar** ” localizado no canto superior direito, introduzindo as suas credenciais (Nome de Utilizador e Palavra-Passe).
+Para entrar em sessão prima o botão “**Entrar**” localizado no canto superior direito, introduzindo as suas credenciais (Nome de Utilizador e Palavra-Passe).
 
 Se o*l**ogin*se efetuar com sucessoterá acesso a um menu mais alargado de funcionalidades (no canto superior direito). Caso não consiga entrar em sessão deverá contactar um administrador da plataforma.
 
@@ -1031,675 +1031,224 @@ Para alterar a sua password aceda às definições da sua conta, a partir do ico
 Consultar o catálogo
 --------------------
 
-Poderá aceder à
-vista de catálogo
-a partir da página inicial premindo o botão “
-**Entrar no catálogo**
-” ou a partir do botão “
-**Catálogo**
-” localizado no menu principal da plataforma no canto superior direito.
-
+Poderá aceder à vista de catálogo a partir da página inicial premindo o botão “**Entrar no catálogo**” ou a partir do botão “**Catálogo**” localizado no menu principal da plataforma no canto superior direito.
 
 Ler F.A.Q's
 -----------
 
-Para
-
-além deste manual há uma página de F.A.Q's acessível a partir do botão “
-**?**
-
-**Ajuda**
-” localizado no menu principal da plataforma no canto superior direito.
+Para além deste manual há uma página de F.A.Q's acessível a partir do botão “**? Ajuda**” localizado no menu principal da plataforma no canto superior direito.
 
 
 Adicionar uma entrada
 ---------------------
 
-A funcionalidade de adicionar entradas ao catálogo est
-á
-acessível no botão "Criar Entrada" localizado no canto superior direito no menu de topo e dá acesso a um Assistente de Formulário
-composto por passos que se deve
-seguir de acordo com o
-tipo de entrada
-que se pretende adicionar ao catálogo.
+A funcionalidade de adicionar entradas ao catálogo est á acessível no botão "Criar Entrada" localizado no canto superior direito no menu de topo e dá acesso a um Assistente de Formulário composto por passos que se deve seguir de acordo com o tipo de entrada que se pretende adicionar ao catálogo.
 
 Os passos compreendem, de forma geral:
 
-#.  Carregar ou
-    c
-    riar ficheiro de metadado
-    (
-    CDG / Série / Serviço
-    )
+*  Carregar ou criar ficheiro de metadado (CDG / Série / Serviço)
+
+*  Carregar dados associados ao metadado do tipo CDG, se existirem
+
+*  Definir parâmetros de configuração, se metadado for do tipo Serviço
+
+*  Editar metadado de acordo com o perfil SNIMar, se não estiver válido
 
 
-
-#.  Carregar dados associados ao metadado
-    do tipo
-    CDG, se existirem
-
-
-
-#.  Definir parâmetros de configuração, se metadado for do tipo Serviço
-
-
-
-#.  Editar metadado de acordo com o perfil SNIMar, se
-    não estiver válido
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Carregar ficheiro metadado ou criar novo metadado
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Carregar ficheiro metadado ou criar novo metadado
 
 O primeiro passo será carregar ou criar um ficheiro de metadado:
 
 *   Carregar um ficheiro de metadado; este deverá:
 
-    *   ser
-        um ficheiro no formato XML;
-
-
+    *   ser um ficheiro no formato XML;
 
     *   respeitar o esquema ISO19115;
 
+    *   conter o elemento “Tipo de Recurso“ (*gmd:hierarchyLevel*) definido;
+
+    *   ter um identificador de metadado único (*gmd:fileIdentifier*);
+
+    *   ter um elemento válido da “Extensão Geográfica / Retângulo Envolvente” (*gmd:EX_GeographicBoundingBox*) ; ou seja, coordenadas geográficas decimais válidas.
+
+*   Criar um novo metadado; o utilizador terá de:
+
+    *   selecionar o “Tipo de Metadado” pretendido ;
+
+    *   definir um elemento válido da “Extensão Geográfica / Retângulo Envolvente” (*gmd:EX_GeographicBoundingBox*) referente à definição da Extensão Geográfica; devem ser inseridas coordenadas geográficas decimais válidas.
+
+    *   se se quiser criar um novo metadado do tipo Serviço ser-lhe-á ainda pedido um endereço URL válido para um serviço WMS externo (ver alínea ). No caso de não existir, a entrada é criada na mesma e poderá completar o metadado em qualquer altura, no entanto, o serviço não é renderizado na plataforma.
 
 
-    *   conter o elemento “Tipo de Recurso“ (
-        *gmd:hierarchyLevel*
-        ) definido;
+### Carregar dados geográficos associados a entrada CDG
+
+No caso de se estar a criar uma entrada do tipo CDG poderá ainda carregar dados geográficos, ficando estes associados à entrada em causa. Esta opção permite renderizar os dados geográficos a partir do catálogo-local e também, se houver esse interesse, partilhar os mesmos através de um serviço WMS (serviço de visualização) e/ou WFS/WCS (serviço de descarregamento).
+
+Os dados geográficos a carregar poderão estar no formato vetorial: **ESRI Shapefile** ou no formato matricial: **GeoTIFF**.
+
+Poderá ainda carregar um ficheiro SLD (*Styled Layer Descriptor*) que permite costumizar a renderização dos dados geográficos. Para garantir a aplicação desta renderização aos dados o ficheiro carregado deverá ser compatível com a versão instalada do GeoServer (servidor de mapas utilizado pelo catálogo).
+
+Antes de ser criada a nova entrada terá ainda de indicar um texto identificativo para nomear o serviço interno a criar. **Nota: não deverá conter espaços ou carateres acentuados**. E ste serviço poderá ser partilhado externamente ao catálogo como um serviço WMS e/ou um serviço WFS (para dados vetoriais) e WCS (para dados matriciais), para tal terá apenas de os catalogar. **Nota: este passo poderá ser realizado em qualquer altura a partir da vista detalhada de cada entrada deste tipo**.
+
+A catalogação de serviços no catálogo a partir de dados geográficos carregados é executada ao se premir o botão “Catalogar Serviço de ...”. Com esta ação é cria da **automaticamente** uma nova entrada do tipo Serviço com um metadado respetivo que deverá ser completado de forma a ficar válido. Pode aceder a esta entrada adicional a partir da página de gestão de entradas.
 
 
+### Definir parâmetros de configuração para serviços externos
 
-    *   ter um identificador de metadado único (
-        *gmd:fileIdentifier*
-        );
+Ao se carregar um metadado do tipo Serviço ou ao se criar um novo metadado do tipo Serviço o Assistente de Formulário pedirá um endereço URL válido para o serviço WMS externo. No caso de se carregar um metadado, por omissão, é utilizado o que estiver preenchido no elemento Distribuição / Localizador do Recurso (*gmd:transferOptions*) do metadado fornecido.
 
+No passo final antes de criar a entrada o Assistente de Formulário apresenta as camadas de informação presentes no serviço (fornecido no passo anterior). O utilizador poderá selecionar/desselecionar as camadas que pretende que estejam visíveis a partir do catálogo.
 
+#### Validar a conformidade do metadado
 
-    *   ter um elemento válido d
-        a
-        “Extensão Geográfica / Retângulo Envolvente”
-        (
-        *gmd:EX_GeographicBoundingBox*
-        )
-        ;
-        ou seja, coordenadas geográficas decimais válidas.
-
-
-
-
-
-
-*   Criar um
-    novo
-    metadado;
-    o utilizador terá de:
-
-    *   selecionar o “Tipo de
-        Metadado
-        ”
-        pretendido
-        ;
-
-
-
-    *   definir
-        um elemento válido da “Extensão Geográfica / Retângulo Envolvente” (
-        *gmd:EX_GeographicBoundingBox*
-        ) referente à definição da Extensão Geográfica; devem ser inseridas coordenadas geográficas decimais válidas.
-
-
-
-    *   se se quiser criar um novo metadado do tipo Serviço ser-lhe-á ainda pedido um endereço URL válido
-        para
-        um serviço WMS externo (ver alínea
-        ). No caso de não existir, a entrada é criada na mesma e poderá completar o metadado em qualquer altura, no entanto, o serviço não é renderizado na plataforma.
-
-
-
-
-
-
-
-Carregar dados geográficos associados a entrada CDG
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-No caso d
-e se estar a criar uma
-entrada
-do
-tipo CDG
-p
-oderá
-ainda carregar
-dados
-geográficos, ficando estes associados à entrada em causa.
-
-Esta opção permite renderizar os dados geográficos
-a partir
-
-do catálogo-local e também, se houver esse interesse, partilhar os mesmos através de um serviço WMS (serviço de visualização) e/ou WFS/WCS (serviço de descarregamento)
-.
-
-Os dados
-geográficos
-
-a carregar
-poderão estar no formato vetorial:
-ESRI
-Shapefile
-ou
-no formato matricial: GeoTIFF.
-
-P
-oderá ainda carregar um ficheiro SLD (
-*Styled Layer Descriptor*
-) que permite costumizar a renderização dos dados geográficos.
-Para garantir a aplicação desta renderização aos dados o ficheiro carregado deverá ser compatível com a versão instalada do GeoServer (servidor de mapas utilizado pelo catálogo).
-
-Antes de
-ser criada a nova entrada
-terá ainda de indicar um texto identificativo para
-nomear
-o serviço interno a criar.
-**Nota: não deverá conter espaços ou carateres acentuados**
-.
-
-
-
-E
-ste serviço
-poderá
-
-ser partilhado externamente ao catálogo como
-um serviço WMS
-e/ou um serviço WFS (para dados vetoriais) e WCS (para dados matriciais)
-, para tal terá apenas de o
-s
-
-catalogar.
-**Nota: este passo poderá ser realizado**
-** em qualquer altura **
-**a partir da vista detalhada de cada entrada deste tipo**
-.
-
-A
-
-catalogação
-de serviços no catálogo a partir de dados geográficos carregados é executada ao se premir o botão “Catalogar Serviço de ...”. Com esta ação é
-cria
-da
-
-**automaticamente**
-uma nova entrada do tipo Serviço com um metadado respetivo que deverá ser completado de forma a ficar válido. Pode aceder a esta entrada adicional a partir da página de gestão de entradas.
-
-
-Definir parâmetros de configuração para serviços externos
-
-Ao se carregar um metadado do tipo Serviço
-ou ao se criar um novo metadado do tipo Serviço
-o Assistente de Formulário pedirá um endereço URL válido para o
-serviço WMS externo
-.
-No caso de se carregar um metadado, p
-or omissão, é utilizado o que estiver preenchido no elemento Distribuição / Localizador do Recurso (
-*gmd:transferOptions*
-) do metadado fornecido.
-
-No passo
-final antes de criar a entrada
-o Assistente de Formulário apresenta as camadas de informação presentes no serviço (fornecido no passo anterior). O utilizador poderá selecionar/desselecionar as camadas
-
-que pretende que
-estejam visíveis
-a partir do catálogo.
-
-
-Validar a conformidade do metadado
-
-Após concluir os passos anteriores a entrada é criada no catálogo, faltando apenas
-a edição
-dos elementos obrigatórios do metadado para estar em conformidade com o perfil SNIMar
-abrindo o formulário de edição
-.
-Se o metadado carregado não estiver válido aparecerão advertências no ecrã.
-
-
-
-
-
-
-
-
-
-
+Após concluir os passos anteriores a entrada é criada no catálogo, faltando apenas a edição dos elementos obrigatórios do metadado para estar em conformidade com o perfil SNIMar abrindo o formulário de edição. Se o metadado carregado não estiver válido aparecerão advertências no ecrã.
 
 Formulário de edição de metadados
 ---------------------------------
 
-Para aceder ao formulário de edição do metadado de uma entrada no catálogo o utilizador com permissões terá de entrar na
-vista detalhada
-da entrada em particular e premir o botão “Metadado” e selecionar de uma lista a opção “Editar Metadado”. Também é possível aceder ao formulário a partir da página de Gestão de
-Entradas
-.
+Para aceder ao formulário de edição do metadado de uma entrada no catálogo o utilizador com permissões terá de entrar na vista detalhada da entrada em particular e premir o botão “Metadado” e selecionar de uma lista a opção “Editar Metadado”. Também é possível aceder ao formulário a partir da página de Gestão de Entradas.
 
-O formulário de
-edição
-de metadados está dividido em secções, listadas na parte lateral esquerda, que agrupam de forma lógica os vários elementos que compõem um metadado no perfil SNIMar; na parte lateral direita é apresentado um painel com os campos que pertencem à secção selecionada no painel do lado esquerdo,
-este painel pode por vezes também estar subdividido em Separadores que se encontram na parte superior
-.
+O formulário de edição de metadados está dividido em secções, listadas na parte lateral esquerda, que agrupam de forma lógica os vários elementos que compõem um metadado no perfil SNIMar; na parte lateral direita é apresentado um painel com os campos que pertencem à secção selecionada no painel do lado esquerdo, este painel pode por vezes também estar subdividido em Separadores que se encontram na parte superior.
 
 A lista de secções varia consoante o tipo de metadado pois a estrutura de um metadado do tipo CDG ou Série e um metadado do tipo Serviço é diferente. A lista de secções principais, no entanto, é a seguinte:
 
 
 *   Metadado
 
-
-
 *   Conjunto de Dados ou Serviço de Dados
-
-
 
 *   Qualidade
 
-
-
 *   Distribuição
 
+Estas secções subdividem-se em categorias, como mostra a figura seguinte:
 
+O formulário indica de forma automática as secções que não estão conformes, bem como os campos em questão, com advertências visuais (****) e com indicações de correção.
 
+Se o metadado estiver conforme o perfil SNIMar não aparecem advertências e o metadado est ar á válido. Apenas entradas com metadado válido podem ser publicadas.
 
-Estas
-secç
-ões
-subdivide
-m
--
-se
-em categorias, como
-mostra
-a figura seguinte:
+Alguns elementos do metadado permitem a introdução de múltiplas entradas; para as adicionar deverá premir o botão **** associado ao elemento em causa e preencher os campos associados. Cada entrada múltipla de um elemento adicionada aparece listada em forma de tabela. Para eliminar uma entrada prima o botão <img src="http://193.136.227.146/manual_images/icon2.png"> associado.
 
+O utilizador pode guardar as alterações realizadas a um metadado, em qualquer momento da edição, para tal deve premir o botão “**Guardar**” no topo do lado esquerdo do formulário.
 
-
-O formulário indica de forma autom
-á
-tica as secções que não estão conformes, bem como os campos em questão, com advertências visuais
-(
-****
-)
-e com indicações de correção.
-
-Se o metadado estiver conforme o perfil SNIMar não aparecem advertências e o metadado est
-ar
-á válido. Apenas entradas com metadado válido podem ser publicadas e, conse
-q
-uentemente, serem consideradas no processo de
-*harvesting*
-
-pelo
-geoportal SNIMar.
-
-Alguns elementos do metadado permitem a introdução de múltiplas entradas; para as adicionar deverá premir o botão
-****
-associado ao elemento em causa e preencher os campos associados. Cada entrada múltipla de um elemento adicionada aparece listada em forma de tabela. Para eliminar uma entrada prima o botão
-****
-associado.
-
-O utilizador pode
-guardar as alterações realizadas a um metadado,
-em qualquer momento da edição, para tal deve premir o botão “
-**Guardar**
-” no topo do lado esquerdo do formulário.
-
-O utilizador pode abandonar o formulário
-, em qualquer momento, para tal o utilizador deve premir o botão “
-**Sair**
-” no topo do lado esquerdo do formulário.
-No entanto, esta ação implica a perda de quaisquer edições que se tenham
-realizado
-no formulário.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+O utilizador pode abandonar o formulário , em qualquer momento, para tal o utilizador deve premir o botão “**Sair**” no topo do lado esquerdo do formulário. No entanto, esta ação implica a perda de quaisquer edições que se tenham realizado no formulário.
 
 Vista detalhada
 ----------------
 
-A vista detalhada de uma entrada permite visualizar
-num mapa dinâmico
-a Extensão Geográfica / R
-etângulo Envolvente, os dados geográficos associados à entrada na altura da sua criação ou associados a um serviço WMS externo.
+A vista detalhada de uma entrada permite visualizar num mapa dinâmico a Extensão Geográfica / R etângulo Envolvente, os dados geográficos associados à entrada na altura da sua criação ou associados a um serviço WMS externo.
 
 O mapa permite também mostrar ou esconder as camadas de informação associadas à entrada, a partir do icone no canto superior direito do mapa.
 
 Nesta vista, para além de consultar informação geral presente no metadado da entrada em causa, o utilizador poderá:
 
-*   a partir do botão “
-    **Metadado**
-    ”:
+*   a partir do botão “**Metadado**”:
 
-    *   abrir o metadado num
-        separador à parte para impressão;
-
-
+    *   abrir o metadado num separador à parte para impressão;
 
     *   descarregar o ficheiro de metadado em formato XML;
 
-
-
     *   editar o metadado (apenas com permissões);
 
+*   configurar a entrada: botão “**Configurações**” (apenas com permissões);
 
 
 
-
-*   configurar a entrada:
-    botão “
-    **Configurações**
-    ”
-
-    (apenas com permissões);
-
-
-
-*   apagar
-    a entrada:
-    botão “
-    **Remover Entrada**
-    ”
-
-    (apenas com permissões);
-
-
+*   apagar a entrada: botão “ **Remover Entrada** ” (apenas com permissões);
 
 *   anexar documentos à entrada e, de forma automática, adicionar os URL's para estes documentos na parte da Distribuição do seu metadado.
-
-
 
 
 Configurar uma entrada
 ----------------------
 
-Para aceder à página de configuração de
-cada
-entrada o utilizador
-(
-com permissões
-)
-terá de entrar na
-vista detalhada
-da
-mesma
-e premir o botão “
-**Configurações**
-”.
-Nesta página o utilizador poderá consultar detalhes sobre a entrada em causa, nomeadamente:
+Para aceder à página de configuração de cada entrada o utilizador (com permissões) terá de entrar na vista detalhada da mesma e premir o botão “ **Configurações** ”. Nesta página o utilizador poderá consultar detalhes sobre a entrada em causa, nomeadamente:
 
 *   se o estado da entrada é “publicado” ou “não publicado”;
 
+*   o utilizador que adicionou a entrada no catálogo;
 
-
-*   o utilizador que adicionou a entrada no
-    catálogo;
-
-
-
-*   os utilizadores que têm permissões de edição do
-
-    metadado
-    respetivo
-    .
-
-
+*   os utilizadores que têm permissões de edição do metadado respetivo.
 
 A página de configuração de cada entrada disponibiliza, a utilizadores com permissões, as seguintes funcionalidades:
 
 *   editar o estado da entrada “publicado” ou “não publicado”;
 
-
-
-*   mudar o dono da entrada para outro utilizador; esta ação implica a perda de permissões do dono atual, nomeadamente deixará de poder apagar a entrada, de edi
-    tar
-    o metadado e/ou de alterar o estado de publicação;
-
-
+*   mudar o dono da entrada para outro utilizador; esta ação implica a perda de permissões do dono atual, nomeadamente deixará de poder apagar a entrada, de edi tar o metadado e/ou de alterar o estado de publicação;
 
 *   editar os utilizadores com permissões de edição do metadado;
 
+*   atualizar a *thumbnail* da entrada; esta ação pode ser útil sempre que forem realizadas alterações na renderização do recurso associado à entrada, ou na sua Extensão Geográfica / Retângulo Envolvente.
 
-
-*   atualizar a
-    *thumbnail*
-    da entrada; esta ação pode ser útil sempre que
-    forem realizadas
-    alterações
-    na
-    renderização do recurso associado à entrada, ou na
-    sua
-    Extensão Geográfica / Retângulo Envolvente.
-
-
-
-Para aplicar as alterações à configuração o utilizador deve premir o botão “
-**Submeter**
-”, se não quiser aplicar alterações basta premir o botão “
-**Voltar**
-”.
+Para aplicar as alterações à configuração o utilizador deve premir o botão “ **Submeter** ”, se não quiser aplicar alterações basta premir o botão “ **Voltar** ”.
 
 
 Apagar uma entrada
 ------------------
 
-Uma entrada no catálogo só pode ser apagada no estado 'não publicado'. Nesta situação o utilizador (dono ou Administrador) poderá entrar na vista detalhada da entrada, premir o botão “
-**Apagar Entrada**
-” e confirmar a ação.
+Uma entrada no catálogo só pode ser apagada no estado 'não publicado'. Nesta situação o utilizador (dono ou Administrador) poderá entrar na vista detalhada da entrada, premir o botão “ **Apagar Entrada** ” e confirmar a ação.
 
 
 Gerir entradas no catálogo
 --------------------------
 
-O catálogo disponibiliza uma página dedicada à gestão de
-entradas
-, acessível
-a partir do botão “
-**Gestão / **
-**Entradas**
-” localizado no menu principal da plataforma no canto superior direito.
+O catálogo disponibiliza uma página dedicada à gestão de entradas , acessível a partir do botão “ **Gestão / ** **Entradas** ” localizado no menu principal da plataforma no canto superior direito.
 
-Esta página permite consultar detalhes de todas as entradas no catálogo, independentemente do seu estado
-ou do seu dono
-,
-nomeadamente:
+Esta página permite consultar detalhes de todas as entradas no catálogo, independentemente do seu estado ou do seu dono , nomeadamente:
 
-*   tipo (CDG / Serviço / Série), título
-    e
-    identificador do metadado;
-
-
+*   tipo (CDG / Serviço / Série), título e identificador do metadado;
 
 *   utilizador que adicionou a entrada no catálogo;
 
-
-
 *   data da última revisão do metadado;
-
-
 
 *   estado de validação do metadado (verdadeiro/falso);
 
-
-
 *   estado de publicação (verdadeiro/falso).
-
-
 
 
 A página de gestão de entradas disponibiliza ainda as seguintes funcionalidades, aplicáveis a cada entrada da lista:
 
 *   aceder à vista detalhada da entrada;
 
-
-
 *   aceder ao formulário de edição do metadado respetivo (perfil Editor);
 
-
-
 *   alterar o estado de publicação da entrada (perfil Gestor).
-
-
-
 
 Gerir utilizadores no catálogo
 ------------------------------
 
-O catálogo disponibiliza uma página dedicada à gestão de
-utilizadores
-, acessível
-a partir do botão “
-**Gestão / **
-**Utilizadores**
-” localizado no menu principal da plataforma no canto superior direito.
+O catálogo disponibiliza uma página dedicada à gestão de utilizadores, acessível a partir do botão “ **Gestão / ** **Utilizadores** ” localizado no menu principal da plataforma no canto superior direito.
 
-Esta página
-apenas está acessível a utilizadores com o perfil Administrador e
-permite consultar detalhes de tod
-o
-s
-os
-
-utilizadores registados
-no catálogo,
-nomeadamente:
+Esta página apenas está acessível a utilizadores com o perfil Administrador e permite consultar detalhes de todos os utilizadores registados no catálogo, nomeadamente:
 
 *   nome do utilizador;
 
+*   perfil do utilizador – perfil Administrador e/ou perfil Gestor;
 
+*   estado do utilizador (Ativo / não Ativo) – apenas utilizadores com o estado 'Ativo' podem entrar em sessão na plataforma .
 
-*   perfil do utilizador –
-    perfil
-    Administrador
-    e/ou perfil
-    Gestor;
-
-
-
-*   estado do utilizador (
-    Ativo
-    /
-    não Ativo
-    ) –
-    apenas utilizadores com o estado 'Ativo' podem entrar em sessão na plataforma
-    .
-
-
-
-
-A
-página de gestão de
-utilizadores
-disponibiliza ainda as seguintes funcionalidades:
+A página de gestão de utilizadores disponibiliza ainda as seguintes funcionalidades:
 
 *   editar um utilizador, nomeadamente:
 
-    *   atribuir nova
-        *password*
-        ;
+    *   atribuir nova *password* ;
 
-
-
-    *   ativar/desativar perfil Administrador e/
-        ou
-        Gestor;
-
-
+    *   ativar/desativar perfil Administrador e/ ou Gestor;
 
     *   ativar/desativar o estado Ativo
-
-
-
-
-
-
 
 *   criar um novo utilizador, para tal terá de se definir:
 
     *   nome do utilizador;
 
+    *   perfil do utilizador – perfil Administrador e/ou perfil Gestor;
 
-
-    *   perfil do utilizador –
-        perfil
-        Administrador
-        e/ou perfil
-        Gestor;
-
-
-
-    *   atribuição de
-        *password*
-        ;
-
-
-
-
-
-
+    *   atribuição de *password* ;
 
 Geoserver
 ---------
 
-O utilizador com permissões
-perfil Gestor e/ou Administrador
+O utilizador com permissões perfil Gestor e/ou Administrador pode aceder à plataforma do S ervidor de M apas utilizado pelo catálogo – Geoserver; poderá fazê-lo a partir do icone <img src="http://193.136.227.146/manual_images/icon.png"> localizado no menu no canto superior direito.
 
-pode
-aceder à plataforma do S
-ervidor de
-M
-apas utilizado pelo catálogo –
-Geoserver; poderá fazê-lo
-a partir
-do icone
-<img src="http://193.136.227.146/manual_images/icon.png">
-localizado no menu no canto superior direito.
-
-A
-partir desta plataforma o utilizador terá acesso às configurações dos serviços WMS criados pelo catálogo, sendo que é importante referir que alterações
-aos
-mesm
-o
-s devem ser realizadas com precaução de forma a não corromper entradas do catálogo.
+A partir desta plataforma o utilizador terá acesso às configurações dos serviços WMS criados pelo catálogo, sendo que é importante referir que alterações aos mesmos devem ser realizadas com precaução de forma a não corromper entradas do catálogo.
