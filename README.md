@@ -804,6 +804,33 @@ As palavras-chave têm por base a taxonomia de serviços geográficos da norma E
 Índice
 ======
 
+   * [Ficha Técnica e Contactos](#ficha-técnica-e-contactos-1)
+   * [Intervenientes e parceiros](#intervenientes-e-parceiros-1)
+   * [Introdução](#introdução-1)
+   * [Objetivos](#objetivos)
+   * [Conceitos](#conceitos)
+      * [Perfil de utilizador](#perfil-de-utilizador)
+      * [Estado da entrada](#estado-da-entrada)
+   * [Catálogo](#catálogo)
+      * [Acesso à plataforma](#acesso-à-plataforma)
+      * [Entrar em sessão](#entrar-em-sessão)
+      * [Sair de sessão](#sair-de-sessão)
+      * [Alterar password](#alterar-password)
+      * [Consultar o catálogo](#consultar-o-catálogo)
+      * [Ler F.A.Q's](#ler-faqs)
+      * [Adicionar uma entrada](#adicionar-uma-entrada)
+         * [Carregar ficheiro metadado ou criar novo metadado](#carregar-ficheiro-metadado-ou-criar-novo-metadado)
+         * [Carregar dados geográficos associados a entrada CDG](#carregar-dados-geográficos-associados-a-entrada-cdg)
+         * [Definir parâmetros de configuração para serviços externos](#definir-parâmetros-de-configuração-para-serviços-externos)
+            * [Validar a conformidade do metadado](#validar-a-conformidade-do-metadado)
+      * [Formulário de edição de metadados](#formulário-de-edição-de-metadados)
+      * [Vista detalhada](#vista-detalhada)
+      * [Configurar uma entrada](#configurar-uma-entrada)
+      * [Apagar uma entrada](#apagar-uma-entrada)
+      * [Gerir entradas no catálogo](#gerir-entradas-no-catálogo)
+      * [Gerir utilizadores no catálogo](#gerir-utilizadores-no-catálogo)
+      * [Geoserver](#geoserver)
+
 Ficha Técnica e Contactos
 =========================
 
