@@ -1054,6 +1054,8 @@ Os passos compreendem, de forma geral:
 
 *  Editar metadado de acordo com o perfil SNIMar, se não estiver válido
 
+<img src="http://193.136.227.146/manual_images/fig1.png">
+<figcaption>Figura 1: Vista inicial do Assistente de Formulário para adicionar entradas</figcaption>
 
 ### Carregar ficheiro metadado ou criar novo metadado
 
@@ -1079,6 +1081,8 @@ O primeiro passo será carregar ou criar um ficheiro de metadado:
 
     *   se se quiser criar um novo metadado do tipo Serviço ser-lhe-á ainda pedido um endereço URL válido para um serviço WMS externo (ver alínea ). No caso de não existir, a entrada é criada na mesma e poderá completar o metadado em qualquer altura, no entanto, o serviço não é renderizado na plataforma.
 
+<img src="http://193.136.227.146/manual_images/fig2.png">
+<figcaption>Figura 2: Vista do Assistente de Formulário para definir “Retângulo Envolvente“</figcaption>
 
 ### Carregar dados geográficos associados a entrada CDG
 
