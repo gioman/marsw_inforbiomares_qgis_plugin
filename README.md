@@ -1123,11 +1123,11 @@ A lista de secções varia consoante o tipo de metadado pois a estrutura de um m
 
 Estas secções subdividem-se em categorias, como mostra a figura seguinte:
 
-O formulário indica de forma automática as secções que não estão conformes, bem como os campos em questão, com advertências visuais (****) e com indicações de correção.
+O formulário indica de forma automática as secções que não estão conformes, bem como os campos em questão, com advertências visuais (<img src="http://193.136.227.146/manual_images/icon3.png">) e com indicações de correção.
 
 Se o metadado estiver conforme o perfil SNIMar não aparecem advertências e o metadado est ar á válido. Apenas entradas com metadado válido podem ser publicadas.
 
-Alguns elementos do metadado permitem a introdução de múltiplas entradas; para as adicionar deverá premir o botão **** associado ao elemento em causa e preencher os campos associados. Cada entrada múltipla de um elemento adicionada aparece listada em forma de tabela. Para eliminar uma entrada prima o botão <img src="http://193.136.227.146/manual_images/icon2.png"> associado.
+Alguns elementos do metadado permitem a introdução de múltiplas entradas; para as adicionar deverá premir o botão <img src="http://193.136.227.146/manual_images/icon4.png"> associado ao elemento em causa e preencher os campos associados. Cada entrada múltipla de um elemento adicionada aparece listada em forma de tabela. Para eliminar uma entrada prima o botão <img src="http://193.136.227.146/manual_images/icon2.png"> associado.
 
 O utilizador pode guardar as alterações realizadas a um metadado, em qualquer momento da edição, para tal deve premir o botão “**Guardar**” no topo do lado esquerdo do formulário.
 
