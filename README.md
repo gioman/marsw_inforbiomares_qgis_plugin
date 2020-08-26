@@ -1072,6 +1072,8 @@ O primeiro passo será carregar ou criar um ficheiro de metadado:
     *   ter um identificador de metadado único (*gmd:fileIdentifier*);
 
     *   ter um elemento válido da “Extensão Geográfica / Retângulo Envolvente” (*gmd:EX_GeographicBoundingBox*) ; ou seja, coordenadas geográficas decimais válidas.
+    
+***Nota:** se o ficheiro de metadado não contiver um elemento válido de ''Retângulo Envolvente” referente à definição da Extensão Geográfica o Assistente de Formulário pedirá um elemento válido antes de continuar para o próximo passo (ver figura 2)*
 
 *   Criar um novo metadado; o utilizador terá de:
 
@@ -1079,7 +1081,7 @@ O primeiro passo será carregar ou criar um ficheiro de metadado:
 
     *   definir um elemento válido da “Extensão Geográfica / Retângulo Envolvente” (*gmd:EX_GeographicBoundingBox*) referente à definição da Extensão Geográfica; devem ser inseridas coordenadas geográficas decimais válidas.
 
-    *   se se quiser criar um novo metadado do tipo Serviço ser-lhe-á ainda pedido um endereço URL válido para um serviço WMS externo (ver alínea ). No caso de não existir, a entrada é criada na mesma e poderá completar o metadado em qualquer altura, no entanto, o serviço não é renderizado na plataforma.
+    *   se se quiser criar um novo metadado do tipo Serviço ser-lhe-á ainda pedido um endereço URL válido para um serviço WMS externo. No caso de não existir, a entrada é criada na mesma e poderá completar o metadado em qualquer altura, no entanto, o serviço não é renderizado na plataforma.
 
 <img src="http://193.136.227.146/manual_images/fig2.png">
 <figcaption>Figura 2: Vista do Assistente de Formulário para definir “Retângulo Envolvente“</figcaption>
@@ -1090,9 +1092,16 @@ No caso de se estar a criar uma entrada do tipo CDG poderá ainda carregar dados
 
 Os dados geográficos a carregar poderão estar no formato vetorial: **ESRI Shapefile** ou no formato matricial: **GeoTIFF**.
 
+***Nota**: exemplos de extensões válidas para o formato ESRI Shapefile: .shp; .shx; .dbf; .prj; .qpj; .cpg*
+
 Poderá ainda carregar um ficheiro SLD (*Styled Layer Descriptor*) que permite costumizar a renderização dos dados geográficos. Para garantir a aplicação desta renderização aos dados o ficheiro carregado deverá ser compatível com a versão instalada do GeoServer (servidor de mapas utilizado pelo catálogo).
 
-Antes de ser criada a nova entrada terá ainda de indicar um texto identificativo para nomear o serviço interno a criar. **Nota: não deverá conter espaços ou carateres acentuados**. E ste serviço poderá ser partilhado externamente ao catálogo como um serviço WMS e/ou um serviço WFS (para dados vetoriais) e WCS (para dados matriciais), para tal terá apenas de os catalogar. **Nota: este passo poderá ser realizado em qualquer altura a partir da vista detalhada de cada entrada deste tipo**.
+Antes de ser criada a nova entrada terá ainda de indicar um texto identificativo para nomear o serviço interno a criar. **Nota: não deverá conter espaços ou carateres acentuados**. 
+
+<img src="http://193.136.227.146/manual_images/fig3.png">
+<figcaption>Figura 3: Vista do Assistente de Formulário para carregar dados geográficos</figcaption>
+
+Este serviço poderá ser partilhado externamente ao catálogo como um serviço WMS e/ou um serviço WFS (para dados vetoriais) e WCS (para dados matriciais), para tal terá apenas de os catalogar. **Nota: este passo poderá ser realizado em qualquer altura a partir da vista detalhada de cada entrada deste tipo**.
 
 A catalogação de serviços no catálogo a partir de dados geográficos carregados é executada ao se premir o botão “Catalogar Serviço de ...”. Com esta ação é cria da **automaticamente** uma nova entrada do tipo Serviço com um metadado respetivo que deverá ser completado de forma a ficar válido. Pode aceder a esta entrada adicional a partir da página de gestão de entradas.
 
@@ -1106,6 +1115,9 @@ No passo final antes de criar a entrada o Assistente de Formulário apresenta as
 #### Validar a conformidade do metadado
 
 Após concluir os passos anteriores a entrada é criada no catálogo, faltando apenas a edição dos elementos obrigatórios do metadado para estar em conformidade com o perfil SNIMar abrindo o formulário de edição. Se o metadado carregado não estiver válido aparecerão advertências no ecrã.
+
+<img src="http://193.136.227.146/manual_images/fig4.png">
+<figcaption>Figura 4: Vista do Assistente de Formulário após ser criada uma nova entrada</figcaption>
 
 Formulário de edição de metadados
 ---------------------------------
@@ -1126,6 +1138,9 @@ A lista de secções varia consoante o tipo de metadado pois a estrutura de um m
 *   Distribuição
 
 Estas secções subdividem-se em categorias, como mostra a figura seguinte:
+
+<img src="http://193.136.227.146/manual_images/fig5.png">
+<figcaption>Figura 5: Vista do Formulário de Edição de um metadado do tipo CDG</figcaption>
 
 O formulário indica de forma automática as secções que não estão conformes, bem como os campos em questão, com advertências visuais (<img src="http://193.136.227.146/manual_images/icon3.png">) e com indicações de correção.
 
@@ -1155,8 +1170,6 @@ Nesta vista, para além de consultar informação geral presente no metadado da 
     *   editar o metadado (apenas com permissões);
 
 *   configurar a entrada: botão “**Configurações**” (apenas com permissões);
-
-
 
 *   apagar a entrada: botão “**Remover Entrada**” (apenas com permissões);
 
@@ -1219,6 +1232,9 @@ A página de gestão de entradas disponibiliza ainda as seguintes funcionalidade
 
 *   alterar o estado de publicação da entrada (perfil Gestor).
 
+<img src="http://193.136.227.146/manual_images/fig6.png">
+<figcaption>Figura 6: Vista da página de gestão de entradas no catálogo</figcaption>
+
 Gerir utilizadores no catálogo
 ------------------------------
 
@@ -1241,6 +1257,9 @@ A página de gestão de utilizadores disponibiliza ainda as seguintes funcionali
     *   ativar/desativar perfil Administrador e/ ou Gestor;
 
     *   ativar/desativar o estado Ativo
+    
+<img src="http://193.136.227.146/manual_images/fig7.png">
+<figcaption>Figura 7: Vista de edição de um utilizador</figcaption>
 
 *   criar um novo utilizador, para tal terá de se definir:
 
@@ -1248,7 +1267,10 @@ A página de gestão de utilizadores disponibiliza ainda as seguintes funcionali
 
     *   perfil do utilizador – perfil Administrador e/ou perfil Gestor;
 
-    *   atribuição de *password* ;
+    *   atribuição de *password*;
+
+<img src="http://193.136.227.146/manual_images/fig8.png">
+<figcaption>Figura 8: Vista de criação de um novo utilizador</figcaption>
 
 Geoserver
 ---------
